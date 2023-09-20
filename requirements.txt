@@ -1,2 +1,3 @@
-deepmol==1.0.4
+deepmol[all]==1.0.4
 PyTDC==0.4.1
+ipython
