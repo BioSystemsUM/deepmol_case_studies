@@ -26,7 +26,3 @@ def evaluate():
     predictions[name] = y_pred
     print(group.evaluate(predictions))
     # {'caco2_wang': {'mae': 0.234}}
-
-
-if __name__ == '__main__':
-    evaluate()
