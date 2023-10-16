@@ -14,4 +14,4 @@ def test_pipeline(train, valid):
                                     study_name='test_pipeline',
                                     direction='maximize')
     pipeline.optimize(train, valid, objective_steps='all', metric=metric, n_trials=10, save_top_n=3, data=train)
-    return pipeline
+    return pipeline.best_pipeline
