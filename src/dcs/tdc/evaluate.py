@@ -22,7 +22,7 @@ def evaluate(pipeline_func: callable, group: benchmark_group, tdc_dataset_name: 
         test = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values, y=test['Y'].values)
         print(train.get_shape(), valid.get_shape(), test.get_shape())
 
-        model = pipeline_func(train, valid)
+        model = pipeline_func(train, valid, pipeline_name=f'{name}_{seed}', seed=seed)
         y_pred_test = model.predict(test)
 
         predictions[name] = y_pred_test
