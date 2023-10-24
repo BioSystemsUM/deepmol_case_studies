@@ -1,14 +1,17 @@
 import time
 
+from deepmol.datasets import SmilesDataset, Dataset
 from deepmol.metrics import Metric
 from deepmol.pipeline_optimization import PipelineOptimization
 import optuna
 from deepmol.pipeline_optimization._utils import preset_all_models
 from sklearn.metrics import roc_auc_score
-from timeout_decorator import timeout_decorator
+
+from dcs.tdc.tdc_objective import TDCObjective
 
 
-def test_pipeline(train, valid, pipeline_name: str = None, seed: int = 1, optimizer: str = 'tpe'):
+def test_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str = None, data_sample: Dataset = None,
+                  seed: int = 1, optimizer: str = 'tpe'):
     if optimizer == 'nsga2':
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
     elif optimizer == 'tpe':
@@ -21,8 +24,10 @@ def test_pipeline(train, valid, pipeline_name: str = None, seed: int = 1, optimi
                                     study_name=pipeline_name,
                                     direction='maximize')
 
-    @timeout_decorator.timeout(60, timeout_exception=optuna.TrialPruned)
     def objective_steps(trial: optuna.Trial, data):
         return preset_all_models(trial, data)
-    pipeline.optimize(train, valid, objective_steps=objective_steps, metric=metric, n_trials=10, save_top_n=3, data=train)
+
+    pipeline.optimize(train_dataset=None, test_dataset=None, objective_steps=objective_steps, metric=metric,
+                      n_trials=10, save_top_n=3, objective=TDCObjective, trial_timeout=60, group=group,
+                      tdc_dataset_name=tdc_dataset_name, data=data_sample)
     return pipeline.best_pipeline
