@@ -42,7 +42,6 @@ class TDCObjective(Objective):
                     train_dataset = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
                     #valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values, y=valid['Y'].values)
                     test_dataset = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values, y=test['Y'].values)
-                    print(train_dataset.get_shape(), test_dataset.get_shape())
 
                     pipeline = Pipeline(steps=self.objective_steps(trial, **self.kwargs), path=path)
                     pipeline.fit(train_dataset)
