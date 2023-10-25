@@ -28,7 +28,7 @@ def test_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str =
         return preset_all_models(trial, data)
 
     pipeline.optimize(train_dataset=None, test_dataset=None, objective_steps=objective_steps, metric=metric,
-                      n_trials=5, save_top_n=3, objective=TDCObjective, trial_timeout=60*3, group=group,
+                      n_trials=3, save_top_n=1, objective=TDCObjective, trial_timeout=60*3, group=group,
                       tdc_dataset_name=tdc_dataset_name, data=data_sample)
     print(pipeline.trials_dataframe())
     print(f"Best trial: {pipeline.best_trial}")
