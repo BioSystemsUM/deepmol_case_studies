@@ -1,7 +1,6 @@
 from deepmol.datasets import SmilesDataset
 
 from dcs.pipelines.test_pipeline import test_pipeline
-from dcs.tdc.evaluate import evaluate
 from dcs.tdc.get_tdc_data import get_benchmark_group
 
 
