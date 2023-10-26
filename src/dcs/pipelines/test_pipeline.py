@@ -1,6 +1,6 @@
 import time
 
-from deepmol.datasets import SmilesDataset, Dataset
+from deepmol.datasets import Dataset
 from deepmol.metrics import Metric
 from deepmol.pipeline_optimization import PipelineOptimization
 import optuna
@@ -34,10 +34,6 @@ def test_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str =
     print(f"Best trial: {pipeline.best_trial}")
     print(f"Best score: {pipeline.best_value}")
     print(f"Best params: {pipeline.best_params}")
-    # save trials_dataframe, best_trial, best_value, best_params to file
-    with open(f'{pipeline_name}.txt', 'w') as f:
-        f.write(f"Best trial: {pipeline.best_trial}\n")
-        f.write(f"Best score: {pipeline.best_value}\n")
-        f.write(f"Best params: {pipeline.best_params}\n")
-        f.write(f"Trials dataframe:\n{pipeline.trials_dataframe()}\n")
+    # save trials_dataframe to csv
+    pipeline.trials_dataframe().to_csv(f'{pipeline_name}_trials.csv')
     return pipeline.best_pipeline
