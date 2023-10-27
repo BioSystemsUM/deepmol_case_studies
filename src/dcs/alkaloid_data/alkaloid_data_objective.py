@@ -15,8 +15,7 @@ from dcs.alkaloid_data.evaluate import evaluate
 
 class MolecularStartersObjective(Objective):
 
-    def __init__(self, objective_steps: callable, study: Study, direction,
-                 cv_data: List[Tuple[SmilesDataset, SmilesDataset]], metric: Metric,
+    def __init__(self, objective_steps: callable, study: Study, direction, train_dataset, test_dataset, metric: Metric,
                  save_top_n: int, trial_timeout: int, **kwargs):
 
         """
@@ -45,9 +44,8 @@ class MolecularStartersObjective(Objective):
         """
         super().__init__(objective_steps, study, direction, metric, save_top_n)
         self.trial_timeout = trial_timeout
-        self.cv_data = cv_data
+        self.cv_data = kwargs.pop('cv_data')
         self.kwargs = kwargs
-
 
     def __call__(self, trial: Trial):
         try:
@@ -55,7 +53,8 @@ class MolecularStartersObjective(Objective):
             def run_with_timeout():
                 trial_id = str(trial.number)
                 path = os.path.join(self.save_dir, f'trial_{trial_id}')
-                pipeline = Pipeline(steps=self.objective_steps(trial, **self.kwargs), path=path)
+                data = self.cv_data[0][1]
+                pipeline = Pipeline(steps=self.objective_steps(trial, data=data, **self.kwargs), path=path)
                 mean_f1_score, std_f1_score = evaluate(pipeline, self.cv_data)
                 score = mean_f1_score - std_f1_score
 
@@ -91,6 +90,3 @@ class MolecularStartersObjective(Objective):
         except Exception as e:
             print(e)
         return float('inf') if self.direction == 'minimize' else float('-inf')
-
-
-

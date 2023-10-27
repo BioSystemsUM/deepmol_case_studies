@@ -10,7 +10,8 @@ from dcs.alkaloid_data.alkaloid_data_objective import MolecularStartersObjective
 
 
 def run_molecular_starter_prediction_pipeline(cv_data: List[Tuple[SmilesDataset, SmilesDataset]],
-                                              optimizer: str = 'tpe', seed: int = 1):
+                                              optimizer: str = 'tpe', seed: int = 1, timeout: int = 60*3,
+                                              n_trials: int = 100, save_top_n: int = 3):
 
     if optimizer == 'nsga2':
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
@@ -19,7 +20,7 @@ def run_molecular_starter_prediction_pipeline(cv_data: List[Tuple[SmilesDataset,
     else:
         raise ValueError(f'Invalid optimizer: {optimizer}. It must be one of "nsga2" or "tpe"')
 
-    pipeline_name = f'molecular_starter_prediction_pipeline_{time.strftime("%Y_%m_%d-%H_%M_%S")}'
+    pipeline_name = f'molecular_starter_prediction_pipeline'
 
     pipeline = PipelineOptimization(sampler=sampler,
                                     study_name=pipeline_name,
@@ -29,5 +30,6 @@ def run_molecular_starter_prediction_pipeline(cv_data: List[Tuple[SmilesDataset,
         return preset_all_models(trial, data)
 
     pipeline.optimize(cv_data=cv_data, objective_steps=objective_steps,
-                      n_trials=100, save_top_n=3, objective=MolecularStartersObjective, trial_timeout=60 * 3)
+                      n_trials=n_trials, save_top_n=save_top_n, objective=MolecularStartersObjective,
+                      trial_timeout=timeout, train_dataset=None, test_dataset=None, metric=None)
     return pipeline.best_pipeline

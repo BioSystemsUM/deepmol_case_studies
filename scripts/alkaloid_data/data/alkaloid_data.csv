@@ -1,0 +1,577 @@
+Name,CID,PM,SMILES,L.Trp,L.Tyr,L.Pro,Anthranilate,L.Lys,L.Arg,Indole.3,GGPP,L.Ala,L.Asp,Secologanin,L.Phe,IPP,L.His,Cholesterol
+"""alpha-Iminosuccinic acid;NAMN""",C00007565,1,O(C(C(C(C(O[H])=O)=N[H])([H])[H])=O)[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Quinolinic acid""",C00007381,1,C1(=C(C(=C(C(=N1)C(O[H])=O)C(=O)O[H])[H])[H])[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Nicotinic acid""",C00000208,1,C1(=C(N=C(C(=C1[H])C(=O)O[H])[H])[H])[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Wilfordic acid""",C00051763,1,C=1C=NC(=C(C1)C(=O)O)CCC(C)C(=O)O,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Edulinic acid;Edulinate""",C00051742,1,C=1C=NC(=C(C1)C(O)=O)C=C(CC)C(=O)O,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Evoninic acid""",C00051743,1,C=1C(=C(N=CC1)C(C)C(C)C(=O)O)C(O)=O,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Evonine""",C00013120,1,C1(=C(C(=C2C(=N1)C(C(C(=O)OC3(C(C(C4(C5(C3(O[H])C([H])([H])[H])C(C(C(C4(OC(=O)C([H])([H])[H])[H])=O)(C(C(OC2=O)([H])[H])(O5)C([H])([H])[H])[H])(OC(=O)C([H])([H])[H])[H])C(OC(=O)C([H])([H])[H])([H])[H])(OC(=O)C([H])([H])[H])[H])(OC(=O)C([H])([H])[H])[H])[H])(C([H])([H])[H])[H])(C([H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""3,6-dihydronicotinic acid""",C00051739,1,C1=CCN=CC1C(=O)O,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Anatabine""",C00002017,1,C1(=C(N=C(C(=C1[H])C2(N(C(C(=C(C2([H])[H])[H])[H])([H])[H])[H])[H])[H])[H])[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Nicotine""",C00002057,1,C1(=C(N=C(C(=C1[H])C2(N(C(C(C2([H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Nornicotine;(-)-Nornicotine""",C00042792,1,C1(=C(C(=C(N=C1[H])[H])[H])[H])C2(C(C(C(N2[H])([H])[H])([H])[H])([H])[H])[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""Myosmine""",C00002056,1,C1(=C(N=C(C(=C1[H])C2=NC(C(C2([H])[H])([H])[H])([H])[H])[H])[H])[H],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"""(-)-Hygrine""",C00051738,1,C1N(C(CC1)CC(=O)C)C,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+"""(+)-Hygrine""",C00002046,1,C1(C(N(C(C1([H])[H])(C(C(=O)C([H])([H])[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+"""Cuscohygrine""",C00002034,1,C1(C(N(C(C1([H])[H])(C(C(=O)C(C2(N(C(C(C2([H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+"""Tropinone""",C00037960,1,C1(C2(C(C(C(C(C1([H])[H])(N2C([H])([H])[H])[H])([H])[H])=O)([H])[H])[H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+"""Pseudotropine""",C00002301,1,N1(C2(C(C(C(C1(C(C2([H])[H])([H])[H])[H])([H])[H])(O[H])[H])([H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+"""Calystegine A3""",C00002282,1,N1(C2(C(C(C(C1(C(C2([H])[H])([H])[H])[H])([H])[H])(O[H])[H])(O[H])[H])O[H])[H],0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+"""Tropine""",C00002306,1,N1(C2(C(C(C(C1(C(C2([H])[H])([H])[H])[H])([H])[H])(O[H])[H])([H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+"""Phenylpyruvate""",C00051759,1,C1=CC=CC=C1CC(C(O)=O)=O,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Phenyllactic acid""",C00051758,1,C1=CC=CC=C1CC(C(O)=O)O,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Littorine""",C00002295,1,N1(C2(C(C(C(C1(C(C2([H])[H])([H])[H])[H])([H])[H])(OC(=O)C([H])(O[H])C(C3=C(C(=C(C(=C3[H])[H])[H])[H])[H])([H])[H])[H])([H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,1,0,0,0
+"""(-)-Hyoscyamine""",C00002293,1,N1(C2(C(C(C(C1(C(C2([H])[H])([H])[H])[H])([H])[H])(OC(=O)C(C3=C(C(=C(C(=C3[H])[H])[H])[H])[H])([H])C(O[H])([H])[H])[H])([H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,1,0,0,0
+"""6beta-Hydroxyhyoscyamine;Anisodamine""",C00002274,1,N1(C2(C(C(C1(C(C(C2([H])[H])(OC(=O)C(C3=C(C(=C(C(=C3[H])[H])[H])[H])[H])([H])C(O[H])([H])[H])[H])([H])[H])[H])([H])[H])(O[H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,1,0,0,0
+"""(-)-Hyoscine;Scopolamine""",C00002292,1,N1(C2(C(C(C(C1(C3(C2(O3)[H])[H])[H])([H])[H])(OC(=O)C(C4=C(C(=C(C(=C4[H])[H])[H])[H])[H])([H])C(O[H])([H])[H])[H])([H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,1,0,1,0,0,0
+""" Methylecgonone""",C00051755,1,C12(CCC(C(C(C1)O)C(=O)OC)(N2C)[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Methylecgonine""",C00051754,1,C12CCC(C(C(C1)O)C(=O)OC)N2C,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Cocaine""",C00002285,1,N1(C2(C(C(C1(C(C(C2([H])[H])(OC(=O)C3=C(C(=C(C(=C3[H])[H])[H])[H])[H])[H])(C(=O)OC([H])([H])[H])[H])[H])([H])[H])([H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Saxitoxin""",C00051761,1,N1C(N2C3(C(C1COC(N)=O)NC(=N3)N)C(CC2)(O)O)=N,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Agmatine""",C00001400,1,N(C(=N[H])N(C(C(C(C(N([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])[H])([H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""N-carbamoylputrescine""",C00001404,1,N(C(=O)N(C(C(C(C(N([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])[H])([H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Putrescine""",C00001428,1,N(C(C(C(C(N([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""N-Methylputrescine""",C00034611,1,C(N(C(C(C(C(N([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])[H])([H])([H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""N-Methyl-delta1-pyrrolinium cation;N-Methyl-delta1-pyrrolinium cation""",C00034612,1,[N+]1(=C(C(C(C1([H])[H])([H])[H])([H])[H])[H])C([H])([H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Homospermidine""",C00051748,1,NCCCCNCCCCN,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Retronecine""",C00002108,1,C12(C(=C(C(N2C(C(C1(O[H])[H])([H])[H])([H])[H])([H])[H])[H])C(O[H])([H])[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Senecionine""",C00002116,1,C12(C3=C(C(N2C(C(C1(OC(C(C(C(C(C(OC3([H])[H])=O)(C([H])([H])[H])O[H])([H])C([H])([H])[H])([H])[H])=C([H])C([H])([H])[H])=O)[H])([H])[H])([H])[H])([H])[H])[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Pyrroline-5-carboxylate""",C00007606,1,C1(C(=NC(C1([H])[H])([H])C(=O)O[H])[H])([H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Guanidinoacetate""",C00051746,1,C(=NCC(O)=O)(N)N,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Homoanatoxin-a""",C00051747,1,C1CC2CCC=C(C1N2)C(=O)CC,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Anatoxin-a""",C00002273,1,N1(C2(C(C(C(=C(C1(C(C2([H])[H])([H])[H])[H])C(=O)C([H])([H])[H])[H])([H])[H])([H])[H])[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""exo-1-Amino-pyrrolizidine""",C00051745,1,C12(N(CCC1N)CCC2)[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""exo-1-Acetamido-pyrrolizidine;N-Acetyl-exo-1-aminopyrrolizidine;NAAP""",C00051744,1,C12(N(CCC1NC(=O)C)CCC2)[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""N-Acetylnorloline;NANL""",C00051756,1,C12(N3CC(C1NC(C)=O)([H])OC2(CC3)[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Norloline""",C00023613,1,O1C2(C3(N(C(C1(C3(N([H])[H])[H])[H])([H])[H])C(C2([H])[H])([H])[H])[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Loline""",C00023609,1,O1C2(C3(N(C(C1(C3(N(C([H])([H])[H])[H])[H])[H])([H])[H])C(C2([H])[H])([H])[H])[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""N-Methylloline;NML""",C00023612,1,O1C2(C3(N(C(C1(C3(N(C([H])([H])[H])C([H])([H])[H])[H])[H])([H])[H])C(C2([H])[H])([H])[H])[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""N-Acetylloline;NAL""",C00023611,1,O1C2(C3(N(C(C1(C3(N(C([H])([H])[H])C(=O)C([H])([H])[H])[H])[H])([H])[H])C(C2([H])[H])([H])[H])[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""N-Formylloline;NFL""",C00051757,1,C12(N3CC(C1N(C([H])=O)C)([H])OC2(CC3)[H])[H],0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Legonindolizidine A""",C00051749,1,N12C(CCC1)=C(C(=C(C2=O)NC(=O)CC(C)C)C)O,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Legonindolizidine B""",C00051753,1,C=12N(C(C(=C(C1O)C)NC(=O)CCC(C)C)=O)CCC2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Legonmycin A""",C00051750,1,C12(N(C(=C(C1=O)C)NC(=O)CC(C)C)CCC2)O,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""Legonmycin B""",C00051751,1,C12(N(C(=C(C1=O)C)NC(=O)CCC(C)C)CCC2)O,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"""4-Methylallyl-L-abrine;4-DMAL-L-abnine""",C00051766,2,C=1C=CC2=C(C1CC=C(C)C)C(=CN2)CC(NC)C(=O)O,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""D-Lysergyl tripeptide lactam""",C00052031,2,C12=C3C=CC=C1NC=C2CC4(C3=CC(CN4C)C(=O)NC(C)([H])C(=O)N5C(C(N6C(C5=O)(CCC6)[H])=O)(CC7=CC=CC=C7)[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Chanoclavine-I;CC;Chanoclavine-1""",C00001707,2,C1(=C(C(=C2C3=C1C(C(C(C3=C(N2[H])[H])([H])[H])([H])N(C([H])([H])[H])[H])(C(=C(C([H])([H])[H])C(O[H])([H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Chanoclavine-1 aldehyde""",C00051768,2,C1=CC2=C3C(=C1)C(C(CC3=CN2)NC)C=C(C)C(=O)[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Festuclavine""",C00011209,2,C1(=C2C3=C(C(=C1[H])[H])C4(C(C(C3=C(N2[H])[H])([H])[H])(N(C(C(C4([H])[H])(C([H])([H])[H])[H])([H])[H])C([H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Pyroclavine""",C00011218,2,C1(=C2C3=C(C(=C1[H])[H])C4(C(C(C3=C(N2[H])[H])([H])[H])(N(C(C(C4([H])[H])(C([H])([H])[H])[H])([H])[H])C([H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Agroclavine""",C00001677,2,C12=C3C(=C(C(=C1[H])[H])[H])C4(C(C(C3=C(N2[H])[H])([H])[H])(N(C(C(=C4[H])C([H])([H])[H])([H])[H])C([H])([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Elymoclavine""",C00001717,2,C1(=C(C2(C(N(C1([H])[H])C([H])([H])[H])(C(C=3C=4C2=C(C(=C(C4N(C3[H])[H])[H])[H])[H])([H])[H])[H])[H])[H])C(O[H])([H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Paspalic acid""",C00051776,2,C1(=CC2(C(N(C1)C)(CC=3C4=C2C=CC=C4N(C3)[H])[H])[H])C(=O)O,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""(8S,9S)-Fumigaclavine B""",C00011248,2,C1(=C2C3=C(C(=C1[H])[H])C4(C(C(C3=C(N2[H])[H])([H])[H])(N(C(C(C4(O[H])[H])(C([H])([H])[H])[H])([H])[H])C([H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""(8S,9S)-Fumigaclavine A""",C00011246,2,C1(=C2C3=C(C(=C1[H])[H])C4(C(C(C3=C(N2[H])[H])([H])[H])(N(C(C(C4(OC(=O)C([H])([H])[H])[H])([H])C([H])([H])[H])([H])[H])C([H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""(8S,9S)-Fumigaclavine C""",C00011250,2,C1(=C2C3=C(C(=C1[H])[H])C4(C(C(C3=C(N2[H])C(C([H])([H])[H])(C(=C([H])[H])[H])C([H])([H])[H])([H])[H])(N(C(C(C4(OC(=O)C([H])([H])[H])[H])(C([H])([H])[H])[H])([H])[H])C([H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""(8R,9S)-Fumigaciavine B""",C00051765,2,C1(C(C2(C(N(C1)C)(CC=3C4=C2C=CC=C4NC3)[H])[H])O)C,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""(8R,9S)-Fumigaciavine A""",C00051764,2,C1(C(C2(C(N(C1)C)(CC=3C4=C2C=CC=C4NC3)[H])[H])OC(=O)C)C,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""D-Lysergic acid""",C00051774,2,C1(CC2C(N(C1)C)(CC=3C4=C2C=CC=C4N(C3)[H])[H])(C(=O)O)[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Ergometrine;Ergonovine;Ergobasine;EN;EV""",C00001722,2,C1(C(=C2C(N(C1([H])[H])C([H])([H])[H])(C(C=3C=4C2=C(C(=C(C4N(C3[H])[H])[H])[H])[H])([H])[H])[H])[H])(C(N(C(C([H])([H])[H])([H])C(O[H])([H])[H])[H])=O)[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Dihydrolysergol""",C00051771,2,C1C(=CC2(C(N1C)(CC=3C4=C2C=CC=C4N(C3)[H])[H])[H])CO,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Dihydrolysergic acid""",C00051770,2,C1C(CC2(C(N1C)(CC=3C4=C2C=CC=C4N(C3)[H])[H])[H])(C(O)=O)[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Dihydroergosine""",C00051769,2,C12N(CCC1)C(C(N3C2(OC(C3=O)(C)NC(C4CC5C(N(C4)C)CC=6C7=C5C=CC=C7NC6)=O)O)CC(C)C)=O,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Setoclavine""",C00011215,2,C1(=C2C3=C(C(=C1[H])[H])C=4C(C(C3=C(N2[H])[H])([H])[H])(N(C(C(C4[H])(C([H])([H])[H])O[H])([H])[H])C([H])([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Ergonovine;EV""",C00011228,2,C1(=C2C3=C(C(=C1[H])[H])C=4C(C(C3=C(N2[H])[H])([H])[H])(N(C(C(C(=O)N(C5(OC6(N(C5=O)C(C(N7C6([H])C(C(C7([H])[H])([H])[H])([H])[H])=O)([H])C(C([H])([H])[H])(C([H])([H])[H])[H])O[H])C([H])([H])[H])[H])(C4[H])[H])([H])[H])C([H])([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Lysergic acid alpha-hydroxyethylamide""",C00039674,2,C1(=C2C(N(C(C1(C(=O)N(C(C([H])([H])[H])(O[H])[H])[H])[H])([H])[H])C([H])([H])[H])(C(C=3C4=C2C(=C(C(=C4N(C3[H])[H])[H])[H])[H])([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Dimethylallyl tryptophan;DMATrp;DMAT;4-Dimethylallyltryptophan;4-DMAT""",C00051773,2,C1(=CC=CC2=C1C(=CN2)CC(N)C(=O)O)CC=C(C)C,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Dimethyl phenylpiperazinium;DMPP""",C00052034,2,C1=CC=CC(=C1)N2CC[N+](CC2)(C)C,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Ergotamine""",C00001724,2,C12(C3(N(C(C(N1C(C(C2([H])[H])([H])[H])([H])[H])=O)([H])C(C4=C(C(=C(C(=C4[H])[H])[H])[H])[H])([H])[H])C(C(O3)(N(C(=O)C5(C(=C6C(N(C5([H])[H])C([H])([H])[H])(C(C=7C=8C6=C(C(=C(C8N(C7[H])[H])[H])[H])[H])([H])[H])[H])[H])[H])[H])C([H])([H])[H])=O)O[H])[H],1,0,1,0,0,0,0,0,1,0,0,0,1,0,0
+"""Ergine;Lysergic acid amide;ERG""",C00001718,2,C1(C(=C2C(N(C1([H])[H])C([H])([H])[H])(C(C=3C=4C2=C(C(=C(C4N(C3[H])[H])[H])[H])[H])([H])[H])[H])[H])(C(N([H])[H])=O)[H],1,0,1,0,0,0,0,0,1,0,0,0,1,0,0
+"""Geranylgeranyl diphosphate;Geranylgeranyl pyrophosphate;GGPP""",C00000908,3,C(C(=C(C(OP(OP(O[H])(=O)O[H])(=O)O[H])([H])[H])[H])C([H])([H])[H])(C(C(=C(C(C(C(=C(C(C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Tryptamine;beta-(3-Indolyl)ethylamine""",C00001434,3,C1(=C(C(=C2C(=C1[H])C(=C(N2[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Strictosidine""",C00029058,3,C12=C(C(C(N(C1(C(C3(C(=C(OC(C3(C(=C([H])[H])[H])[H])(OC4(OC(C(C(C4(O[H])[H])(O[H])[H])(O[H])[H])(C(O[H])([H])[H])[H])[H])[H])[H])C(OC([H])([H])[H])=O)[H])([H])[H])[H])[H])([H])[H])([H])[H])C5=C(N2[H])C(=C(C(=C5[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Polyneuridine aldehyde""",C00051791,3,C12=CC=CC=C1NC3=C2CC4N5C3(CC(C(C5)=C([H])C)C4(C(OC)=O)C(=O)[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""16-Epivellosimine""",C00051789,3,C12=CC=CC=C1NC3=C2CC4N5C3C(C(C(C5)=C(C)[H])(C4C(=O)[H])[H])[H].C[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Vinorine""",C00024291,3,C1(=C(C(=C2C(=C1[H])C34C(=N2)C5(N6C(C3([H])[H])(C(C(C5([H])[H])(C(C6([H])[H])=C(C([H])([H])[H])[H])[H])(C4(OC(=O)C([H])([H])[H])[H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Raucaffricine""",C00024300,3,C1(=C(C(=C2C(=C1[H])C34C(=N2)C5(N6C(C3([H])[H])(C(C(C5([H])[H])(C(C6(OC7(OC(C(C([H])(O[H])C7([H])O[H])([H])O[H])([H])C(O[H])([H])[H])[H])[H])=C(C([H])([H])[H])[H])[H])(C4(OC(=O)C([H])([H])[H])[H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Acetylnorajmaline""",C00051783,3,N12C3(CC(C(C1O)CC)(C4C2(CC5(C3(N(C=6C5=CC=CC6)[H])[H])C4OC(=O)C)[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Norajamaline""",C00052043,3,C12=C(C=CC=C1)C34C(N2[H])(C5CC6C(C(N5C(C6C3O)C4)O)CC)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Cathenamine""",C00051784,3,C1=CC=C2C(=C1)C3=C(N2[H])C4(N(CC3)C=C5C(C4)(C(=COC5C)C(=O)OC)[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Vomilenine""",C00024322,3,C1(=C(C(=C2C(=C1[H])C34C(=N2)C5(N6C(C3([H])[H])(C(C(C5([H])[H])(C(C6(O[H])[H])=C(C([H])([H])[H])[H])[H])(C4(OC(C([H])([H])[H])=O)[H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""4,21-Dehydrogeissoschizine""",C00051782,3,[N+]=12C(CC(C(C1)=C([H])C)C(C(=O)OC)=C([H])O[H])(C3=C(CC2)C=4C(N3[H])=CC=CC4)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Manilamine""",C00035340,3,C12=C(C(=C(N1[H])C(=C([H])[H])C3(C(C(N(C(C3=C(C(O[H])([H])[H])[H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])[H])C(=C(C(=C2[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Strictosamide""",C00032210,3,C12=C(C3(N(C(C1([H])[H])([H])[H])C(C=4C(C3([H])[H])(C(C(OC4[H])(OC5(OC(C(C(C5(O[H])[H])(O[H])[H])(O[H])[H])(C(O[H])([H])[H])[H])[H])[H])(C(=C([H])[H])[H])[H])[H])=O)[H])N(C6=C2C(=C(C(=C6[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Pumiloside""",C00031110,3,N12C(C3=C(C1([H])[H])C(C4=C(N3[H])C(=C(C(=C4[H])[H])[H])[H])=O)(C(C5(C(C2=O)=C(OC(C5(C(=C([H])[H])[H])[H])(OC6(OC(C(C(C6(O[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])[H])[H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Quinidine""",C00031117,3,C1(=C(C2=C(C(=C1OC([H])([H])[H])[H])C(=C(C(=N2)[H])[H])C(C3(N4C(C(C(C3([H])[H])(C(C4([H])[H])([H])[H])[H])(C(=C([H])[H])[H])[H])([H])[H])[H])(O[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ajmalicine""",C00001678,3,C1(=C(C(=C(C2=C1C3=C(N2[H])C4(N(C(C3([H])[H])([H])[H])C(C5(C(C4([H])[H])(C(=C(OC5([H])C([H])([H])[H])[H])C(=O)OC([H])([H])[H])[H])[H])([H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Preaquamycin;Preakuammicine""",C00051792,3,O(C(C1(C2(C(C3(N(C(C(C34C1=NC=5C4=C(C(=C(C5[H])[H])[H])[H])([H])[H])([H])[H])C(C2=C(C([H])([H])[H])[H])([H])[H])[H])([H])[H])[H])C(OC([H])([H])[H])=O)([H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Strychnine""",C00001770,3,N12C(C(C3(C4(C1(C5(C6(C(C4(C(=C(C(O3)([H])[H])[H])C(N6C(C5([H])[H])([H])[H])([H])[H])[H])([H])[H])[H])C7=C2C(=C(C(=C7[H])[H])[H])[H])[H])[H])[H])([H])[H])=O,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Stemmadenine""",C00026041,3,C1(=C(C(=C2C(=C1[H])C3=C(N2[H])C(C(=O)OC([H])([H])[H])(C4(C(C(N(C(C3([H])[H])([H])[H])C(C4=C(C([H])([H])[H])[H])([H])[H])([H])[H])([H])[H])[H])C(O[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Camptothecin""",C00002145,3,C1(=C(C(=C2C(=C1[H])C(=C3C(=N2)C=4N(C3([H])[H])C(C5=C(C4[H])C(C(OC5([H])[H])=O)(O[H])C(C([H])([H])[H])([H])[H])=O)[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Cinchoninone""",C00051785,3,C12=CC=CC=C1N=CC=C2C(=O)C3CC4C(CN3CC4)C=C,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Corynantheal""",C00051786,3,N12C(CC(C(C1)C=C)CC(=O)[H])(C3=C(CC2)C=4C(N3)=CC=CC4)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Quinine""",C00002193,3,C1(=C(C(=C2C(=C1[H])C(=C(C(=N2)[H])[H])C(C3(N4C(C(C(C3([H])[H])(C(C4([H])[H])([H])[H])[H])(C(=C([H])[H])[H])[H])([H])[H])[H])(O[H])[H])[H])[H])OC([H])([H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Cinchonine""",C00050560,3,O(C(C1(N2C(C(C(C1([H])[H])(C(C2([H])[H])([H])[H])[H])(C(=C([H])[H])[H])[H])([H])[H])[H])(C=3C=4C(N=C(C3[H])[H])=C(C(=C(C4[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Cinchonidine""",C00002147,3,C1(=C(C(=C2C(=C1[H])C(=C(C(=N2)[H])[H])C(C3(N4C(C(C(C3([H])[H])(C(C4([H])[H])([H])[H])[H])(C(=C([H])[H])[H])[H])([H])[H])[H])(O[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ibogamine""",C00001742,3,C1(=C(C(=C2C(=C1[H])C3=C(N2[H])C4(C5(N(C(C3([H])[H])([H])[H])C(C(C4([H])[H])(C(C5(C(C([H])([H])[H])([H])[H])[H])([H])[H])[H])([H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Epicathenamine""",C00051788,3,C1=CC=C2C(=C1)C3=C(N2)C4(N(CC3)C=C5C(C4)(C(=COC5C)C(=O)OC)[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Condylocarpine""",C00025822,3,C123C(N(C4=C1C(=C(C(=C4[H])[H])[H])[H])[H])=C(C5(C(C2(N(C(C3([H])[H])([H])[H])C(C5([H])[H])([H])[H])[H])=C(C([H])([H])[H])[H])[H])C(=O)OC([H])([H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Akuammicine""",C00001680,3,C1(=C(C(=C(C2=C1C34C(N2[H])=C(C5(C(C3(N(C(C4([H])[H])([H])[H])C(C5=C(C([H])([H])[H])[H])([H])[H])[H])([H])[H])[H])C(=O)OC([H])([H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Tabertinggine""",C00051793,3,C12=C(C=CC=C1)C3=C(N2)C45N(CC3)CC(CC(=C4)C(C)=O)(C5)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ibogaine""",C00001741,3,C1(=C(C(=C2C(=C1[H])C3=C(N2[H])C4(C5(N(C(C3([H])[H])([H])[H])C(C(C4([H])[H])(C(C5(C(C([H])([H])[H])([H])[H])[H])([H])[H])[H])([H])[H])[H])[H])[H])[H])OC([H])([H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ibogaine hydroxyindolenine""",C00025891,3,C1(=C(C(=C2C(=C1[H])C3(C(=N2)C4(C5(N(C(C3([H])[H])([H])[H])C(C(C4([H])[H])(C(C5(C(C([H])([H])[H])([H])[H])[H])([H])[H])[H])([H])[H])[H])[H])O[H])[H])[H])OC([H])([H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Iboluteine""",C00025892,3,C1(C2(C(C3(C(C1(C(C([H])([H])[H])([H])[H])[H])(N(C(C(C34C(C5=C(N4[H])C(=C(C(=C5[H])OC([H])([H])[H])[H])[H])=O)([H])[H])([H])[H])C2([H])[H])[H])[H])([H])[H])[H])([H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""3-Oxoiboganine hydroxyindoloenine""",C00051975,3,C1=C2C(=CC(=C1)OC)C3(C(=N2)C4C5N(CC3)C(C(CC5CC)C4)=O)O,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ervaoffines D""",C00051790,3,C1=C(C=CC2=C1C(=O)CCN3C4C(CC(CC4CC)(C3=O)[H])C(N2)=O)OC,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""16-Hydroxytabersonine""",C00024481,3,C1(=C(C(=C2C(=C1[H])C34C(N2[H])=C(C(C5(C3(N(C(C(=C5[H])[H])([H])[H])C(C4([H])[H])([H])[H])[H])C(C([H])([H])[H])([H])[H])([H])[H])C(=O)OC([H])([H])[H])[H])OC([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Tabersonine""",C00001773,3,N1(C2=C(C(C3(C4(C2(C5=C1C(=C(C(=C5[H])[H])[H])[H])C(C(N4C(C(=C3[H])[H])([H])[H])([H])[H])([H])[H])[H])C(C([H])([H])[H])([H])[H])([H])[H])C(=O)OC([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""16-Methoxytabersonine""",C00051778,3,C=12C3(C4(C(CC1C(=O)OC)(C=CCN4CC3)CC)[H])C5=C(N2)C=C(C=C5)OC,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""16-Methoxy-2,3-dihydro-3hydro-3-hydroxytabersoine""",C00051777,3,C12(C3(CC(C4(C1(C5=C(N4)C=C(C=C5)OC)CCN2CC=C3)[H])(C(=O)OC)O)CC)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Minovincinine""",C00051779,3,C1=CC=C2C(=C1)C34C(N2)=C(CC5(C3N(CC=C5)CC4)C(C)OC(C)=O)C(OC)=O,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Desacetoxyvindoline""",C00051787,3,C1=CC2=C(C=C1OC)N(C3(C42C5(C(CC3(O)C(=O)OC)(C=CCN5CC4)CC)[H])[H])C,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Deacetylvindoline""",C00024529,3,C1(=C(C(=C2C(=C1[H])C34C(N2C([H])([H])[H])(C(C(C5(C3(N(C(C(=C5[H])[H])([H])[H])C(C4([H])[H])([H])[H])[H])C(C([H])([H])[H])([H])[H])(O[H])[H])(C(=O)OC([H])([H])[H])O[H])[H])[H])OC([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Vindoline""",C00001784,3,C12=C(C34C(N1C([H])([H])[H])(C(C(C5(C3(N(C(C(=C5[H])[H])([H])[H])C(C4([H])[H])([H])[H])[H])C(C([H])([H])[H])([H])[H])([H])OC(=O)C([H])([H])[H])(O[H])C(OC([H])([H])[H])=O)[H])C(=C(C(=C2[H])OC([H])([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""3',4'-Anhydrovinblastine""",C00051780,3,C12(C3(C4(C(C(C1(C(=O)OC)O)OC(=O)C)(C=CCN4CC3)CC)[H])C5=C(N2C)C=C(C(=C5)C6(C7=C(CCN8CC(C=C(C8)CC)([H])C6)C=9C(N7)=CC=CC9)C(OC)=O)OC)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Vinblastine""",C00001781,3,C1(=C(C2=C(C(=C1[H])[H])C3=C(N2[H])C(C(C4(C(N(C(C3([H])[H])([H])[H])C(C(C4([H])[H])(O[H])C(C([H])([H])[H])([H])[H])([H])[H])([H])[H])[H])([H])[H])(C=5C(=C(C6=C(C5[H])C78C(N6C([H])([H])[H])(C(C(C9(C7(N(C(C(=C9[H])[H])([H])[H])C(C8([H])[H])([H])[H])[H])C(C([H])([H])[H])([H])[H])(OC(=O)C([H])([H])[H])[H])(O[H])C(=O)OC([H])([H])[H])[H])[H])OC([H])([H])[H])C(=O)OC([H])([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Vincristine""",C00001783,3,C1(=C(C2=C(C(=C1[H])[H])C3=C(N2[H])C(C(C4(C(N(C(C3([H])[H])([H])[H])C(C(C4([H])[H])(O[H])C(C([H])([H])[H])([H])[H])([H])[H])([H])[H])[H])([H])[H])(C=5C(=C(C6=C(C5[H])C78C(N6C(=O)[H])(C(C(C9(C7(N(C(C(=C9[H])[H])([H])[H])C(C8([H])[H])([H])[H])[H])C(C([H])([H])[H])([H])[H])(OC(=O)C([H])([H])[H])[H])(O[H])C(=O)OC([H])([H])[H])[H])[H])OC([H])([H])[H])C(=O)OC([H])([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""(+)-Perakine;Raucaffrine""",C00024279,3,C1(=C(C(=C2C(=C1[H])C34C(=N2)C5(N6C(C3([H])[H])(C(C(C5([H])[H])(C(C6(C([H])([H])[H])[H])(C([H])=O)[H])[H])(C4(OC(C([H])([H])[H])=O)[H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""(+)-Raucaffrinoline;Raucaffrinoline""",C00024282,3,C1(=C(C(=C2C(=C1[H])C34C(=N2)C5(N6C(C3([H])[H])(C(C(C5([H])[H])(C(C6(C([H])([H])[H])[H])(C(O[H])([H])[H])[H])[H])(C4(OC(C([H])([H])[H])=O)[H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Tetrahydroalstonine""",C00025214,3,C1(=C(C(=C2C(=C1[H])C3=C(N2[H])C4(N(C(C3([H])[H])([H])[H])C(C5(C(C4([H])[H])(C(=C(OC5(C([H])([H])[H])[H])[H])C(=O)OC([H])([H])[H])[H])[H])([H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Alstonine""",C00001683,3,C1(=C(C(=C(C2=C1C3=C([N-]2)C4=[N+](C(=C3[H])[H])C(C5(C(C4([H])[H])(C(=C(OC5(C([H])([H])[H])[H])[H])C(=O)OC([H])([H])[H])[H])[H])([H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Serpentine""",C00001769,3,C=12C=3C(N(C1C4=[N+](C(=C2[H])[H])C(C5(C(C4([H])[H])(C(=C(OC5([H])C([H])([H])[H])[H])C(=O)OC([H])([H])[H])[H])[H])([H])[H])[H])=C(C(=C(C3[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""(E)-Geissoschizine""",C00051968,3,C1=CC=C2C(=C1)C3=C(N2)C4(N(CC3)CC(C(C4)C(=CO)C(=O)OC)=CC)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""(16R)-Z-Isositsirikine""",C00051967,3,C1=CC=C2C(=C1)C3=C(N2)C4(N(CC3)CC(C(C4)C(C(OC)=O)([H])CO)=CC)[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""16R,19E-Isositsirikine""",C00025912,3,C1(=C(C(=C2C(=C1[H])C3=C(N2[H])C4(N(C(C3([H])[H])([H])[H])C(C(C(C4([H])[H])(C(C(OC([H])([H])[H])=O)(C(O[H])([H])[H])[H])[H])=C(C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""3(S)-Deoxypumiloside""",C00036264,3,O1C(C(C2(C(=C1[H])C(N3C(C2([H])[H])(C4=C(C3([H])[H])C(=C5C(=N4)C(=C(C(=C5[H])[H])[H])[H])[H])[H])=O)[H])(C(=C([H])[H])[H])[H])(OC6(OC(C(C(C6(O[H])[H])(O[H])[H])(O[H])[H])(C(O[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ajmaline""",C00001679,3,C1(=C(C(=C(C2=C1C34C(N2C([H])([H])[H])(C5(N6C(C3([H])[H])(C(C(C5([H])[H])(C(C6([H])O[H])(C(C([H])([H])[H])([H])[H])[H])[H])(C4([H])O[H])[H])[H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Brevianamide F""",C00011280,4,C1(=C2C(=C(C(=C1[H])[H])[H])C(=C(N2[H])[H])C(C3(N(C(C4(N(C3=O)C(C(C4([H])[H])([H])[H])([H])[H])[H])=O)[H])[H])([H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tryprostatin B""",C00016146,4,C1(C(C(N2C1(C(N(C(C2=O)(C(C3=C(N(C4=C3C(=C(C(=C4[H])[H])[H])[H])[H])C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])[H])[H])=O)[H])([H])[H])([H])[H])([H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Deoxybrevianamide E""",C00011277,4,C=1(C2=C(C(=C(C1[H])[H])[H])C(=C(N2[H])C(C(=C([H])[H])C([H])([H])[H])(C([H])([H])[H])[H])C(C3(N(C(C4(N(C3=O)C(C(C4([H])[H])([H])[H])([H])[H])[H])=O)[H])[H])([H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""6-Hydroxydeoxybrevianamide E""",C00051987,4,C1=C(C=C2C(=C1)C(=C(N2)C(C)(C)C=C)CC3(NC(C4(N(C3=O)CCC4)[H])=O)[H])O,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Demetoxyfumitremorgin C""",C00016232,4,C12=C(C(C3(N(C1(C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H])C(C4(N(C3=O)C(C(C4([H])[H])([H])[H])([H])[H])[H])=O)[H])([H])[H])C=5C(N2[H])=C(C(=C(C5[H])[H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Notoamide S""",C00051826,4,N12C(C(NC(C1=O)CC=3C4=C(NC3C(C)(C)C=C)C(=C(C=C4)O)CC=C(C)C)=O)(CCC2)[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Notoamide E""",C00052019,4,O1C(C=CC2=C1C=CC3=C2NC(=C3CC4(NC(C5(N(C4=O)CCC5)[H])=O)[H])C(C)(C)C=C)(C)C,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Spirotryprostatin B""",C00016255,4,C1(C(C2(N(C1([H])[H])C(C=3N(C2=O)C(C4(C3[H])C(N(C5=C4C(=C(C(=C5[H])[H])[H])[H])[H])=O)(C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H])=O)[H])([H])[H])([H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Verruculogen""",C00011299,4,C1(=C2C(=C(C(=C1OC([H])([H])[H])[H])[H])C3=C4N2C(OOC(C(C4(N5C(C3(O[H])[H])(C(N6C(C5=O)(C(C(C6([H])[H])([H])[H])([H])[H])[H])=O)O[H])[H])([H])[H])(C([H])([H])[H])C([H])([H])[H])(C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Desmethyltryprostatin A""",C00051998,4,N12C(C(NC(C1=O)CC=3C4=C(NC3CC=C(C)C)C=C(C=C4)O)=O)CCC2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""(-)-Tryprostatin A;Tryprostatin A;(3S-trans)-Hexahydro-3-[[6-methoxy-2-(3-methyl-2-butenyl)-1H-indol-3-yl]methyl]-pyrrolo[1,2-a]pyrazine-1,4-dione""",C00016145,4,C1(=C(C(=C2C(=C1[H])N(C(=C2C(C3(C(N4C(C(N3[H])=O)(C(C(C4([H])[H])([H])[H])([H])[H])[H])=O)[H])([H])[H])C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])OC([H])([H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Fumitremorgin C""",C00011298,4,C1(=C2C(=C(C(=C1OC([H])([H])[H])[H])[H])C3=C(N2[H])C(N4C(C3([H])[H])(C(N5C(C4=O)(C(C(C5([H])[H])([H])[H])([H])[H])[H])=O)[H])([H])C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""12,13-Dihydroxyfumitremorgin C;12alpha,13alpha-Dihydroxyfumitremorgin C""",C00038128,4,C12=C(C(C3(N(C1(C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H])C(C4(N(C3=O)C(C(C4([H])[H])([H])[H])([H])[H])[H])=O)O[H])(O[H])[H])C5=C(N2[H])C(=C(C(=C5[H])[H])OC([H])([H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Fumitremorgin B""",C00011297,4,C1(=C2C(=C(C(=C1OC([H])([H])[H])[H])[H])C3=C(N2C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])C(N4C(C3(O[H])[H])(C(N5C(C4=O)(C(C(C5([H])[H])([H])[H])([H])[H])[H])=O)O[H])([H])C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Spirotryprostatin G""",C00051828,4,C12(N(CCC1)C(C=3N(C2=O)C(C4(C3)C(NC5=C4C=CC(=C5)OC)=O)C=C(C)C)=O)[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Spirotryprostatin G""",C00052025,4,N12C(C34NC(C1(CCC2)CC3(C(C)(C)C5=C(C4)C6=C(N5)C7=C(C=C6)OC(C=C7)(C)C)[H])=O)=O,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Notoamide J;(-)-Notoamide J""",C00039879,4,N1(C(C(N2C(C1=O)(C(C(C2([H])[H])([H])[H])([H])[H])[H])=O)(C(C3(C(N(C4=C3C(=C(C(=C4[H])O[H])[H])[H])[H])=O)C(C(=C([H])[H])[H])(C([H])([H])[H])C([H])([H])[H])([H])[H])[H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Notoamide D;(-)-Notoamide D""",C00039874,4,C12=C(C(=C(C3=C1C(=C(C(O3)(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])C4(C(N2[H])(N5C(C4([H])[H])(C(N6C(C5=O)(C(C(C6([H])[H])([H])[H])([H])[H])[H])=O)[H])C(C([H])([H])[H])(C(=C([H])[H])[H])C([H])([H])[H])O[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Notoamide C""",C00039873,4,C12=C(C(=C(C3=C1C(=C(C(O3)(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])C(C(N2[H])=O)(C(C4(N(C(C5(N(C4=O)C(C(C5([H])[H])([H])[H])([H])[H])[H])=O)[H])[H])([H])[H])C(C(=C([H])[H])[H])(C([H])([H])[H])C([H])([H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Notoamide T""",C00051964,4,N12C(C34NC(C1(CCC2)CC3(C(C)(C)C5=C(C4)C6=C(N5)C(=C(C=C6)O)CC=C(C)C)[H])=O)=O,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""(-)-Notoamide T""",C00051960,4,N12C(C34NC(C1(CCC2)CC3(C(C)(C)C5=C(C4)C6=C(N5)C(=C(C=C6)O)CC=C(C)C)[H])=O)=O,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Stephacidin A""",C00026831,4,C1(C(=C(C2=C(O1)C(=C(C3=C2N(C4=C3C(C56C(C4(C([H])([H])[H])C([H])([H])[H])(C(C7(N(C5=O)C(C(C7([H])[H])([H])[H])([H])[H])C(N6[H])=O)([H])[H])[H])([H])[H])[H])[H])[H])[H])[H])(C([H])([H])[H])C([H])([H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""(-)-Stephacidin A""",C00052025,4,N12C(C34NC(C1(CCC2)CC3(C(C)(C)C5=C(C4)C6=C(N5)C7=C(C=C6)OC(C=C7)(C)C)[H])=O)=O,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Notoamide B;(-)-Notoamide B""",C00039872,4,C12=C(C(=C(C3=C1N(C(C34C(C56C(C4(C([H])([H])[H])C([H])([H])[H])(C(C7(N(C5=O)C(C(C7([H])[H])([H])[H])([H])[H])C(N6[H])=O)([H])[H])[H])([H])[H])=O)[H])[H])[H])OC(C(=C2[H])[H])(C([H])([H])[H])C([H])([H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Notoamide B""",C00051963,4,N12C(C34NC(C1(CCC2)CC3(C(C5(C4)C(NC6=C5C=CC7=C6C=CC(O7)(C)C)=O)(C)C)[H])=O)=O,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Notoamide A;(-)-Notoamide A""",C00039871,4,C12=C(C(=C(C3=C1N(C(C34C(C56C(C4(C([H])([H])[H])C([H])([H])[H])(C(C7(N(C5=O)C(C(C7([H])[H])([H])[H])([H])[H])C(N6[H])=O)([H])[H])[H])([H])[H])=O)O[H])[H])[H])OC(C(=C2[H])[H])(C([H])([H])[H])C([H])([H])[H],1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Notoamide A""",C00051962,4,N12C(C34NC(C1(CCC2)CC3(C(C5(C4)C(N(C6=C5C=CC7=C6C=CC(O7)(C)C)O)=O)(C)C)[H])=O)=O,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tryptamine;beta-(3-Indolyl)ethylamine""",C00001434,5,C1(=C(C(=C2C(=C1[H])C(=C(N2[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Psilocin""",C00001427,5,C1(=C(C(=C2C(=C1O[H])C(=C(N2[H])[H])C(C(N(C([H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Psilocybin""",C00051822,5,C12=C(NC=C1CCN(C)C)C=CC=C2OP(O)(O)=O,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""5-Hydroxy-L-Tryptophan""",C00001371,5,C(C(O[H])=O)([H])(N([H])[H])C(C=1C=2C(N(C1[H])[H])=C(C(=C(C2[H])O[H])[H])[H])([H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Serotonin""",C00001429,5,C1(=C(C(=C2C(=C1[H])C(=C(N2[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H])O[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""3-Aminomethylindole""",C00051974,5,C1=C2C(=CC=C1)C(=CN2)CN,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Methyltryptamine""",C00026521,5,C1(=C(N(C2=C1C(=C(C(=C2[H])[H])[H])[H])[H])[H])C(C(N(C([H])([H])[H])[H])([H])[H])([H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Eserine""",C00001757,5,C12(C3=C(N(C1(N(C(C2([H])[H])([H])[H])C([H])([H])[H])[H])C([H])([H])[H])C(=C(C(=C3[H])OC(=O)N(C([H])([H])[H])[H])[H])[H])C([H])([H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Chimonanthine""",C00026555,5,C1(=C(C(=C2C(=C1[H])C3(C(N2[H])(N(C(C3([H])[H])([H])[H])C([H])([H])[H])[H])C45C(N(C6=C(C(=C(C(=C64)[H])[H])[H])[H])[H])(N(C(C5([H])[H])([H])[H])C([H])([H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Indole pyruvate""",C00007571,5,C12=C(N(C(=C1C(C(C(O[H])=O)=O)([H])[H])[H])[H])C(=C(C(=C2[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Didemethylasterriquinone D""",C00051812,5,C1=C2C(=CC=C1)C(=CN2)C3=C(C(C(=C(C3=O)O)C=4C=5C(NC4)=CC=CC5)=O)O,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Terrequinone A""",C00026700,5,C1(=C(C(=C2C(=C1[H])C(=C(N2[H])[H])C3=C(C(C(=C(C3=O)O[H])C=4C5=C(N(C4C(C([H])([H])[H])(C([H])([H])[H])C(=C([H])[H])[H])[H])C(=C(C(=C5[H])[H])[H])[H])=O)C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Dimethylallyl tryptophan;DMATrp;DMAT;4-Dimethylallyltryptophan;4-DMAT""",C00051773,5,C1(=CC=CC2=C1C(=CN2)CC(N)C(=O)O)CC=C(C)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(-)-Aurantioclavine""",C00051795,5,C12=C3C=CC=C1NC=C2CCNC3C=C(C)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin F""",C00051806,5,C123C4(N(C=5C1=C(C(N(C6(C2(C=7C(N4[H])=CC=CC7)CCN6C(=O)C)[H])CC3)C=C(C)C)C=CC5)C)[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin K""",C00051809,5,C12=C3C=CC=C1N(C4(C25C6(C7=C(N4)C=CC=C7)C(N(C3(C=C(C)C)[H])CC5)NCC6)[H])C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin I""",C00051807,5,C12=C3C=CC=C1N(C4(C25C6(C7=C(N4)C=CC=C7)C(N(C3(C8C(O8)(C)C)[H])CC5)NCC6)[H])C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin J""",C00051808,5,C12=C3C=CC=C1N(C4(C25C6(C7=C(N4)C=CC=C7)C(N(C3(C=C(C)C)[H])CC5)N(CC6)C(C=CC=CC)=O)[H])C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin C""",C00026688,5,C1(=C(C(=C2C3=C1C(N4C5(C6(C7=C(N(C(N2[H])(C36C(C4([H])[H])([H])[H])[H])[H])C(=C(C(=C7[H])[H])[H])[H])C(C(N5C(=O)C(=C(C(=C(C([H])([H])[H])[H])[H])[H])[H])([H])[H])([H])[H])[H])(C8(OC8(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin E""",C00026690,5,C1(=C(C(=C2C3=C1C(N4C5(C6(C7=C(N(C(N2[H])(C36C(C4([H])[H])([H])[H])[H])[H])C(=C(C(=C7[H])[H])[H])[H])C(C(N5C(=O)C([H])([H])[H])([H])[H])([H])[H])[H])(C8(OC8(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4,5-Dihydrocanthin-6-one""",C00051798,5,C12=CC=CC=C1N3C4=C2C=CN=C4CCC3=O,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Canthin-6-one""",C00001701,5,C12=C3C(=NC(=C1[H])[H])C(=C(C(N3C4=C2C(=C(C(=C4[H])[H])[H])[H])=O)[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin A;(-)-Communesin A""",C00026691,5,C1(=C(C(=C2C3=C1C(N4C5(C6(C7=C(N(C(N2C([H])([H])[H])(C36C(C4([H])[H])([H])[H])[H])[H])C(=C(C(=C7[H])[H])[H])[H])C(C(N5C(=O)C([H])([H])[H])([H])[H])([H])[H])[H])(C8(OC8(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Communesin B;(+)-Communesin B;Nomofungin""",C00026692,5,C1(=C(C(=C2C3=C1C(N4C5(C6(C7=C(N(C(N2C([H])([H])[H])(C36C(C4([H])[H])([H])[H])[H])[H])C(=C(C(=C7[H])[H])[H])[H])C(C(N5C(=O)C(=C(C(=C(C([H])([H])[H])[H])[H])[H])[H])([H])[H])([H])[H])[H])(C8(OC8(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""5-Methoxytryptamine""",C00051985,5,C12=C(C=C(C=C1)OC)C(=CN2)CCN,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Melatonin;N-Acetyl-5-methoxytryptamine""",C00052006,5,C12=C(C=C(C=C1)OC)C(=CN2)CCNC(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Methyl-3-aminomethylindole""",C00052008,5,C12=C(C=CC=C1)NC=C2CNC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Gramine""",C00001411,5,C=1(C(=C(C2=C(C1[H])C(=C(N2[H])[H])C(N(C([H])([H])[H])C([H])([H])[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Prochaetoglobosin I""",C00043849,5,C1(C2(C3(C(C(=C1C([H])([H])[H])[H])(C(=C(C(C(C(=C(C(C(C(=C(C3=O)[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])[H])C(N(C2(C(C=4C5=C(N(C4[H])[H])C(=C(C(=C5[H])[H])[H])[H])([H])[H])[H])[H])=O)[H])(C([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Prochaetoglobosin IV""",C00051821,5,C12(C(C(C3(C4(C1(C(=C(CC(C(=C(CCC(=C(C4=O)[H])[H])C)[H])C)[H])[H])[H])C(N(C3CC=5C=6C(N(C5)[H])=CC=CC6)[H])=O)[H])C)(O2)C)[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""20-Dihydrochaetoglobosin A""",C00051797,5,C1=CC=C2C(=C1)C(=CN2)CC3C4(C5(C(C(=C(C(C(C(=C(C(CC(=C(C5(C6(C(C4C)(C)O6)[H])[H])[H])[H])C)[H])C)O)O)[H])[H])=O)C(N3[H])=O)[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Cytoglobosin D""",C00051811,5,C12(C3(C(C=C(C1C)C)(C(=C(CC(C(=C(C(C(C(=C(C3=O)[H])[H])O)O)C)[H])C)[H])[H])[H])C(=O)N(C2CC=4C=5C(N(C4)[H])=CC=CC5)[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Chaetoglobosin J""",C00011314,5,C1(=C2C(=C(C(=C1[H])[H])[H])C(=C(N2[H])[H])C(C3(N(C(C45C(C(=C(C(C(C(=C(C(C(C(=C(C4(C(=C(C(C53[H])(C([H])([H])[H])[H])C([H])([H])[H])[H])[H])[H])[H])([H])[H])(C([H])([H])[H])[H])[H])C([H])([H])[H])(O[H])[H])=O)[H])[H])=O)=O)[H])[H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Chaetoglobosin A""",C00011307,5,C1(=C2C(=C(C(=C1[H])[H])[H])C(=C(N2[H])[H])C(C3(N(C(C45C(C(=C(C(C(C(=C(C(C(C(=C(C4(C6(C(C(C53[H])(C([H])([H])[H])[H])(O6)C([H])([H])[H])[H])[H])[H])[H])([H])[H])(C([H])([H])[H])[H])[H])C([H])([H])[H])(O[H])[H])=O)[H])[H])=O)=O)[H])[H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""1-Acetyl-3-carboxy-tetrahydro-beta-carboline""",C00051971,6,C12=C(C=CC=C1)C3=C(N2)C(NC(C3)C(=O)O)C(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""1-Acetyl-3-carboxy-beta-carboline""",C00051796,6,C12=CC=CC=C1C=3C(N2[H])=C(N=C(C3)C(=O)O[H])C(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Marinacarboline A""",C00051816,6,C1=2C=3C(NC1=CC=CC2)=C(N=C(C3)C(=O)NCCC4=CC=C(C=C4)OC)C(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Marinacarboline B""",C00051817,6,C1=2C=3C(NC1=CC=CC2)=C(N=C(C3)C(NCCC4=CC=C(C=C4)O)=O)C(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Marinacarboline C""",C00051818,6,C=12C(=CC(=NC1C(=O)C)C(=O)NCCC3=CC=CC=C3)C=4C(N2)=CC=CC4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Marinacarboline D""",C00051819,6,C1=2C=3C(NC1=CC=CC2)=C(N=C(C3)C(=O)NCCC4=CNC=5C4=CC=CC5)C(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""1-Acetyl-beta-carboline""",C00029415,6,C12=C(C3=C(N1[H])C(=NC(=C3[H])[H])C(C([H])([H])[H])=O)C(=C(C(=C2[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""1-Acetyl-3-carboxy-3,4-dihydro-beta-carboline""",C00051970,6,C12=C(C=CC=C1)C3=C(N2)C(=NC(C3)C(=O)O)C(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""1-Acetyl-3-hydroxy-beta-carboline""",C00051972,6,C12=C(C=CC=C1)C3=C(N2)C(=NC(=C3)C(=O)O)C(=O)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tryptamine;beta-(3-Indolyl)ethylamine""",C00001434,6,C1(=C(C(=C2C(=C1[H])C(=C(N2[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Dihydro-beta-carboline""",C00051813,6,C=12C3=C(NC1C(=NCC2)C)C=CC=C3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Elaeagnine""",C00051815,6,C1=2C(C3=C(N1)C(NCC3)C)=CC=CC2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Harman""",C00001736,6,C=12C3=C(N(C1C(=NC(=C2[H])[H])C([H])([H])[H])[H])C(=C(C(=C3[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Harmaline""",C00001735,6,C=12C3=C(N(C1C(=NC(C2([H])[H])([H])[H])C([H])([H])[H])[H])C(=C(C(=C3[H])[H])OC([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Harmine""",C00001737,6,C=12C3=C(N(C1C(=NC(=C2[H])[H])C([H])([H])[H])[H])C(=C(C(=C3[H])[H])OC([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tetrahydroharmine""",C00001774,6,C=12C3=C(N(C1C(N(C(C2([H])[H])([H])[H])[H])([H])C([H])([H])[H])[H])C(=C(C(=C3[H])[H])OC([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""7-Dimethylallyl-L-Tryptophan""",C00051801,7,C1=CC=C2C(=C1)C(=CN2C(C)(C)C=C)CC(N)C(=O)O,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Cyclo-acetoacetyl-L-Tryptophan""",C00051810,8,C1=2C(NC=C1CC3NC(C(=C3O)C(=O)C)=O)=CC=CC2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""beta-Cyclopiazonic acid""",C00051803,8,C=1(C=CC=C2C1C(=CN2)CC3C(=C(C(N3[H])=O)C(=O)C)O)CC=C(C)C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""alpha-Cyclopiazonic acid""",C00051802,8,C=12C=3C4(C(CC1C=CC=C2N(C3)[H])(C(N5C4(C(=C(C5=O)C(C)=O)O)[H])(C)C)[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Quinoxaline-2-carboxylic acid""",C00051823,9,C1(=CN=C2C(=N1)C=CC=C2)C(O)=O,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Triostin A""",C00018695,9,C12=C(N=C(C(=N1)[H])C(=O)N(C3(C(N(C(C(N(C4(C(N(C(C(OC(C(C(N(C(C(N(C(C(N(C(C(OC3([H])[H])=O)(C(C([H])([H])[H])(C([H])([H])[H])[H])[H])C([H])([H])[H])=O)(C(SSC4([H])[H])([H])[H])[H])C([H])([H])[H])=O)(C([H])([H])[H])[H])[H])=O)(N(C(=O)C5=NC6=C(N=C5[H])C(=C(C(=C6[H])[H])[H])[H])[H])[H])([H])[H])=O)(C(C([H])([H])[H])(C([H])([H])[H])[H])[H])C([H])([H])[H])=O)[H])C([H])([H])[H])=O)(C([H])([H])[H])[H])[H])=O)[H])[H])C(=C(C(=C2[H])[H])[H])[H],1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Echinomycin""",C00051814,9,C1(C(N(C(C2C(SCC(N(C(C(NC(=O)C(NC(=O)C=3C=NC=4C(N3)=CC=CC4)CO1)C)=O)C)C(=O)N(C(C(OCC(C(NC(C(N2C)=O)C)=O)NC(=O)C5=NC=6C(N=C5)=CC=CC6)=O)C(C)C)C)SC)=O)C)C(C)C)=O,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Histidyl-tryptophanyl-diketopiperazine;HTD""",C00051825,10,C1=CC=C2C(=C1)C(=CN2)CC3C(NC(C(N3)=O)CC=4NC=NC4)=O,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Roquefortine C""",C00011251,10,C1(=C2C(=C(C(=C1[H])[H])[H])C3(C(N2[H])(N4C(C3([H])[H])(C(N(C(C4=O)=C(C=5N(C(=NC5[H])[H])[H])[H])[H])=O)[H])[H])C(C(=C([H])[H])[H])(C([H])([H])[H])C([H])([H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Meleagrin""",C00024790,10,C1(C(=C(C2(C3(N1C(C(N3[H])=O)=C(C4=C(N=C(N4[H])[H])[H])[H])N(C5=C2C(=C(C(=C5[H])[H])[H])[H])OC([H])([H])[H])C(C([H])([H])[H])(C([H])([H])[H])C(=C([H])[H])[H])[H])O[H])=O,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Cyclo-(Trp-His)""",C00051997,10,C12=C(C=CC=C1)C(=CN2)CC3NC(C(NC3=O)CC=4N=CNC4)=O,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Roquefortine D""",C00028944,10,C12=C(N(C3(C1(C(C4(N3C(C(N(C4=O)[H])(C(C=5N(C(=NC5[H])[H])[H])([H])[H])[H])=O)[H])([H])[H])C(C(=C([H])[H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])C(=C(C(=C2[H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Roquefortine L""",C00052022,10,C12=C(C=CC=C1)C3(C(=[N+]2[O-])N4C(C3)C(NC(C4=O)=CC=5N=CNC5)=O)C(C)(C)C=C,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Glandicoline B""",C00052003,10,C123C(C=C(C(N1C(C(N2)=O)=CC4=CN=CN4)=O)O)(C=5C(N3O)=CC=CC5)C(C)(C=C)C,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Roquefortine F""",C00052021,10,C12=C(C=CC=C1)C3(C(N2OC)N4C(C3)C(NC(C4=O)=CC=5N=CNC5)=O)C(C)(C)C=C,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Neooxaline;Neoxaline""",C00011265,10,C1(=C2C(=C(C(=C1[H])[H])[H])C3(C4(N2OC([H])([H])[H])N(C(C(C3([H])[H])(O[H])[H])=O)C(C(N4[H])=O)=C(C5=C(N(C(=N5)[H])[H])[H])[H])C(C([H])([H])[H])(C([H])([H])[H])C(=C([H])[H])[H])[H],1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Roquefortine M""",C00052023,10,C12=C(C=CC=C1)C(C(N2O)=O)(CC3NC(C(NC3=O)=CC=4N=CNC4)=O)C(C)(C)C=C,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Roquefortine N""",C00052024,10,C12=C(C=CC=C1)C(C(N2O)=O)(CC(N)C(NC(C(=O)O)=CC=3N=CNC3)=O)C(C)(C)C=C,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Dihydroxyphenylalanine;DOPA""",C00051833,11,C=1(C(=CC=C(C1)CC(N)C(=O)O)O)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tyramine""",C00001435,11,C1(=C(C(=C(C(=C1O[H])[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Hordenine""",C00001417,11,C1(=C(C(=C(C(=C1O[H])[H])[H])C(C(N(C([H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Dopamine""",C00001408,11,C1(=C(C(=C(C(=C1O[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Noradrenaline""",C00001424,11,C1(=C(C(=C(C(=C1O[H])O[H])[H])C(C(N([H])[H])([H])[H])([H])O[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Adrenaline""",C00029643,11,C1(=C(C(=C(C(=C1[H])C(C(N(C([H])([H])[H])[H])([H])[H])(O[H])[H])[H])[H])O[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4-Hydroxy-3-methoxyphenethylamine""",C00051978,11,C(C=1C=C(C(=CC1)O)OC)CN,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Betalamic acid""",C00001582,11,C(=C1C(C(N(C(=C1[H])C(=O)O[H])[H])([H])C(=O)O[H])([H])[H])(C(=O)[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Betanidin-quinone""",C00051831,11,C=12C(=CC(C(C1)=O)=O)CC(N2C(=C(C=3CC(N=C(C3)C(=O)O)C(=O)O)[H])[H])C(=O)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tyrosine-betaxanthin;Portulacaxanthin II""",C00001604,11,C1(=C(C(=C(C(=C1[H])C(C(N=C(C(=C2C(C(N(C(=C2[H])C(=O)O[H])[H])([H])C(=O)O[H])([H])[H])[H])[H])([H])C(=O)O[H])([H])[H])[H])[H])O[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""o-DOPA-quinone""",C00051838,11,C=1C(C(C=CC1CC(C(=O)O[H])N([H])[H])=O)=O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Leuko-DOPA-chrome;cyclo-DOPA""",C00051835,11,C=12C(=CC(=C(C1)O[H])O[H])CC(N2[H])C(O[H])=O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Leuko-DOPA-chrome-glucoside;Cyclo-DOPA-chrome-glucoside""",C00051836,11,C=1(C=CC2=C(C1)CC(C2)C(O)=O)OC3OC(C(C(C3O)O)O)CO,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""DOPA-betaxanthin;Dopaxanthin""",C00001587,11,O(C1=C(C(=C(C(=C1[H])C(C(N=C(C(=C2C(C(N(C(=C2[H])C(=O)O[H])[H])(C(=O)O[H])[H])([H])[H])[H])[H])(C(=O)O[H])[H])([H])[H])[H])[H])O[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Dopaxanthin-quinone""",C00051834,11,C=1C(=CC(C(C1)=O)=O)CC(C(=O)O[H])N([H])C([H])=C([H])C=2CC(N=C(C2)C(=O)O[H])C(=O)O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Betanidin""",C00001583,11,C(=C1C(C(N(C(=C1[H])C(=O)O[H])[H])([H])C(=O)O[H])([H])[H])(C(=[N+]2C(C(C3=C2C(=C(C(=C3[H])O[H])O[H])[H])([H])[H])(C(=O)[O-])[H+])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Betanin""",C00001584,11,O(C1(C(C(C(OC1(OC2=C(C(=C3C(=C2[H])C(C([N+]3=C(C(=C4C(C(N(C(=C4[H])C(=O)O[H])[H])([H])C(=O)O[H])([H])[H])[H])[H])([H])C(=O)[O-])([H])[H])[H])O[H])[H])(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4,5-seco-DOPA""",C00051980,11,C(=C(CC(N)C(=O)O)C=CO)C(=O)C(O)=O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Betacyanin""",C00051993,11,C1(C(C(C(OC1O)OC=2C(CC3=C(C2)CC([N+]3=CC=C4CC(NC(=C4)C(=O)O)C(O)=O)([H])C(=O)O)O)O)O)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4,5-Dihydroxy-3-methoxyphenethylamine""",C00051979,11,C(C=1C=C(C(=C(C1)OC)O)O)CN,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Mescaline""",C00001419,11,C1(=C(C(=C(C(=C1OC([H])([H])[H])OC([H])([H])[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""3,5-Dimethoxy-4-hydroxyphenethylamine""",C00051976,11,C1(=CC(=C(C(=C1)OC)O)OC)CCN,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""3,4-Dimethoxy-5-hydroxyphenethylamine""",C00052027,11,C1(=C(C(=CC(=C1)CCN)O)OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""3,4,5-Trihydroxy-beta-phenyethylamine""",C00052028,11,C1(=C(C(=CC(=C1)CCN)O)O)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Anhalamine""",C00042228,11,C12=C(C(=C(C(=C1[H])OC([H])([H])[H])OC([H])([H])[H])O[H])C(N(C(C2([H])[H])([H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Anhalidine""",C00042229,11,C12=C(C(=C(C(=C1[H])OC([H])([H])[H])OC([H])([H])[H])O[H])C(N(C(C2([H])[H])([H])[H])C([H])([H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Anhalonidine""",C00042230,11,C12=C(C(=C(C(=C1[H])OC([H])([H])[H])OC([H])([H])[H])O[H])C(N(C(C2([H])[H])([H])[H])[H])(C([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Pellotine""",C00001901,11,C12=C(C(=C(C(=C1O[H])OC([H])([H])[H])OC([H])([H])[H])[H])C(C(N(C2(C([H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Autumnaline""",C00051829,11,C1=2C(C(N(CC1)C)CCC=3C=C(C(=C(C3)O[H])OC)OC)=CC(=C(C2)OC)O[H],0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""P-Coumaraldehyde""",C00031014,11,C1(=C(C(=C(C(=C1[H])[H])O[H])[H])[H])C(=C(C([H])=O)[H])[H],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""(S)-Isoandrocymbine""",C00051830,11,C1=2C(C34C(CC(C1)([NH+](C)C3)C)=CC(C(=C4)OC)=O)=C(C(=C(C2)O[H])OC)OC,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""O-Methylandrocymbine""",C00051839,11,C=12C(=CC(=C(C1OC)OC)OC)CCC3(C=4C2(C=C(C(C4)=O)OC)CCN3C)[H],0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""N-Formyldemecolcine""",C00051837,11,C=12C(=CC(C(=CC1)OC)=O)C(CCC=3C2=C(C(=C(C3)OC)OC)OC)N(C)C(=O)[H],0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Demecolcine""",C00027138,11,C1(=C(C(C(=C2C(=C1[H])C3=C(C(C(C2(N(C([H])([H])[H])[H])[H])([H])[H])([H])[H])C(=C(C(=C3OC([H])([H])[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])=O)OC([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Deacetylcolchicine""",C00051832,11,C=12C(=CC(C(=CC1)OC)=O)C(CCC=3C2=C(C(=C(C3)OC)OC)OC)N([H])[H],0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Colchicine""",C00002327,11,C1(=C(C(=C2C(=C1[H])C(C(C(C=3C2=C(C(=C(C(C3[H])=O)OC([H])([H])[H])[H])[H])(N(C(=O)C([H])([H])[H])[H])[H])([H])[H])([H])[H])OC([H])([H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""(S)-Scoulerine""",C00026092,12,C12=C(C(N3C(C1([H])[H])(C4=C(C(C3([H])[H])([H])[H])C(=C(C(=C4[H])O[H])OC([H])([H])[H])[H])[H])([H])[H])C(=C(C(=C2[H])[H])OC([H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Cheilanthifoline""",C00026087,12,C12=C(C(N3C(C1([H])[H])(C4=C(C(C3([H])[H])([H])[H])C(=C(C(=C4[H])OC([H])([H])[H])O[H])[H])[H])([H])[H])C5=C(C(=C2[H])[H])OC(O5)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Stylopine""",C00026095,12,C12=C(C(N3C(C1([H])[H])(C4=C(C(C3([H])[H])([H])[H])C(=C5C(=C4[H])OC(O5)([H])[H])[H])[H])([H])[H])C6=C(C(=C2[H])[H])OC(O6)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Tetrahydropapaverine""",C00027154,12,C1(=C(C(=C2C(=C1[H])C(N(C(C2([H])[H])([H])[H])[H])(C(C3=C(C(=C(C(=C3[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Dihydropapaverine""",C00051999,12,C1(=C(C=C2C(=C1)CCN=C2CC3=CC(=C(C=C3)OC)OC)OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Norlaudanine""",C00051859,12,C1(=CC2=C(C=C1OC)CC[N+](C2CC3=CC(=C(C=C3)O[H])OC)([H])[H])OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Norcoclaurine""",C00034613,12,C12=C(C(C(N(C1(C(C3=C(C(=C(C(=C3[H])[H])O[H])[H])[H])([H])[H])[H])[H])([H])[H])([H])[H])C(=C(C(=C2[H])O[H])O[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Norreticuline""",C00039868,12,O(C=1C(=C2C(C(N(C(C2([H])[H])([H])[H])[H])(C(C3=C(C(O[H])=C(OC([H])([H])[H])C(=C3[H])[H])[H])([H])[H])[H])=C(C1O[H])[H])[H])C([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Coclaurine""",C00025812,12,C1(=C(C(=C2C(=C1[H])C(N(C(C2([H])[H])([H])[H])[H])(C(C3=C(C(=C(C(=C3[H])[H])O[H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tyramine""",C00001435,12,C1(=C(C(=C(C(=C1O[H])[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4-Hydroxyphenylpyruvate;4-HPP""",C00051851,12,C=1C=C(C=CC1CC(=O)C(=O)O)O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Dopamine""",C00001408,12,C1(=C(C(=C(C(=C1O[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4-Hydroxyphenylacetaldehyde;4-HPAA""",C00051850,12,C=1C=C(C=CC1CC(=O)[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-N-Methylcoclaurine;(+)-(S)-N-Methylcoclaurine;N-Methylcoclaurine""",C00025268,12,C1(=C(C(=C2C(=C1[H])C(N(C(C2([H])[H])([H])[H])C([H])([H])[H])(C(C3=C(C(=C(C(=C3[H])[H])O[H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-3'-Hydroxy-N-methylcoclaurine""",C00051846,12,C1(=CC=C(C=C1O)CC2C=3C(CCN2C)=CC(=C(C3)O)OC)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Berbamunine""",C00025262,12,C1(=C(C(=C2C(=C1[H])C(C(N(C2(C(C3=C(C(=C(C(=C3[H])OC4=C(C(=C(C(=C4[H])[H])C(C5(C6=C(C(C(N5C([H])([H])[H])([H])[H])([H])[H])C(=C(C(=C6[H])O[H])OC([H])([H])[H])[H])[H])([H])[H])[H])[H])O[H])[H])[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])O[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Reticuline""",C00001910,12,C1(=C(C(=C2C(=C1[H])C(C(N(C2(C(C3=C(C(=C(C(=C3[H])O[H])OC([H])([H])[H])[H])[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])O[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(R)-Reticuline""",C00051969,12,C1(=C(C=CC(=C1)CC2(N(CCC=3C2=CC(=C(C3)OC)O)C)[H])OC)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Salutaridine""",C00001916,12,C=1(C2=C(C(=C(C1OC([H])([H])[H])[H])[H])C(C3(C=4C2(C(=C(C(C4[H])=O)OC([H])([H])[H])[H])C(C(N3C([H])([H])[H])([H])[H])([H])[H])[H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Salutaridinol""",C00051862,12,C1(=C(C2=C(C=C1)CC3C=4C2(C=C(C(C4)O[H])OC)CCN3C)O)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-cis-N-Methylstylopine""",C00051847,12,C12=C(C=C3C(=C1)CC[N+]4(CC5=C(CC34[H])C=CC6=C5OCO6)C)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Tetrahydrocolumbamine""",C00025632,12,C1(=C(C(=C2C(=C1[H])C(C3(N(C2([H])[H])C(C(C4=C3C(=C(C(=C4[H])OC([H])([H])[H])O[H])[H])([H])[H])([H])[H])[H])([H])[H])OC([H])([H])[H])OC([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Canadine""",C00028005,12,C1(=C(C(=C2C(=C1[H])C(C3(N(C2([H])[H])C(C(C4=C3C(=C5C(=C4[H])OC(O5)([H])[H])[H])([H])[H])([H])[H])[H])([H])[H])OC([H])([H])[H])OC([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-cis-N-Methylcanadine;(S)-N-Methylcanadine""",C00026135,12,C1(C2=C(C(C3([N+]1(C(C(C4=C3C(=C5C(=C4[H])OC(O5)([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])C(=C(C(=C2OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-1-Hydroxy-N-methylcanadine""",C00051845,12,C12=C(C(=C3C(=C1)CC[N+]4(C3(CC5=C(C4)C(=C(C=C5)OC)OC)[H])C)O)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(13S,14R)-1,13-Dihydroxy-N-methylcanadine""",C00051843,12,C12=C(C(=C3C(=C1)CC[N+]4(C3(C(C5=C(C4)C(=C(C=C5)OC)OC)O)[H])C)O)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4'-O-Desmethyl-3-O-acetylpapaveroxine""",C00051983,12,C12=C(C(=C3C(=C1)CCN(C3(C(C4=CC=C(C(=C4C=O)OC)OC)OC(=O)C)[H])C)O)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""3-O-Acetylpapaveroxine""",C00051848,12,C12=C(C(=C3C(=C1)CCN(C3(C(C4=C(C(=O)[H])C(=C(C=C4)OC)OC)OC(=O)C)[H])C)OC)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Narcotinehemiacetal""",C00051856,12,C=12C(=CC3=C(C1OC)OCO3)CCN(C2(C4(OC(C5=C4C=CC(=C5OC)OC)O[H])[H])[H])C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Noscapine""",C00001891,12,C1(N(C(C(C2=C1C(=C3C(=C2[H])OC(O3)([H])[H])OC([H])([H])[H])([H])[H])([H])[H])C([H])([H])[H])([H])C4(OC(C5=C4C(=C(C(=C5OC([H])([H])[H])OC([H])([H])[H])[H])[H])=O)[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Coptisine""",C00024668,12,C1(=C2C(=C3C(=C1[H])C(=C4[N+](=C3[H])C(C(C5=C4C(=C6C(=C5[H])OC(O6)([H])[H])[H])([H])[H])([H])[H])[H])OC(O2)([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Protopine""",C00001906,12,C12=C(C(=C3C(=C1[H])C(C(N(C(C4=C(C(C3=O)([H])[H])C(=C(C5=C4OC(O5)([H])[H])[H])[H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Dihydrosanguinarine""",C00001847,12,C1(=C(C2=C(C3=C1C4=C(N(C3([H])[H])C([H])([H])[H])C5=C(C(=C4[H])[H])C(=C6C(=C5[H])OC(O6)([H])[H])[H])OC(O2)([H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Sanguinarine""",C00001917,12,C1(=C(C2=C(C3=C1C4=C([N+](=C3[H])C([H])([H])[H])C5=C(C(=C4[H])[H])C(=C6C(=C5[H])OC(O6)([H])[H])[H])OC(O2)([H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""6-Hydroxyprotopine""",C00051852,12,C12=C(C=C3C(=C1)CC(N(CC4=C(CC3=O)C=CC5=C4OCO5)C)O)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Corytuberine""",C00025655,12,C1(=C(C(=C2C(=C1O[H])C3=C4C(C2([H])[H])(N(C(C(C4=C(C(=C3O[H])OC([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])[H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Magnoflorine""",C00001885,12,C=1(C2=C3C(=C(C1OC([H])([H])[H])[H])C(C([N+](C3(C(C4=C2C(=C(C(=C4[H])[H])OC([H])([H])[H])O[H])([H])[H])[H])(C([H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Tetrahydropalmatine""",C00026150,12,C12=C(C(N3C(C1([H])[H])(C4=C(C(C3([H])[H])([H])[H])C(=C(C(=C4[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H])C(=C(C(=C2[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Berberine""",C00001819,12,C12=C(C(=C3C(=C1[H])C(C([N+]4=C3C(=C5C(=C4[H])C(=C(C(=C5[H])[H])OC([H])([H])[H])OC([H])([H])[H])[H])([H])[H])([H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-cis-N-Methylsinactine""",C00026139,12,C12=C(C([N+]3(C(C1([H])[H])(C4=C(C(C3([H])[H])([H])[H])C(=C(C(=C4[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])C([H])([H])[H])([H])[H])C5=C(C(=C2[H])[H])OC(O5)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Cryptopine""",C00027332,12,C1(=C(C(=C2C(=C1[H])C(C(C3=C(C(N(C(C2([H])[H])([H])[H])C([H])([H])[H])([H])[H])C4=C(C(=C3[H])[H])OC(O4)([H])[H])([H])[H])=O)[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-cis-N-Methylcanadine;(S)-N-Methylcanadine""",C00026135,12,C1(C2=C(C(C3([N+]1(C(C(C4=C3C(=C5C(=C4[H])OC(O5)([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])C(=C(C(=C2OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Allocryptopine""",C00001799,12,C12=C(C(=C3C(=C1[H])C(C(N(C(C4=C(C(C3=O)([H])[H])C(=C(C(=C4OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""O-Demethylcryptopine""",C00051861,12,C1(=C(C=C2C(=C1)CCN(CC3=C(CC2=O)C=CC4=C3OCO4)C)O)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""O-Demethylallocryptopine""",C00051860,12,C12=C(C=C3C(=C1)CCN(CC4=C(CC3=O)C=CC(=C4OC)O)C)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Glaudine""",C00025452,12,C1(=C(C(=C2C(=C1[H])C(C(N(C3(C2(OC(C4=C3C(=C(C5=C4OC(O5)([H])[H])[H])[H])(OC([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Methylporphyroxine""",C00051858,12,C12C=3C(CCN(C1C4=C(C(O2)OC)C5=C(C=C4)OCO5)C)=CC(=C(C3)O)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Rhoeadine""",C00001911,12,C12=C(C(=C3C(=C1[H])C(C(N(C4(C3(OC(C5=C4C(=C(C6=C5OC(O6)([H])[H])[H])[H])([H])OC([H])([H])[H])[H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+/-)-Pavine""",C00051842,12,C1(=C(C=C2C(=C1)C3(CC=4C(C(C2)N3[H])=CC(=C(C4)OC)OC)[H])OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+/-)-N-Methylpavine""",C00051841,12,C12=C(C3CC4=C(C(C1)N3C)C=C(C(=C4)OC)OC)C=C(C(=C2)OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+/-)-N,N-Dimethylpavine""",C00051840,12,C=1(C(=CC2=C(C1)CC3C4=C(CC2[N+]3(C)C)C=C(C(=C4)OC)OC)OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-6-O-Methylnorlaudanosoline""",C00051849,12,C1(=C(C=C2C(=C1)CCN(C2CC3=CC(=C(C=C3)O[H])O[H])[H])O[H])OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Norisosalutaridine""",C00039866,12,C12=C(C34C(C(C1([H])[H])(N(C(C3([H])[H])([H])[H])[H])[H])=C(C(C(=C4[H])OC([H])([H])[H])=O)[H])C(=C(C(=C2[H])O[H])OC([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Noramurine""",C00028711,12,C1(C=2C(C34C(C1(N(C(C3([H])[H])([H])[H])[H])[H])=C(C(C(=C4[H])OC([H])([H])[H])=O)[H])=C(C5=C(C2[H])OC(O5)([H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Erythraline""",C00027355,12,C12=C(C(=C3C(=C1[H])C45N(C(C3([H])[H])([H])[H])C(C(=C4C(=C(C(C5([H])[H])(OC([H])([H])[H])[H])[H])[H])[H])([H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Tetrandrine""",C00001919,12,C12=C3C(=C(C(=C1[H])OC([H])([H])[H])OC([H])([H])[H])OC=4C(=C(C5=C(C4[H])C(N(C(C5([H])[H])([H])[H])C([H])([H])[H])(C(C6=C(C(=C(C(=C6[H])[H])OC=7C(=C(C(=C(C7[H])C(C3(N(C(C2([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Thebaine""",C00001924,12,C=12C3=C(C(=C(C1OC([H])([H])[H])[H])[H])C(C4(C=5C3(C(O2)(C(=C(C5[H])[H])OC([H])([H])[H])[H])C(C(N4C([H])([H])[H])([H])[H])([H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Oripavine""",C00028775,12,C=12C34C=5C(C(C1C(=C(C(=C2OC3(C(=C(C5[H])[H])OC([H])([H])[H])[H])O[H])[H])[H])([H])[H])(N(C(C4([H])[H])([H])[H])C([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Codeinone""",C00027603,12,C1(=C(C(=C2C3=C1C(C4(C5(C3(C(C(C(=C5[H])[H])=O)(O2)[H])C(C(N4C([H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])OC([H])([H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Morphinone""",C00051855,12,C1(=C2C3=C(C=C1)CC4(C5(C3(C(C(C=C5)=O)(O2)[H])CCN4C)[H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Codeine""",C00001837,12,C1(=C2C3=C(C(=C1[H])[H])C(C4(C5(C3(C(C(C(=C5[H])[H])(O[H])[H])(O2)[H])C(C(N4C([H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Morphine""",C00001889,12,C=12C3=C(C(=C(C1O[H])[H])[H])C(C4(C5(C3(C(C(C(=C5[H])[H])(O[H])[H])(O2)[H])C(C(N4C([H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""7-O-Acetylsalutaridinol""",C00051853,12,C12=C(C34C(C(C1)(N(CC3)C)[H])=CC(C(=C4)OC)OC(=O)C)C(=C(C=C2)OC)O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Neopinone""",C00051857,12,C1(=C2C3=C(C=C1)CC4(C=5C3(C(C(CC5)=O)(O2)[H])CCN4C)[H])OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Hydrocodone""",C00051854,12,C1(=C2C3=C(C=C1)CC4(C5C3(C(C(CC5)=O)(O2)[H])CCN4C)[H])OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Tetrahydroberberine""",C00001827,12,C12=C(C(=C3C(=C1[H])C(C(N4C3(C(C5=C(C4([H])[H])C(=C(C(=C5[H])[H])OC([H])([H])[H])OC([H])([H])[H])([H])[H])[H])([H])[H])([H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Codamine;(S)-(+)-Codamine;L-(+)-Codamine;Codamine""",C00025654,12,C1(=C(C(=C2C(=C1[H])C(N(C(C2([H])[H])([H])[H])C([H])([H])[H])(C(C3=C(C(=C(C(=C3[H])[H])OC([H])([H])[H])OC([H])([H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Laudanosine;L-(+)-Laudanosine;L-Laudanosine;O-Methylcodamine""",C00001876,12,C12=C(C(=C(C(=C1[H])OC([H])([H])[H])OC([H])([H])[H])[H])C(C(N(C2(C(C3=C(C(=C(C(=C3[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Laudanidine;(S)-Laudanine;L-(+)-Laudanidine""",C00025666,12,C1(=C(C(=C2C(=C1[H])C(N(C(C2([H])[H])([H])[H])C([H])([H])[H])(C(C3=C(C(=C(C(=C3[H])[H])OC([H])([H])[H])O[H])[H])([H])[H])[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""DOPAL;3,4-Dihydroxyphenylacetaldehyde""",C00052036,12,C1(=C(C=CC(=C1)CC=O)O)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(S)-Norlaudanosoline""",C00052017,12,C1=C(C(=CC2=C1C(NCC2)CC3=CC(=C(C=C3)O)O)O)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Nororientaline""",C00052018,12,C1(=C(C=C2C(=C1)CCNC2CC3=CC(=C(C=C3)O)OC)O)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""7-O-Methylnororientaline""",C00051990,12,C1(=C(OC)C=C2C(=C1)C(NCC2)(CC3=CC(=C(C=C3)O)OC)[H])OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Norcodamine""",C00052016,12,C1(=C(C=C2C(=C1)CCNC2CC3=CC(=C(C=C3)OC)OC)O)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""3'-Hydroxy-7-O-methylcoclaurine""",C00051977,12,C1(=CC=C(C=C1O)CC2C=3C(CCN2C)=CC(=C(C3)O)OC)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""7-O-Methylcoclaurine""",C00051989,12,C12=C(C(NCC1)CC3=CC=C(C=C3)O)C=C(C(=C2)OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""7,4'-Di-O-methylcoclaurine""",C00051991,12,C1(=C(OC)C=C2C(=C1)C(NCC2)(CC3=CC=C(C=C3)OC)[H])OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4'-O-Methylcoclaurine""",C00034979,12,C1(=C(C(=C2C(=C1[H])C(N(C(C2([H])[H])([H])[H])[H])(C(C3=C(C(=C(C(=C3[H])[H])OC([H])([H])[H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""6-O-Methyllaudanosoline""",C00051988,12,C1=C(C(=CC(=C1)CC2N(CCC3=C2C=C(C(=C3)OC)O)C)O)O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Papaverine""",C00001899,12,C1(=NC(=C(C2=C1C(=C(C(=C2[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])[H])C(C3=C(C(=C(C(=C3[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(13S,14R)-1-Hydroxy-13-O-acetyl-N-methylcanadine""",C00051844,12,C12=C(C(=C3C(=C1)CC[N+]4(C3(C(C5=C(C4)C(=C(C=C5)OC)OC)OC(=O)C)[H])C)O)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""4'-O-Desmethylpapaveroxine""",C00051984,12,C12=C(C(=C3C(=C1)CCN(C3(C(C4=CC=C(C(=C4C=O)OC)OC)O)[H])C)O)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Narcotoline hemiacetal""",C00052014,12,C12=C(OCO1)C=C3C(=C2O)C(N(CC3)C)(C4(C5=C(C(O4)O)C(=C(C=C5)OC)OC)[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Narcotoline""",C00001892,12,C1(N(C(C(C2=C1C(=C3C(=C2[H])OC(O3)([H])[H])O[H])([H])[H])([H])[H])C([H])([H])[H])([H])C4(OC(C5=C4C(=C(C(=C5OC([H])([H])[H])OC([H])([H])[H])[H])[H])=O)[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(13S,14R)-1,8-Dihydroxy-N-methylcanadine""",C00051966,12,C12=C(C(=C3C(=C1)CC[N+]4(C3(CC5=C(C4O)C(=C(C=C5)OC)OC)[H])C)O)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Macrantaldehyde""",C00052005,12,C12=C(OCO1)C=C3C(=C2OC)C(N(CC3)C)CC4=C(C=O)C(=C(C=C4)OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Romnein""",C00052020,12,C12=C(C=C3C(=C1)CCN(C3CC4=CC=C(C(=C4)OC)OC)C)OCO2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Escholinine""",C00051961,12,C12=C(C=C3C(=C1)OCO3)CC[N+](C2([H])CC4=CC(=C(C=C4)OC)OC)(C)C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Methyltetrahydrothalifendine""",C00052012,12,C12=C(OCO1)C=C3C(=C2)C4[N+](CC3)(CC5=C(C4)C=CC(=C5OC)O)C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Methylcheilanthifoline""",C00052009,12,C1(=C(OC)C=C2C(=C1)C3([N+](CC2)(C)CC4=C(C3)C=CC5=C4OCO5)[H])O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Methyltetrahydrothalifendine-10-O-glucoside""",C00052013,12,C12=C(OCO1)C=C3C(=C2)C4[N+](CC3)(CC5=C(C4)C=CC(=C5OC)OC6OC(C(C(C6O)O)O)CO)C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(+)-Chelidonine;Chelidonin;Stylophorine;Chelidonine""",C00024623,12,C12=C(C(=C3C(=C1[H])C(C(C4(C3(N(C(C5=C4C(=C(C6=C5OC(O6)([H])[H])[H])[H])([H])[H])C([H])([H])[H])[H])[H])(O[H])[H])([H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Norchelidonine""",C00028716,12,C12=C(C(=C3C(=C1[H])C4(C(C(C3([H])[H])(O[H])[H])(C5=C(C(N4[H])([H])[H])C6=C(C(=C5[H])[H])OC(O6)([H])[H])[H])[H])[H])OC(O2)([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Nandinine""",C00052015,12,C12=C(C(=C(C=C1)OC)O)CN3C(C2)C=4C(CC3)=CC5=C(C4)OCO5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Jatrorrhizine;Neprotin;Neprotine;Yatrorizine""",C00001874,12,C1(=C(C(=C(C2=C1C=3[N+](C(C2([H])[H])([H])[H])=C(C4=C(C3[H])C(=C(C(=C4OC([H])([H])[H])OC([H])([H])[H])[H])[H])[H])[H])O[H])OC([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Demethylcolletine""",C00052007,12,C1(=CC=C(C=C1)OC)CC2C3=C(CCN2C)C=C(C(=C3)O)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Magnocurarine;(-)-Magnocurarine;(R)-Magnocurarine""",C00025937,12,[N+]1(C(C2=C(C(=C(C(=C2[H])O[H])OC([H])([H])[H])[H])C(C1([H])[H])([H])[H])(C(C3=C(C(=C(C(=C3[H])[H])O[H])[H])[H])([H])[H])[H])(C([H])([H])[H])C([H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Colletine""",C00051996,12,C12=C(C=C(C(=C1)O)OC)CC[N+](C2([H])CC3=CC=C(C=C3)OC)(C)C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Bisnorargemonine""",C00051994,12,C1(=C(C=C2C(=C1)C3(CC=4C(=CC(=C(C4)OC)O)C(C2)(N3C)[H])[H])O)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""(-)-Isonorargemonine;Isonorargemonine""",C00025400,12,C1(=C(C(=C2C(=C1[H])C(C3(C4=C(C(C2(N3C([H])([H])[H])[H])([H])[H])C(=C(C(=C4[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H])[H])OC([H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Eschscholtzidine;O-Methylcaryachine""",C00001855,12,C12=C(C(=C3C(=C1[H])OC(O3)([H])[H])[H])C(C4(C5=C(C(C2(N4C([H])([H])[H])[H])([H])[H])C(=C(C(=C5[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Methyleschscholtzidine""",C00052011,12,C12=C(C3CC4=C(C(C1)[N+]3(C)C)C=C5C(=C4)OCO5)C=C(C(=C2)OC)OC,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""N-Deacetylipecoside""",C00051872,13,C1(=C(C=C2C(=C1)CCNC2(CC3(C(C(OC)=O)=COC(C3([H])C=C)OC4OC(C(C(C4O)O)O)CO)[H])[H])O)O,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Demethylalangiside""",C00028162,13,C1(OC(=C2C(C1(C(=C([H])[H])[H])[H])(C(C3(N(C2=O)C(C(C4=C3C(=C(C(=C4[H])O[H])O[H])[H])([H])[H])([H])[H])[H])([H])[H])[H])[H])(OC5(C(C(C(C(O5)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""N-Deacetylisoipecoside""",C00051873,13,C1(=C(C=C2C(=C1)CCNC2(CC3(C(C(OC)=O)=COC(C3([H])C=C)OC4OC(C(C(C4O)O)O)CO)[H])[H])O)O,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Demethylisoalangiside""",C00027342,13,C1(=C2C(=C(C(=C1O[H])O[H])[H])C(C(N3C2(C(C4(C(C3=O)=C(OC(C4(C(=C([H])[H])[H])[H])(OC5(C(C(C(C(O5)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])[H])[H])([H])[H])[H])([H])[H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Isolalangiside""",C00027550,13,C1(OC(=C2C(C1(C(=C([H])[H])[H])[H])(C(C3(N(C2=O)C(C(C4=C3C(=C(C(=C4[H])OC([H])([H])[H])O[H])[H])([H])[H])([H])[H])[H])([H])[H])[H])[H])(OC5(C(C(C(C(O5)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Tubulosine""",C00001778,13,C1(=C(C(=C2C(=C1[H])C(C(N3C2(C(C(C(C3([H])[H])([H])C(C([H])([H])[H])([H])[H])(C(C4(N(C(C(C5=C4N(C6=C5C(=C(C(=C6[H])[H])O[H])[H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])([H])[H])[H])([H])[H])([H])[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ankorine""",C00001805,13,C1(=C(C2=C(C(=C1OC([H])([H])[H])O[H])C(C(N3C2([H])C(C(C(C3([H])[H])([H])C(C([H])([H])[H])([H])[H])(C(C([H])([H])[H])([H])[H])[H])([H])[H])([H])[H])([H])[H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Deoxytubulosine""",C00026848,13,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C(N(C3([H])C(C4(C(C(N5C(C4([H])[H])(C6=C(C(C5([H])[H])([H])[H])C(=C(C(=C6[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H])([H])[H])(C(C([H])([H])[H])([H])[H])[H])[H])([H])[H])[H])([H])[H])([H])[H])[H])[H])[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Alangimarckine""",C00001796,13,C1(=C(C(=C2C(=C1O[H])C(C(N3C2(C(C(C(C3([H])[H])([H])C(C([H])([H])[H])([H])[H])(C(C4([H])C5=C(C6=C(N5[H])C(=C(C(=C6[H])[H])[H])[H])C(C(N4[H])([H])[H])([H])[H])([H])[H])[H])([H])[H])[H])([H])[H])([H])[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""6-O-Methyl-N-deacetylisoipecoside""",C00051868,13,C1(=COC(C(C1CC2[N+](CCC=3C2=CC(=C(C3)OC)O[H])([H])[H])C=C)OC4OC(C(C(C4O[H])O[H])O[H])CO[H])C(=O)OC,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Protoemetine""",C00027472,13,C1(=C(C(=C2C(=C1[H])C3(N(C(C2([H])[H])([H])[H])C(C(C(C3([H])[H])(C(C([H])=O)([H])[H])[H])(C(C([H])([H])[H])([H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Dopamine""",C00001408,13,C1(=C(C(=C(C(=C1O[H])[H])C(C(N([H])[H])([H])[H])([H])[H])[H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""7'-O-Demethylcephaeline""",C00038322,13,C1(=C(C(=C2C(=C1[H])C3(N(C(C2([H])[H])([H])[H])C(C(C(C3([H])[H])(C(C4(N(C(C(C5=C4C(=C(C(=C5[H])O[H])O[H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])(C(C([H])([H])[H])([H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Cephaeline""",C00001835,13,C12(N(C(C(C3=C1C(=C(C(=C3[H])OC([H])([H])[H])OC([H])([H])[H])[H])([H])[H])([H])[H])C(C(C(C2([H])[H])(C(C4(N(C(C(C5=C4C(=C(C(=C5[H])O[H])OC([H])([H])[H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])([H])C(C([H])([H])[H])([H])[H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Emetine""",C00001849,13,C1(=C(C(=C(C2=C1C3(N(C(C2([H])[H])([H])[H])C(C(C(C3([H])[H])(C(C4(N(C(C(C5=C4C(=C(C(=C5[H])OC([H])([H])[H])OC([H])([H])[H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])([H])C(C([H])([H])[H])([H])[H])([H])[H])[H])[H])OC([H])([H])[H])OC([H])([H])[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""6-O-Methyl-N-deacetylipecoside""",C00051867,13,C1(=C(C=C2C(=C1)CCNC2CC3C(=CCC(C3C=C)OC4C(C(C(C(O4)CO)O)O)O)C(OC)=O)O)OC,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""6-O-Methylipecoside""",C00027771,13,C1(=C(C(=C2C(=C1[H])C(N(C(C2([H])[H])([H])[H])C(C([H])([H])[H])=O)(C(C3(C(=C(OC(C3(C(=C([H])[H])[H])[H])(OC4(C(C(C(C(O4)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])[H])C(=O)OC([H])([H])[H])[H])([H])[H])[H])[H])OC([H])([H])[H])O[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Ipecoside""",C00001868,13,C1(N(C(C(C2=C1C(=C(C(=C2[H])O[H])O[H])[H])([H])[H])([H])[H])C(C([H])([H])[H])=O)([H])C(C3(C(C(=O)OC([H])([H])[H])=C(OC(C3(C(=C([H])[H])[H])[H])(OC4(C(C(C(C(O4)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])[H])[H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""7-O-Methyl-N-deacetylipecoside""",C00051869,13,C1(=C(C=C2C(=C1)CCNC2CC3C(=CCC(C3C=C)OC4C(C(C(C(O4)CO)O)O)O)C(OC)=O)OC)O,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""7-O-Methylipecoside""",C00044487,13,C=1(C(=C(C2=C(C1[H])C(N(C(C2([H])[H])([H])[H])C(=O)C([H])([H])[H])(C(C3(C(C(OC(=C3C(=O)OC([H])([H])[H])[H])(OC4(OC(C(C(C4(O[H])[H])(O[H])[H])(O[H])[H])(C(O[H])([H])[H])[H])[H])[H])(C(=C([H])[H])[H])[H])[H])([H])[H])[H])[H])O[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""3-O-Demethyl-2-O-methylalangiside""",C00051865,13,C=12C(=CC(=C(C1)O[H])OC)C3(N(CC2)C(C=4C(C3)(C(C(OC4)OC5OC(C(C(C5O[H])O[H])O[H])CO[H])C=C)[H])=O)[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""9-O-Demethylprotoemetine""",C00051871,13,C1=C(C(=CC2=C1CCN3C2(CC(C(C3)(CC)[H])(CC=O)[H])[H])OC)O,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""9,7'-O,O-Didemethylcephaeline""",C00051870,13,C1=C(C(=CC2=C1CCN3C2(CC(C(C3)(CC)[H])(CC4([H])NCCC5=C4C=C(C(=C5)O)O)[H])[H])OC)O,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""9-O-Demethylcephaeline""",C00051992,13,C12=C(C=C(C(=C1)OC)O)CCN3C2(CC(C(C3)(CC)[H])([H])CC4(NCCC5=C4C=C(C(=C5)O)OC)[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""10-O-Demethylprotoemetine""",C00051864,13,C1=C2C(=CC(=C1O)OC)CCN3C2(CC(C(C3)CC)CC(=O)[H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""10,7'-O,O-Didemethylcephaeline""",C00051863,13,C1=C(C(=CC2=C1CCN3C2(CC(C(C3)(CC)[H])(CC4([H])NCCC5=C4C=C(C(=C5)O)O)[H])[H])O)OC,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""10-O-Demethylcephaeline""",C00027245,13,C1(=C(C(=C2C(=C1[H])C(C(N3C2(C(C(C(C3([H])[H])(C(C([H])([H])[H])([H])[H])[H])(C(C4(N(C(C(C5=C4C(=C(C(=C5[H])O[H])OC([H])([H])[H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])([H])[H])[H])([H])[H])([H])[H])[H])O[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Alangiside""",C00001798,13,C1(=C(C(=C2C(=C1[H])C(C(N3C2(C(C4(C(C3=O)=C(OC(C4(C(=C([H])[H])[H])[H])([H])OC5(C(C(C(C(O5)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])[H])([H])[H])[H])([H])[H])([H])[H])[H])O[H])OC([H])([H])[H],0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Fumisoquin A""",C00051874,14,C=1(C=CC2=C(C1O)CN3C(C2O)(C(CN(C3=O)C([H])[H])O)[H])O,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Fumisoquin C""",C00051875,14,C=1(C=2C(C(C(C1)=O)=O)=CN=C3C2N(C(CC3O[H])C(=O)O[H])[H])O[H],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Cadaverine""",C00001403,15,N(C(C(C(C(C(N([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""5-Aminopentanal""",C00051882,15,C(CCCCN([H])[H])(=O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(-)-p-Coumaroyllupinine""",C00051884,15,C1CCN2C(C1)C(CCC2)COC(C=CC=3C=CC(=CC3)O)=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-Epilupinine""",C00007678,15,C1(C(C(N2C(C1([H])[H])(C(C(C(C2([H])[H])([H])[H])([H])[H])(C(O[H])([H])[H])[H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-Coumaroylepilupinine""",C00051886,15,C1CCN2C(C1)(C(CCC2)COC(=O)C=CC=3C=CC(=CC3)O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-Feruloylepilupinine""",C00051887,15,C1CCN2C(C1)(C(CCC2)COC(=O)C=CC=3C=CC(=C(C3)OC)O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-Matrine;Matrine""",C00002227,15,C1(C(C(N2C3(C1(C(N4C(C3(C(C(C2([H])[H])([H])[H])([H])[H])[H])(C(C(C(C4=O)([H])[H])([H])[H])([H])[H])[H])([H])[H])[H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Diminium cation""",C00051888,15,C1CC[N+]=2C(C1)C3CC(C2)C4[N+](=C3)CCCC4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Pelletierine""",C00002062,15,C1(C(N(C(C(C1([H])[H])([H])[H])([H])C(C(C([H])([H])[H])=O)([H])[H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""delta1-Piperideine""",C00051883,15,N=1CCCCC1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(-)-Lupinine""",C00002226,15,C1(C(C(N2C(C1([H])[H])(C(C(C(C2([H])[H])([H])[H])([H])[H])([H])C(O[H])([H])[H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(-)-Feruloyllupinine""",C00051885,15,C1CCN2C(C1)C(CCC2)COC(C=CC=3C=C(C(=CC3)O)OC)=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-Oxymatrine""",C00007758,15,C1(C(C([N+]2(C3(C1(C(N4C(C3(C(C(C2([H])[H])([H])[H])([H])[H])[H])(C(C(C(C4=O)([H])[H])([H])[H])([H])[H])[H])([H])[H])[H])[H])[O-])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+/-)-Sparteine""",C00002236,15,C1(C(C(N2C(C1([H])[H])(C3(C(C(C2([H])[H])(C4(N(C3([H])[H])C(C(C(C4([H])[H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Lupanine;(+)-Lupanine""",C00002225,15,C1(C(C(N2C(C1([H])[H])(C3(C(C(C2([H])[H])(C4(N(C3([H])[H])C(C(C(C4([H])[H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])[H])=O)([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-13alpha-Hydroxy lupanine""",C00051889,15,C12(N(CC3(C4(N(CC1(C3)[H])CCC(C4)O)[H])[H])C(CCC2)=O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-13alpha-Tigloyl oxylupanine""",C00051890,15,N12C(CCCC1=O)(C3CN4C(C(C2)C3)CC(CC4)OC(C(=C(C)[H])C)=O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(+)-Matrine;Matrine""",C00002227,15,C1(C(C(N2C3(C1(C(N4C(C3(C(C(C2([H])[H])([H])[H])([H])[H])[H])(C(C(C(C4=O)([H])[H])([H])[H])([H])[H])[H])([H])[H])[H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(-)-13alpha-Hydroxy Multiflorine""",C00007752,15,C1(C(=C(N2C(C1([H])[H])(C3(C(C(C2([H])[H])(C4(C(C(C(C(N4C3([H])[H])([H])[H])([H])[H])(O[H])[H])([H])[H])[H])[H])([H])[H])[H])[H])[H])[H])=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(-)-13alpha-Tigloyl oxymultiflorine""",C00007753,15,C1(C(=C(N2C(C1([H])[H])(C3(C(C(C2([H])[H])(C4(C(C(C(C(N4C3([H])[H])([H])[H])([H])[H])(OC(C(=C(C([H])([H])[H])[H])C([H])([H])[H])=O)[H])([H])[H])[H])[H])([H])[H])[H])[H])[H])[H])=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""N-Methylpelletierine""",C00051563,15,O=C(C(C1(N(C(C(C(C1([H])[H])([H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])C([H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(-)-Anaferine""",C00002016,15,C1(C(N(C(C(C1([H])[H])([H])[H])(C(C(C(C2(N(C(C(C(C2([H])[H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])=O)([H])[H])[H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Lycodane""",C00051892,15,C=1C=CC2=C(N1)CC3(C4(C2(NCCC4)CC(C3)C)[H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Lycopodine;(-)-Lycopodine""",C00001948,15,C12(C34C(C(C(C1(C(C(C3([H])[H])([H])C([H])([H])[H])([H])[H])[H])([H])[H])=O)(C(C(C(N4C(C(C2([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])[H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Fawcettimine;(-)-Fawcettimine""",C00001937,15,C1(C2(C34C(C1=O)(C(C(C(N(C3(C(C(C2([H])[H])([H])C([H])([H])[H])([H])[H])O[H])C(C(C4([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Lycodine;(-)-Lycodine""",C00001944,15,C=12C(=C(C(=NC1C(C3(C4(C2(N(C(C(C4([H])[H])([H])[H])([H])[H])[H])C(C(C3([H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])([H])[H])[H])[H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Phlegmarine;(-)-Phlegmarine""",C00001954,15,C1(C(N(C(C(C1([H])[H])([H])[H])([H])[H])[H])(C(C2(C(C(C(C3(C2(C(C(C(N3[H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])([H])C([H])([H])[H])([H])[H])[H])([H])[H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Lobelanine""",C00002052,15,C1(=C(C(=C(C(=C1[H])C(C(C2(N(C(C(C(C2([H])[H])([H])[H])([H])[H])(C(C(C3=C(C(=C(C(=C3[H])[H])[H])[H])[H])=O)([H])[H])[H])C([H])([H])[H])[H])([H])[H])=O)[H])[H])[H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Sedamine;(-)-Sedamine""",C00002072,15,C1(C(N(C(C(C1([H])[H])([H])[H])(C(C(C2=C(C(=C(C(=C2[H])[H])[H])[H])[H])([H])O[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""(-)-Lobeline;Lobeline""",C00002053,15,C1(=C(C(=C(C(=C1[H])C(C(C2(N(C(C(C(C2([H])[H])([H])[H])([H])[H])(C(C(C3=C(C(=C(C(=C3[H])[H])[H])[H])[H])(O[H])[H])([H])[H])[H])C([H])([H])[H])[H])([H])[H])=O)[H])[H])[H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Piperidine""",C00051876,15,C1CNCCC1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Piperine;1-Piperoylpiperidine;Bioperine""",C00002065,15,C1(C(N(C(C(C1([H])[H])([H])[H])([H])[H])C(=O)C(=C(C(=C(C=2C(=C(C3=C(C2[H])OC(O3)([H])[H])[H])[H])[H])[H])[H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Angustifoline""",C00002208,15,C1(C(C(N2C(C1([H])[H])(C3(C(C(C2([H])[H])(C(N(C3([H])[H])[H])([H])C(C(=C([H])[H])[H])([H])[H])[H])([H])[H])[H])[H])=O)([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""alpha-Isolupanine""",C00007694,15,C1(C(C(N2C(C1([H])[H])(C3(C(C(C2([H])[H])(C4(N(C3([H])[H])C(C(C(C4([H])[H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])[H])[H])=O)([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""2-Piperidyl-acetophenone""",C00051891,15,C1CNC(CC1)CC(C2=CC=CC=C2)=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""epsilon-Amino-alpha-ketocarproic acid""",C00051880,15,C(C(=O)CCCCN)(=O)O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""alpha-Aminoadipic acid delta-semialdehyde;L-allysine""",C00051877,15,C(CCC(C(=O)O)N)C(=O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""delta1-Piperideine-6-carboxylic acid""",C00051878,15,C1C(N=CCC1)(C(O)=O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""delta1-Piperideine-2-carboxylic acid""",C00051879,15,C1C(=NCCC1)C(O)=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""L-Pipecolic acid""",C00001387,15,C1(C(N(C(C(C1([H])[H])([H])[H])([H])C(=O)O[H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Castanospermine""",C00002028,15,C1(C(C(N2C(C1([H])O[H])(C(C(C2([H])[H])([H])[H])(O[H])[H])[H])([H])[H])([H])O[H])(O[H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Swainsonine;(-)-Swainsonine""",C00002075,15,C1(C(C(N2C(C1(O[H])[H])(C(C(C2([H])[H])([H])O[H])(O[H])[H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Saccharopine""",C00007227,15,O(C(C(C(C(C(=O)O[H])([H])[H])([H])[H])(N(C(C(C(C(C(C(O[H])=O)(N([H])[H])[H])([H])[H])([H])[H])([H])[H])([H])[H])[H])[H])=O)[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""L-2-Aminoadipate 6-semialdehyde""",C00052004,15,O=CCCCC(C(O)=O)N,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""5'-Piperideine-6-L-carboxylate""",C00051986,15,C1=C(NCCC1)C(O)=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""1-Indolizidine""",C00051973,15,C1CCN2C(C1)CCC2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""1-Indolizidinone""",C00051881,15,N12CCC(C1(CCCC2)[H])=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""cis-Norlobelanine""",C00051995,15,C1=C(C=CC=C1)C(CC2NC(CCC2)CC(=O)C3=CC=CC=C3)=O,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Huperzine B;(-)-Huperzine B""",C00001939,15,C=12C(=C(C(N(C1C(C3(C4(C2(N(C(C(C4([H])[H])([H])[H])([H])[H])[H])C(C(=C3[H])C([H])([H])[H])([H])[H])[H])[H])([H])[H])[H])=O)[H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Huperzine A;Kimpukan A;(-)-Huperzine A""",C00028361,15,C1(=C(C2(C(C3=C(C(C1([H])[H])(C2=C(C([H])([H])[H])[H])N([H])[H])C(=C(C(N3[H])=O)[H])[H])([H])[H])[H])[H])C([H])([H])[H],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Nicotinic acid""",C00000208,15,C1(=C(N=C(C(=C1[H])C(=O)O[H])[H])[H])[H],0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+"""(-)-Anabasine;Anabasine""",C00002015,15,C1(C(N(C(C(C1([H])[H])([H])[H])([H])[H])[H])(C=2C(=C(C(=NC2[H])[H])[H])[H])[H])([H])[H],0,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+"""Phe-Ser-DKP""",C00051893,16,C1=CC=CC(=C1)CC2(C(NC(C(N2)=O)(CO)[H])=O)[H],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Gliotoxin""",C00002340,16,C1(=C(C(C2(C(=C1[H])C(C34N2C(C(N(C3=O)C([H])([H])[H])(SS4)C(O[H])([H])[H])=O)([H])[H])[H])(O[H])[H])[H])[H],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""gamma-Coniceine""",C00002030,17,C1(C(N=C(C(C1([H])[H])([H])[H])C(C(C([H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""5-Hydroxy-gamma-coniceine""",C00051898,17,C1C(=NCC(C1)O)CCC,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Pseudoconhydrine""",C00002068,17,C1(C(N(C(C(C1([H])[H])([H])[H])([H])C(C(C([H])([H])[H])([H])[H])([H])[H])[H])([H])[H])([H])O[H],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""N-Methylpseudoconhydrine""",C00051899,17,C1(CN(C(CC1)CCC)C)O,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Coniine""",C00002031,17,C1(C(N(C(C(C1([H])[H])([H])[H])(C(C(C([H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])([H])[H],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""N-Methylconiine""",C00002055,17,C1(C(N(C(C(C1([H])[H])([H])[H])([H])C(C(C([H])([H])[H])([H])[H])([H])[H])C([H])([H])[H])([H])[H])([H])[H],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""1'-Oxo-gamma-coniceine""",C00051895,17,C1CCCN=C1C(CC)=O,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Conhydrinone""",C00051900,17,C1C(NCCC1)C(CC)=O,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Conhydrine""",C00051894,17,C1CNC(CC1)(C(O)(CC)[H])[H],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""N-Methylconhydrine""",C00051901,17,C1CN(C(CC1)C(O)CC)C,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Histamine""",C00001414,18,C1(=C(N=C(N1[H])[H])[H])C(C(N([H])[H])([H])[H])([H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Urocanic acid""",C00051902,18,C=1NC=C(N1)C=CC(O)=O,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Casimidine""",C00051906,18,C1(OC(C(C(C1O)O)O)CO)N2C=C(N=C2)CCNC,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Glochidone""",C00023788,18,C=1(C(C(C2(C(C1[H])(C3(C(C(C2([H])[H])([H])[H])(C4(C(C(C3([H])[H])([H])[H])([H])C5(C(C(C4([H])[H])([H])[H])(C(C(C5(C(=C([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])C([H])([H])[H])C([H])([H])[H])[H])C([H])([H])[H])[H])(C([H])([H])[H])C([H])([H])[H])=O)[H],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""N,N-Dimethylhistamine""",C00051905,18,C=1NC=C(N1)CCN(C)C,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""N-Methylhistamine""",C00051904,18,C=1N(C=C(N1)CCN)C,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Zapotidine""",C00025547,18,N1(C(C(C=2N(C1=S)C(=NC2[H])[H])([H])[H])([H])[H])C([H])([H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""Dolicotheline""",C00051903,18,C=1NC(=CN1)CCN=C(O)CC(C)C,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"""1,3-Dihydroxy-N-methylacridone""",C00051914,19,C=1C=CC2=C(C1)C(C3=C(N2C)C=C(C=C3O)O)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Melicopicine""",C00002186,19,C=1(C(=C(C2=C(C1[H])C(C3=C(N2C([H])([H])[H])C(=C(C(=C3OC([H])([H])[H])OC([H])([H])[H])OC([H])([H])[H])OC([H])([H])[H])=O)[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Acronycine""",C00002130,19,C=1(C(=C(C2=C(C1[H])C(C3=C(N2C([H])([H])[H])C4=C(C(=C3OC([H])([H])[H])[H])OC(C(=C4[H])[H])(C([H])([H])[H])C([H])([H])[H])=O)[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Robustine;(-)-Rutacridone;Rutacridone""",C00002195,19,C=1(C(=C(C2=C(C1[H])C(=C3C(=N2)OC(=C3[H])[H])OC([H])([H])[H])O[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Aurachin B""",C00017846,19,C(C([H])([H])[H])(C(C(C(=C(C(C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])=C(C(C1=C(C(=N(C2=C1C(=C(C(=C2[H])[H])[H])[H])=O)C([H])([H])[H])O[H])([H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Aurachin D""",C00051911,19,C1=CC=C2C(=C1)C(C(=C(N2)C)CC(=C(CCC(=C(CCC=C(C)C)C)[H])C)[H])=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""O-Methyl-L-Tyrosine""",C00051909,19,C1(=CC=C(C=C1)OC)CC(C(=O)O)N,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""4'-Methoxycyclopeptin""",C00051915,19,C=12C(=CC=CC1)C(N(C(C(N2)=O)CC3=CC=C(C=C3)OC)C)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""4'-Methoxydehydrocyclopeptin""",C00051982,19,C12=CC=CC=C1N(C(C(N(C2=O)C)=C([H])C3=CC=C(C=C3)OC)=O)[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""(-)-4'-Methoxycyclopenin""",C00051916,19,C=12C(=CC=CC1)C(N(C3(C(N2)=O)C(C4=CC=C(C=C4)OC)O3)C)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""4'-Methoxyviridicatin""",C00051917,19,C=1C=CC2=C(C1)NC(C=C2C3=CC=C(C=C3)OC)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Aurachin C""",C00017847,19,O=C1C(=C(N(C2=C1C(=C(C(=C2[H])[H])[H])[H])O[H])C([H])([H])[H])C(C(=C(C([H])([H])[H])C(C(C(=C(C(C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])[H])([H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""14-Methoxyviridicatin""",C00051918,19,C12=C(C=CC=C1O)NC(C(C2(C=3C=CC(=CC3)O)O)OC)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Quinolinone B""",C00051919,19,C12=C(C=CC=C1O)NC(C(C2(C=3C=CC(=CC3)OC)O)OC)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Penigequinolone A""",C00026474,19,C1(=C(C(=C2C(=C1[H])N(C(C(C2(C3=C(C(=C(C(=C3[H])[H])OC([H])([H])[H])[H])[H])O[H])(OC([H])([H])[H])[H])=O)[H])O[H])C(=C(C4(C(C(C(C(O4)([H])[H])(C([H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""2,4-Dihydroxy quinoline;DHQ""",C00026388,19,C=1(C(N(C2=C(C1O[H])C(=C(C(=C2[H])[H])[H])[H])[H])=O)[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""2-Heptyl-4-hydroxy quinoline;HHQ""",C00051912,19,C1=CC=C2C(=C1)C(C=C(N2)CCCCCCC)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""2-Heptyl-3-hydroxyl-4(1H)-quinolone;PQS""",C00051913,19,C1=CC=C2C(=C1)C(C(=C(N2)CCCCCCC)O)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""2-Heptyl-4-hydroxyquinoline N-oxide;2-n-Heptyl-4-hydroxyquinoline N-oxide;HQNO;N-Oxo-2-heptyl-4-hydroxyquinoline;Pyo""",C00026381,19,C1(=C(C(=C2C(=C1[H])N(=C(C(=C2O[H])[H])C(C(C(C(C(C(C([H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])=O)[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Aurachin A""",C00017845,19,C(O[H])(C(C(C(=C(C(C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])(C([H])([H])[H])C1(OC2=C(C1([H])[H])C3=C(N(=C2C([H])([H])[H])=O)C(=C(C(=C3[H])[H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""N-Acetyl-anthranilic acid""",C00051910,19,C=1C=CC(=C(C1)C(O)=O)NC(=O)C,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+"""Peganine;Vasicine;(-)-Linarine;(-)-Peganine;(-)-Vasicine""",C00002191,19,C=1(C(=C(C2=C(C1[H])C(N3C(=N2)C(C(C3([H])[H])([H])[H])([H])O[H])([H])[H])[H])[H])[H],0,0,0,1,0,1,0,0,0,1,0,0,0,0,0
+"""R-Benzodiazepinedione""",C00051925,20,C1=2C(NC=C1CC3(NC(C=4C(NC3=O)=CC=CC4)=O)[H])=CC=CC2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Aszonalenin""",C00011267,20,C1(=C2C(=C(C(=C1[H])[H])[H])C3(C(N2[H])(N4C(C3([H])[H])(C(N(C5=C(C4=O)C(=C(C(=C5[H])[H])[H])[H])[H])=O)[H])[H])C(C([H])([H])[H])(C([H])([H])[H])C(=C([H])[H])[H])[H],1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""N-Acetylaszonalenin;LL-S490beta""",C00011268,20,C1(=C2C(=C(C(=C1[H])[H])[H])C3(C(N2C(=O)C([H])([H])[H])(N4C(C3([H])[H])(C(N(C5=C(C4=O)C(=C(C(=C5[H])[H])[H])[H])[H])=O)[H])[H])C(C([H])([H])[H])(C([H])([H])[H])C(=C([H])[H])[H])[H],1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Asperlicin C;(-)-Asperlicin C""",C00017933,20,C(C1(C=2N(C=3C(C(N1[H])=O)=C(C(=C(C3[H])[H])[H])[H])C(C=4C(N2)=C(C(=C(C4[H])[H])[H])[H])=O)[H])(C5=C(N(C6=C5C(=C(C(=C6[H])[H])[H])[H])[H])[H])([H])[H],1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Asperlicin E""",C00017935,20,C1(=C(C(=C2C(=C1[H])C3(C(N2[H])(N4C(C3([H])[H])(C=5N(C(C6=C(N5)C(=C(C(=C6[H])[H])[H])[H])=O)C=7C(C4=O)=C(C(=C(C7[H])[H])[H])[H])[H])[H])O[H])[H])[H])[H],1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Asperlicin;(-)-Asperlicin""",C00017731,20,C1(=C(C(=C2C(=C1[H])C(N3C(=N2)C(N(C(C=4C3=C(C(=C(C4[H])[H])[H])[H])=O)[H])(C(C5(O[H])C=6C(N7C5(N(C(C7=O)(C(C(C([H])([H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])[H])=C(C(=C(C6[H])[H])[H])[H])([H])[H])[H])=O)[H])[H])[H],1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Asperlicin D""",C00017934,20,C(C1(N2C(C=3C(N(C1=O)[H])=C(C(=C(C3[H])[H])[H])[H])=NC=4C(C2=O)=C(C(=C(C4[H])[H])[H])[H])[H])(C5=C(N(C6=C5C(=C(C(=C6[H])[H])[H])[H])[H])[H])([H])[H],1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Cyclopeptin""",C00051923,21,C1=CC=C2C(=C1)C(N(C(C(N2)=O)CC=3C=CC=CC3)C)=O,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"""Viridicatin""",C00026496,21,C1(=C(C(=C2C(=C1[H])N(C(C(=C2C3=C(C(=C(C(=C3[H])[H])[H])[H])[H])O[H])=O)[H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"""Peniprequinolone;(-)-Peniprequinolone""",C00042834,21,C1(=C(C(=C2C(=C1[H])N(C(C(C2(C3=C(C(=C(C(=C3[H])[H])OC([H])([H])[H])[H])[H])O[H])(OC([H])([H])[H])[H])=O)[H])O[H])C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"""(-)-Benzomalvin A;Benzomalvin A""",C00016956,21,C1(=C(C(=C2C(=C1[H])C(N3C(=N2)C(N(C(C4=C3C(=C(C(=C4[H])[H])[H])[H])=O)C([H])([H])[H])(C(C5=C(C(=C(C(=C5[H])[H])[H])[H])[H])([H])[H])[H])=O)[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"""Dehydrocyclopeptine""",C00051926,21,C1=CC=C2C(=C1)C(N(C(C(N2)=O)=CC=3C=CC=CC3)C)=O,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"""Cyclopenin;(-)-Cyclopenin""",C00051921,21,C1=2C(C(N(C3(C(N1)=O)C(O3)C=4C=CC=CC4)C)=O)=CC=CC2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"""Fumiquinazoline F;(-)-Fumiquinozoline F""",C00026523,22,C1(=C(C2=C(N1[H])C(=C(C(=C2[H])[H])[H])[H])C(C3(N4C(C5=C(C(=C(C(=C5N=C4C(N(C3=O)[H])(C([H])([H])[H])[H])[H])[H])[H])[H])=O)[H])([H])[H])[H],1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""Fumiquinazoline A""",C00028284,22,C1(=C(C(=C2C(=C1[H])N=C3N(C2=O)C(C(N(C3(C([H])([H])[H])[H])[H])=O)(C(C4(C5=C(N6C4(N(C(C6=O)(C([H])([H])[H])[H])[H])[H])C(=C(C(=C5[H])[H])[H])[H])O[H])([H])[H])[H])[H])[H])[H],1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""Fumiquinazoline C""",C00026833,22,C12(OC3(C4=C(C(=C(C(=C4N5C3(N(C(C5=O)(C([H])([H])[H])[H])[H])[H])[H])[H])[H])[H])C(C(C(N1[H])=O)(N6C2=NC7=C(C(=C(C(=C7C6=O)[H])[H])[H])[H])[H])([H])[H])C([H])([H])[H],1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""Fumiquinazoline D""",C00028286,22,C12(C=3N(C(C4=C(C(=C(C(=C4N3)[H])[H])[H])[H])=O)C(C(N1[H])=O)(C(C5(C6=C(N7C5(N(C(C7=O)(C([H])([H])[H])[H])[H])[H])C(=C(C(=C6[H])[H])[H])[H])O2)([H])[H])[H])C([H])([H])[H],1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""Alantrypinone;(+)-Alantrypinone""",C00026621,22,C1(=C(C(=C2C(=C1[H])N=C3N(C2=O)C4(C(N(C3(C5(C(N(C6=C5C(=C(C(=C6[H])[H])[H])[H])[H])=O)C4([H])[H])C([H])([H])[H])[H])=O)[H])[H])[H])[H],1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""2'-epi-Fumiquinazoline A""",C00051927,22,C1=CC=C2C(=C1)C(N3C(=N2)C(NC(C3CC4(C5=C(N6C4NC(C6=O)C)C=CC=C5)O)=O)C)=O,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""15-Dimethyl-2'-epi-fumiquinazoline A""",C00051928,22,C=12C(=CC=CC1)C(N3C(=N2)C(NC(C3CC4(C=5C(N6C4NC(C6=O)(C)C)=CC=CC5)O)=O)C)=O,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""Tryptoquialanine A""",C00051929,22,C=12C(=CC=CC1)C(N(C(=N2)C(C)OC(=O)C)C3CC4(OC3=O)C=5C(N6C4(N(C(C6=O)(C)C)O[H])[H])=CC=CC5)=O,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""Ardeemin FQ""",C00051930,22,N12C(C(NC(C1C)=O)CC3=CNC=4C3=CC=CC4)=NC=5C(C2=O)=CC=CC5,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Ardeemin""",C00051931,22,N12C(C3N(C(C1C)=O)C4C(C3)(C=5C(N4)=CC=CC5)C(C=C)(C)C)=NC=6C(C2=O)=CC=CC6,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""(-)-N-Acetylardeemin:5-N-Acetylardeemin;N-Acetylardeemin;N-Acetylardeemine""",C00016793,22,C1(=C(C(=C2C(=C1[H])C3(C(N2C(C([H])([H])[H])=O)(N4C(C3([H])[H])(C=5N(C(C4=O)(C([H])([H])[H])[H])C(C6=C(N5)C(=C(C(=C6[H])[H])[H])[H])=O)[H])[H])C(C(=C([H])[H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])[H],1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Fiscalin B;(-)-Fiscalin B""",C00016809,23,C12=C(C(=C(C(=C1[H])[H])[H])[H])C(N3C(=N2)C(N(C(C3(C(C4=C(N(C5=C4C(=C(C(=C5[H])[H])[H])[H])[H])[H])([H])[H])[H])=O)[H])(C(C([H])([H])[H])(C([H])([H])[H])[H])[H])=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Fiscalin C""",C00016810,23,C12=C(C(=C(C(=C1[H])[H])[H])[H])C(N3C(=N2)C(N(C(C3(C(C4(C5=C(C(=C(C(=C5[H])[H])[H])[H])N6C4(N(C(C6=O)(C([H])([H])[H])C([H])([H])[H])[H])[H])O[H])([H])[H])[H])=O)[H])(C(C([H])([H])[H])(C([H])([H])[H])[H])[H])=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Fiscalin A""",C00016808,23,C12=C(C(=C(C(=C1[H])[H])[H])[H])C(N3C(=N2)C(N(C(C3(C(C4(C5=C(C(=C(C(=C5[H])[H])[H])[H])N6C4(N(C(C6=O)(C([H])([H])[H])[H])[H])[H])O[H])([H])[H])[H])=O)[H])(C(C([H])([H])[H])(C([H])([H])[H])[H])[H])=O,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+"""Chaetominine""",C00051924,24,C1=CC=C2C(=C1)C3(C4(N2C(C(N4C(C(C3)N5C(C=6C(N=C5)=CC=CC6)=O)=O)C)=O)[H])O[H],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Glyantrypine""",C00051920,25,C1NC(C(N2C1=NC3=C(C2=O)C=CC=C3)CC4=CNC5=C4C=CC=C5)=O,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Sclerotigenin""",C00026251,26,C1(=C(C(=C2C(=C1[H])N=C3N(C2=O)C4=C(C(N(C3([H])[H])[H])=O)C(=C(C(=C4[H])[H])[H])[H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Circumadatin D""",C00028056,27,N12C3=C(C(N4C(C1=NC5=C(C2=O)C(=C(C(=C5O[H])[H])OC([H])([H])[H])[H])(C(C(C4([H])[H])([H])[H])([H])[H])[H])=O)C(=C(C(=C3[H])[H])OC([H])([H])[H])[H],0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"""Circumadatin E""",C00051934,27,C1(C=2C(N3C(C4(N1CCC4)[H])=NC5=C(C3=O)C=C(C=C5O)OC)=CC=CC2)=O,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"""Circumadatin H""",C00051935,27,C1(C=2C(N3C(C4(N1CCC4)[H])=NC5=C(C3=O)C=C(C=C5)OC)=CC=CC2)=O,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"""Circumadatin J""",C00051936,27,C1(=CC=C2C(=C1)C(N3C(=N2)C4(N(C(C5=C3C=CC(=C5)OC)=O)CCC4)[H])=O)OC,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+"""N-Hydroxy-2(1H)-quinolone""",C00052040,28,C1(C=CC2=C(N1O)C=CC=C2)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Skimmianine""",C00002198,28,C=1(C(=C(C2=C(C1[H])C(=C3C(=N2)OC(=C3[H])[H])OC([H])([H])[H])OC([H])([H])[H])OC([H])([H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Dictamine;Dictamnine""",C00002151,28,C=1(C(=C(C2=C(C1[H])C(=C3C(=N2)OC(=C3[H])[H])OC([H])([H])[H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Evocarpine""",C00026424,28,C1(=C(C(=C(C2=C1N(C(=C(C2=O)[H])C(C(C(C(C(C(C(C(=C(C(C(C(C([H])([H])[H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])C([H])([H])[H])[H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Orixine;(+)-Orixine""",C00043797,28,N1=C2C(=C(C(=C1OC([H])([H])[H])C(C(O[H])(C(C([H])([H])[H])(O[H])C([H])([H])[H])[H])([H])[H])OC([H])([H])[H])C(=C(C3=C2OC(O3)([H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""N-Methylflindersine""",C00002189,28,C1(=C(C(=C2C(=C1[H])C3=C(C(N2C([H])([H])[H])=O)C(=C(C(O3)(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])[H],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""Auranthine""",C00051932,29,C=12C(=CC=CC1)N=C3C(NC2=O)CCC=4N3C(C=5C(N4)=CC=CC5)=O,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"""3-Geranylgeranyl indole""",C00051939,30,C=1(CC=C(CCC=C(CCC=C(CCC=C(C)C)C)C)C)C=2C(NC1)=CC=CC2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Paspaline""",C00023579,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C6(C(C(C5([H])[H])([H])[H])(OC(C(C6([H])[H])([H])[H])(C(C([H])([H])[H])(C([H])([H])[H])O[H])[H])[H])C([H])([H])[H])[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""alpha-PC-M6;alpha-10-Hydroxy-12-demethyl-11,12-dehydropaspaline""",C00051942,30,C1=CC=C2C(=C1)C3=C(N2)C4(C(C3)(CCC5(C4(CCC6(C5=CC(C(O6)C(C)(C)O)O)[H])C)[H])[H])C,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""13-Desoxypaxilline""",C00051943,30,C1=CC=C2C(=C1)C3=C(N2)C4(C(C3)(CCC5(C4(CCC6(C5=CC(C(O6)C(C)(C)O)=O)[H])C)[H])[H])C,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Paspalicine""",C00023580,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C=6C7(C(C5([H])[H])([H])[H])OC(C(C6[H])=O)(C(C([H])([H])[H])(C([H])([H])[H])O7)[H])[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Paspalinine""",C00023581,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C=6C7(C(C5([H])[H])([H])[H])OC(C(C6[H])=O)(C(C([H])([H])[H])(C([H])([H])[H])O7)[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Shearinine K""",C00051944,30,C1=C2C3(OC(C(C1=O)(O3)[H])(C)C)CCC4(C2(CCC5(C4(C6=C(C5)C=7C(N6)=CC(=C(C7)CC=C(C)C)CC=C(C)C)C)[H])O)C,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Shearinine A;(+)-Shearinine A""",C00040286,30,C12=C(C(=C3C(=C1[H])N(C4=C3C(C5(C4(C6(C(C(C5([H])[H])([H])[H])(C=7C8(C(C6([H])[H])([H])[H])OC(C(C(C7[H])=O)(O8)[H])(C([H])([H])[H])C([H])([H])[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])C(C9(C2=C(C(OC9(C([H])([H])[H])C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])([H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Paxilline""",C00023582,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C=6C(C(C5([H])[H])([H])[H])(OC(C(C6[H])=O)(C(C([H])([H])[H])(C([H])([H])[H])O[H])[H])[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Lolitriol""",C00023578,30,C1(=C2C(=C3C(=C1[H])N(C4=C3C(C5(C4(C6(C(C(C5([H])[H])([H])[H])(C78C(C(C6([H])[H])([H])[H])(OC(C(C7(O8)[H])(O[H])[H])(C(C([H])([H])[H])(C([H])([H])[H])O[H])[H])[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])C(C9(C(C2=O)(C(OC9(C([H])([H])[H])C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])([H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Lolitrem E;Lolitrem C""",C00023577,30,C1(=C2C(=C3C(=C1[H])N(C4=C3C(C5(C4(C6(C(C(C5([H])[H])([H])[H])(C78C(C(C6([H])[H])([H])[H])(OC(C(C7(O8)[H])(O[H])[H])(C(C([H])([H])[H])(C([H])([H])[H])OC(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])C(C9(C(C2=O)(C(OC9(C([H])([H])[H])C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])([H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Lolitrem B""",C00051938,30,C12C(C(OC(O1)C=C(C)C)(C)C)OC3C4(C2O4)C5(C(CC3)(C6(C(CC5)CC7=C6NC8=C7C9=C(C=C8)C(C%10C(C9)C(OC%10(C)C)(C)C)=O)C)C)O,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Terpendole E""",C00016560,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C6(C(C(C5([H])[H])([H])[H])(OC(C(C6(O[H])[H])([H])[H])(C(O[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])C([H])([H])[H])[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""13-Desoxy-terpendole I""",C00051945,30,C=1C=CC=C2C1N(C3=C2CC4(C3(C5(C(CC4)(C67C(CC5)(OC(C(C6([H])O7)O)([H])C(C)(C)O)[H])[H])C)C)[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Terpendole I""",C00016564,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C67C(C(C5([H])[H])([H])[H])(OC(C(C6(O7)[H])(O[H])[H])(C(O[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Terpendole C;(-)-Terpendole C""",C00016436,30,C1(=C(C(=C2C(=C1[H])C3=C(N2[H])C4(C([H])([H])[H])C(C3([H])[H])(C(C(C5(C4(C(C(C6(C57C(C8(C(O6)(C(OC(O8)(C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])(O7)[H])[H])([H])[H])([H])[H])C([H])([H])[H])O[H])([H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Aflatrem""",C00023585,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C=6C7(C(C5([H])[H])([H])[H])OC(C(C6[H])=O)(C(C([H])([H])[H])(C([H])([H])[H])O7)[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])C(C([H])([H])[H])(C([H])([H])[H])C(=C([H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Emindole SB""",C00051940,30,C=1C=C2C(=CC1)C3=C(N2)C4(C(C3)(CCC5(C4(CCC(C5(C)CCC=C(C)C)O)C)[H])[H])C,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""beta-PC-M6;beta-10-Hydroxy-12-demethyl-11,12-dehydropaspaline""",C00051941,30,C1=CC=C2C(=C1)C3=C(N2)C4(C(C3)(CCC5(C4(CCC6(C5=CC(C(O6)C(C)(C)O)O)[H])C)[H])[H])C,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Lolitrem J""",C00051946,30,C1(C(C(OC(=O)C)(C)C)OC2(C3(C1O3)C4(C(CC2)(C5(C(CC4)CC6=C5NC7=C6C8=C(C=C7)C(C9(C(C8)(C(OC9(C)C)(C)C)[H])[H])=O)C)C)O)[H])O,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Lolitrem K""",C00051947,30,C1(C(=C(C)C)OC2(C3(C1O3)C4(C(CC2)(C5(C(CC4)(CC6=C5NC7=C6C8=C(C=C7)C(C9(C(C8)(C(OC9(C)C)(C)C)[H])[H])=O)[H])C)C)O)[H])O,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Lolitrem N""",C00026509,30,C12(C(C3(C(C(C1([H])[H])([H])[H])(C45C(C(C3([H])[H])([H])[H])(OC(C(C4(O5)[H])(O[H])[H])(C(O[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])O[H])C([H])([H])[H])(C6=C(C2([H])[H])C7=C(N6[H])C(=C(C8=C7C(C9(C(C8=O)(C(OC9(C([H])([H])[H])C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])([H])[H])[H])[H])C([H])([H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Paspalitrem A;3-Methyl-2-butenylpaspalinine""",C00023587,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C=6C7(C(C5([H])[H])([H])[H])OC(C(C6[H])=O)(C(C([H])([H])[H])(C([H])([H])[H])O7)[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Emindole DA""",C00041516,30,C12(C(C(C(C(C1([H])[H])([H])[H])(O[H])[H])(C(C(C(=C(C([H])([H])[H])C([H])([H])[H])[H])([H])[H])([H])[H])C([H])([H])[H])(C(C(C(C2(C(C3=C(N(C4=C3C(=C(C(=C4[H])[H])[H])[H])[H])[H])([H])[H])[H])=C([H])[H])([H])[H])([H])[H])[H])C([H])([H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""Terpendole K""",C00016566,30,C1(=C(C(=C2C(=C1[H])N(C3=C2C(C4(C3(C5(C(C(C4([H])[H])([H])[H])(C67C(=C(C5([H])[H])[H])OC8(C(C6(O7)[H])(OC(OC8(C([H])([H])[H])C([H])([H])[H])(C(=C(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])O[H])C([H])([H])[H])C([H])([H])[H])[H])([H])[H])[H])[H])[H])[H],0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+"""22-Hydroxycholesterol;22(R)-Hydroxycholesterol""",C00051948,31,C1=2C(CCC(C1)O)(C3C(CC2)C4C(CC3)(C(CC4)C(C(CCC(C)C)O)C)C)C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""22,26-Dihydroxycholesterol""",C00051950,31,C1=2C(CCC(C1)O)(C3C(CC2)C4C(CC3)(C(CC4)C(C(O)CCC(C)CO)C)C)C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Furostanol-26-aldehyde""",C00051951,31,C1=2C(CCC(C1)O)(C3C(CC2)C4C(CC3)(C5C(C4)OC(C5C)(CCC(C=O)C)O)C)C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""26-Amino-furostanol""",C00051952,31,C1=2C(CCC(C1)O)(C3C(CC2)C4C(CC3)(C5C(C4)OC(C5C)(CCC(CN)C)O)C)C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Tomatidenol""",C00029137,31,C1(C(C(C=2C(C1([H])[H])(C3(C(C(C2[H])([H])[H])(C4(C(C(C3([H])[H])([H])[H])(C5(C(C4([H])[H])(OC6(C5(C([H])([H])[H])[H])N(C(C(C(C6([H])[H])([H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])(O[H])[H])([H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Tomatidine""",C00051949,31,C12C(CCC(C1)O)(C3C(CC2)C4C(CC3)(C5C(C4)OC6(C5C)NCC(CC6)C)C)C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Tomatidine galactoside""",C00051953,31,C1C(CC2(C(C1)(C3(C(CC2)(C4(C(CC3)(C5(C(C4)(OC6(C5C)NCC(CC6)C)[H])[H])C)[H])[H])[H])C)[H])OC7OC(C(C(C7O)O)O)CO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""gamma-Tomatine""",C00028293,31,C1(C(C(C2(C(C1([H])[H])(C3(C(C(C2([H])[H])([H])[H])(C4(C(C(C3([H])[H])([H])[H])(C5(C(C4([H])[H])(OC6(C5(C([H])([H])[H])[H])N(C(C(C(C6([H])[H])([H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])([H])[H])(OC7(OC(C(C(C7(O[H])[H])(O[H])[H])(OC8(C(C(C(C(O8)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])(C(O[H])([H])[H])[H])[H])[H])([H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""beta1-Tomatine""",C00051954,31,C1C(CC2(C(C1)(C3(C(CC2)(C4(C(CC3)(C5(C(C4)(OC6(C5C)NCC(CC6)C)[H])[H])C)[H])[H])[H])C)[H])OC7OC(C(C(C7O)O)OC8OC(C(C(C8OC9OC(C(C(C9O)O)O)CO)O)O)CO)CO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""alpha-Tomatine""",C00051955,31,C1C(CC2(C(C1)(C3(C(CC2)(C4(C(CC3)(C5(C(C4)(OC6(C5C)NCC(CC6)C)[H])[H])C)[H])[H])[H])C)[H])OC7OC(C(C(C7O)O)OC8OC(C(C(C8OC9OC(C(C(C9O)O)O)CO)OC%10OCC(C(C%10O)O)O)O)CO)CO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Solanidine""",C00002261,31,O(C1(C(C=2C(C(C1([H])[H])([H])[H])(C3(C(C(C2[H])([H])[H])(C4(C(C(C3([H])[H])([H])[H])(C5(C(C4([H])[H])([H])N6C(C5([H])C([H])([H])[H])(C(C(C(C6([H])[H])([H])C([H])([H])[H])([H])[H])([H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])[H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""alpha-Solanine""",C00002262,31,C1(C(C(C(C(O1)(OC2(C(C(C(OC2(OC3(C(C=4C(C(C3([H])[H])([H])[H])(C5(C(C(C4[H])([H])[H])(C6(C(C(C5([H])[H])([H])[H])(C7(C(C6([H])[H])(N8C(C7([H])C([H])([H])[H])(C(C(C(C8([H])[H])([H])C([H])([H])[H])([H])[H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])[H])[H])(C(O[H])([H])[H])[H])(O[H])[H])(OC9(C(C(C(C(O9)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])(C([H])([H])[H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""alpha-Chaconine""",C00002242,31,C1(C(C(C(C(O1)(OC2(C(C(C(OC2(C(O[H])([H])[H])[H])(OC3(C(C=4C(C(C3([H])[H])([H])[H])(C5(C(C(C4[H])([H])[H])(C6(C(C(C5([H])[H])([H])[H])(C7(C(C6([H])[H])(N8C(C7([H])C([H])([H])[H])(C(C(C(C8([H])[H])([H])C([H])([H])[H])([H])[H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])[H])[H])(OC9(C(C(C(C(O9)(C([H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])(O[H])[H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])(C([H])([H])[H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Esculeoside A""",C00030216,31,C1(C(C(C2(C(C1([H])[H])(C3(C(C(C2([H])[H])([H])[H])(C4(C(C(C3([H])[H])([H])[H])(C5(C(C4([H])[H])(OC6(C5(C([H])([H])[H])[H])N(C(C(C(C6(OC(C([H])([H])[H])=O)[H])([H])[H])(C(OC7(C(C(C(C(O7)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])([H])[H])[H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])([H])[H])(OC8(OC(C(C(C8(O[H])[H])(O[H])[H])(OC9(OC(C(C(C9(OC%10(OC(C(C(C%10(O[H])[H])(O[H])[H])(O[H])[H])(C(O[H])([H])[H])[H])[H])[H])(OC%11(C(C(C(C(O%11)([H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])(O[H])[H])(C(O[H])([H])[H])[H])[H])[H])(C(O[H])([H])[H])[H])[H])[H])([H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Solasodine""",C00002264,31,O(C1(C(C=2C(C(C1([H])[H])([H])[H])(C3(C(C(C2[H])([H])[H])(C4(C(C(C3([H])[H])([H])[H])(C5(C(C4([H])[H])([H])OC6(C5([H])C([H])([H])[H])N(C(C(C(C6([H])[H])([H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])[H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Solasonine""",C00002265,31,C1(C(C(C(C(O1)(OC2(C(C(C(OC2(OC3(C(C=4C(C(C3([H])[H])([H])[H])(C5(C(C(C4[H])([H])[H])(C6(C(C(C5([H])[H])([H])[H])(C7(C(C6([H])[H])(OC8(C7([H])C([H])([H])[H])N(C(C(C(C8([H])[H])([H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])[H])[H])(C(O[H])([H])[H])[H])(O[H])[H])(OC9(C(C(C(C(O9)(C(O[H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])(C([H])([H])[H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Solamargine""",C00002260,31,C1(C(C(C(C(O1)(OC2(C(C(C(OC2(OC3(C(C=4C(C(C3([H])[H])([H])[H])(C5(C(C(C4[H])([H])[H])(C6(C(C(C5([H])[H])([H])[H])(C7(C(C6([H])[H])(OC8(C7([H])C([H])([H])[H])N(C(C(C(C8([H])[H])([H])[H])(C([H])([H])[H])[H])([H])[H])[H])[H])[H])C([H])([H])[H])[H])[H])[H])C([H])([H])[H])([H])[H])[H])[H])(C(O[H])([H])[H])[H])(OC9(C(C(C(C(O9)(C([H])([H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])[H])[H])(O[H])[H])[H])[H])(O[H])[H])(O[H])[H])(O[H])[H])(C([H])([H])[H])[H],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
