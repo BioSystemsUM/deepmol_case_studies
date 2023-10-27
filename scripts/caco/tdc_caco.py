@@ -15,7 +15,7 @@ def run():
     data = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
     bioavailability_results = test_pipeline(pipeline_name='caco_pipe/', group=group,
                                             tdc_dataset_name='Caco2_Wang', data_sample=data,
-                                            metric=mean_absolute_error)
+                                            metric=mean_absolute_error, direction='minimize')
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 

@@ -11,7 +11,7 @@ from dcs.tdc.tdc_objective import TDCObjective
 
 
 def test_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str = None, data_sample: Dataset = None,
-                  seed: int = 1, optimizer: str = 'tpe', metric=roc_auc_score):
+                  seed: int = 1, optimizer: str = 'tpe', metric=roc_auc_score, direction: str = 'maximize'):
     if optimizer == 'nsga2':
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
     elif optimizer == 'tpe':
