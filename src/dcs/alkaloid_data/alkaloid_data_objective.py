@@ -4,7 +4,6 @@ from typing import List, Tuple
 
 import optuna
 from deepmol.datasets import SmilesDataset
-from deepmol.metrics import Metric
 from deepmol.pipeline import Pipeline
 from deepmol.pipeline_optimization.objective_wrapper import Objective
 from optuna import Trial, Study
@@ -15,7 +14,7 @@ from dcs.alkaloid_data.evaluate import evaluate
 
 class MolecularStartersObjective(Objective):
 
-    def __init__(self, objective_steps: callable, study: Study, direction, train_dataset, test_dataset, metric: Metric,
+    def __init__(self, objective_steps: callable, study: Study, direction,
                  save_top_n: int, trial_timeout: int, **kwargs):
 
         """
@@ -42,7 +41,7 @@ class MolecularStartersObjective(Objective):
             Additional keyword arguments passed to the objective_steps function.
 
         """
-        super().__init__(objective_steps, study, direction, metric, save_top_n)
+        super().__init__(objective_steps, study, direction, save_top_n)
         self.trial_timeout = trial_timeout
         self.cv_data = kwargs.pop('cv_data')
         self.kwargs = kwargs

@@ -44,7 +44,7 @@ def prepare_data() -> List[Tuple[SmilesDataset, SmilesDataset]]:
 
 def run():
     cv_data = prepare_data()
-    run_molecular_starter_prediction_pipeline(cv_data, n_trials=7, timeout=60*3, save_top_n=3)
+    run_molecular_starter_prediction_pipeline(cv_data, n_trials=100, timeout=60*10, save_top_n=3)
 
 
 if __name__ == "__main__":
