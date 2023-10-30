@@ -24,7 +24,7 @@ def run_molecular_starter_prediction_pipeline(cv_data: List[Tuple[SmilesDataset,
     pipeline = PipelineOptimization(sampler=sampler,
                                     study_name=pipeline_name,
                                     direction='maximize',
-                                    storage='sqlite:///pipeline_test.db')
+                                    storage='sqlite:///pipeline.db')
 
     def objective_steps(trial: optuna.Trial, data):
         return preset_all_models(trial, data)
@@ -35,7 +35,7 @@ def run_molecular_starter_prediction_pipeline(cv_data: List[Tuple[SmilesDataset,
     def objective_steps_keras(trial: optuna.Trial, data):
         return preset_keras_models(trial, data)
 
-    pipeline.optimize(cv_data=cv_data, objective_steps=objective_steps_sklearn,
+    pipeline.optimize(cv_data=cv_data, objective_steps=objective_steps,
                       n_trials=n_trials, save_top_n=save_top_n, objective=MolecularStartersObjective,
                       trial_timeout=timeout)
     return pipeline.best_pipeline
