@@ -12,11 +12,11 @@ from tdc import benchmark_group
 
 class TDCObjective(Objective):
 
-    def __init__(self, objective_steps, study, direction, save_top_n, **kwargs):
+    def __init__(self, objective_steps, study, direction, save_top_n, trial_timeout, **kwargs):
         super().__init__(objective_steps, study, direction, save_top_n)
         self.group = kwargs.pop('group')
         self.tdc_dataset_name = kwargs.pop('tdc_dataset_name')
-        self.trial_timeout = kwargs.pop('trial_timeout')
+        self.trial_timeout = trial_timeout
         self.metric = kwargs.pop('metric')
         self.kwargs = kwargs
 
