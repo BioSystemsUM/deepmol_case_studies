@@ -30,9 +30,9 @@ def test_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str =
     def objective_steps(trial: optuna.Trial, data):
         return preset_all_models(trial, data)
 
-    pipeline.optimize(train_dataset=None, test_dataset=None, objective_steps=objective_steps, metric=metric,
-                      n_trials=n_trials, save_top_n=save_top_n, objective=TDCObjective, trial_timeout=trial_timeout,
-                      group=group, tdc_dataset_name=tdc_dataset_name, data=data_sample)
+    pipeline.optimize(objective_steps=objective_steps, n_trials=n_trials, save_top_n=save_top_n,
+                      objective=TDCObjective, trial_timeout=trial_timeout, metric=metric, group=group,
+                      tdc_dataset_name=tdc_dataset_name, data=data_sample)
     print(pipeline.trials_dataframe())
     print(f"Best trial: {pipeline.best_trial}")
     print(f"Best score: {pipeline.best_value}")
