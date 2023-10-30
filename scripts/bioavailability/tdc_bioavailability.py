@@ -12,8 +12,8 @@ def run():
     benchmark = group.get('Bioavailability_Ma')
     train_val = benchmark['train_val']
     data = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
-    bioavailability_results = test_pipeline(pipeline_name='bioavailability2/', group=group,
-                                            tdc_dataset_name='Bioavailability_Ma', data_sample=data)
+    test_pipeline(pipeline_name='bioavailability3/', group=group, tdc_dataset_name='Bioavailability_Ma',
+                  data_sample=data)
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 
