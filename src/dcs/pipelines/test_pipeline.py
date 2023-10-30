@@ -5,7 +5,7 @@ from deepmol.loggers import Logger
 from deepmol.metrics import Metric
 from deepmol.pipeline_optimization import PipelineOptimization
 import optuna
-from deepmol.pipeline_optimization._utils import preset_all_models
+from deepmol.pipeline_optimization._utils import preset_all_models, preset_sklearn_models
 from sklearn.metrics import roc_auc_score
 
 from dcs.tdc.tdc_objective import TDCObjective
@@ -29,6 +29,9 @@ def test_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str =
 
     def objective_steps(trial: optuna.Trial, data):
         return preset_all_models(trial, data)
+
+    def objective_steps(trial: optuna.Trial, data):
+        return preset_sklearn_models(trial, data)
 
     pipeline.optimize(objective_steps=objective_steps, n_trials=n_trials, save_top_n=save_top_n,
                       objective=TDCObjective, trial_timeout=trial_timeout, metric=metric, group=group,

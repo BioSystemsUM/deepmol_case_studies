@@ -34,14 +34,14 @@ class TDCObjective(Objective):
                     predictions = {}
                     name = benchmark['name']
                     train_val, test = benchmark['train_val'], benchmark['test']
-                    #train, valid = self.group.get_train_valid_split(benchmark=name, split_type='default', seed=seed)
+                    train, valid = self.group.get_train_valid_split(benchmark=name, split_type='default', seed=seed)
 
                     # --------------------------------------------- #
                     #  Train your model using train, valid, test    #
                     #  Save test prediction in y_pred_test variable #
                     # --------------------------------------------- #
-                    train_dataset = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
-                    #valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values, y=valid['Y'].values)
+                    train_dataset = SmilesDataset(smiles=train['Drug'].values, ids=train['Drug_ID'].values, y=train['Y'].values)
+                    valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values, y=valid['Y'].values)
                     test_dataset = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values, y=test['Y'].values)
 
                     pipeline = Pipeline(steps=self.objective_steps(trial, **self.kwargs), path=path)
