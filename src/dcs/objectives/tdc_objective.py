@@ -7,7 +7,6 @@ from deepmol.datasets import SmilesDataset
 from deepmol.pipeline import Pipeline
 from deepmol.pipeline_optimization.objective_wrapper import Objective
 from optuna import Trial
-from tdc import benchmark_group
 
 
 class TDCObjective(Objective):
@@ -40,13 +39,16 @@ class TDCObjective(Objective):
                     #  Train your model using train, valid, test    #
                     #  Save test prediction in y_pred_test variable #
                     # --------------------------------------------- #
-                    train_dataset = SmilesDataset(smiles=train['Drug'].values, ids=train['Drug_ID'].values, y=train['Y'].values)
-                    valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values, y=valid['Y'].values)
-                    test_dataset = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values, y=test['Y'].values)
+                    train_dataset = SmilesDataset(smiles=train['Drug'].values, ids=train['Drug_ID'].values,
+                                                  y=train['Y'].values)
+                    valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values,
+                                                  y=valid['Y'].values)
+                    test_dataset = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values,
+                                                 y=test['Y'].values)
 
                     pipeline = Pipeline(steps=self.objective_steps(trial, **self.kwargs), path=path)
                     pipeline.fit(train_dataset)
-                    scores.append(pipeline.evaluate(test_dataset, [self.metric])[0][self.metric.name])
+                    scores.append(pipeline.evaluate(valid_dataset, [self.metric])[0][self.metric.name])
                     y_pred_test = pipeline.predict(test_dataset)
 
                     predictions[name] = y_pred_test
