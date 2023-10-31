@@ -13,11 +13,11 @@ def run():
     benchmark = group.get('Bioavailability_Ma')
     train_val = benchmark['train_val']
     data = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
-    pipeline_name = 'bioavailability2'
+    pipeline_name = 'bioavailability'
     storage = f'sqlite:///{pipeline_name}.db'
     general_tdc_pipeline(pipeline_name=pipeline_name, group=group, tdc_dataset_name='Bioavailability_Ma',
-                         data_sample=data, seed=123, optimizer='tpe', storage=storage, metric=roc_auc_score,
-                         direction='maximize', n_trials=2, save_top_n=2, trial_timeout=60 * 3)
+                         data_sample=data, seed=1234, optimizer='tpe', storage=storage, metric=roc_auc_score,
+                         direction='maximize', n_trials=100, save_top_n=100, trial_timeout=60 * 5)
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 
