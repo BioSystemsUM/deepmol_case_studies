@@ -1,3 +1,4 @@
+import os
 import time
 
 from deepmol.datasets import Dataset
@@ -23,6 +24,8 @@ def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name
     else:
         raise ValueError(f'Invalid optimizer: {optimizer}. It must be one of "nsga2" or "tpe"')
     pipeline_name = pipeline_name if pipeline_name is not None else f'pipeline_{time.strftime("%Y_%m_%d-%H_%M_%S")}'
+    # create the directory pipeline_name
+    os.makedirs(pipeline_name, exist_ok=True)
     storage = storage if storage is not None else f'sqlite:///{pipeline_name}.db'
     metric = Metric(metric)
     pipeline = PipelineOptimization(storage=storage,

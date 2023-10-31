@@ -55,6 +55,9 @@ class TDCObjective(Objective):
                     predictions_list.append(predictions)
 
                 results = self.group.evaluate_many(predictions_list)
+                # save results to a file
+                with open(os.path.join(self.save_dir, f'tdc_test_set_results.txt'), 'a+') as f:
+                    f.write(f'{trial_id},{results[results.keys()[0]][0]},{results[results.keys()[0]][1]}\n')
                 score = sum(scores) / len(scores)
                 print(f'Average score: {score}')
                 print(f'Average results: {results}')
