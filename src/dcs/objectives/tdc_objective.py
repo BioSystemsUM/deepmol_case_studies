@@ -7,16 +7,16 @@ from deepmol.datasets import SmilesDataset
 from deepmol.pipeline import Pipeline
 from deepmol.pipeline_optimization.objective_wrapper import Objective
 from optuna import Trial
-from tdc import benchmark_group
 
 
 class TDCObjective(Objective):
 
-    def __init__(self, objective_steps, study, direction, train, test, metric, save_top_n, trial_timeout, **kwargs):
-        super().__init__(objective_steps, study, direction, metric, save_top_n)
+    def __init__(self, objective_steps, study, direction, save_top_n, trial_timeout, **kwargs):
+        super().__init__(objective_steps, study, direction, save_top_n)
         self.group = kwargs.pop('group')
         self.tdc_dataset_name = kwargs.pop('tdc_dataset_name')
         self.trial_timeout = trial_timeout
+        self.metric = kwargs.pop('metric')
         self.kwargs = kwargs
 
     def __call__(self, trial: Trial):
@@ -33,20 +33,22 @@ class TDCObjective(Objective):
                     predictions = {}
                     name = benchmark['name']
                     train_val, test = benchmark['train_val'], benchmark['test']
-                    #train, valid = self.group.get_train_valid_split(benchmark=name, split_type='default', seed=seed)
+                    train, valid = self.group.get_train_valid_split(benchmark=name, split_type='default', seed=seed)
 
                     # --------------------------------------------- #
                     #  Train your model using train, valid, test    #
                     #  Save test prediction in y_pred_test variable #
                     # --------------------------------------------- #
-                    train_dataset = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
-                    #valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values, y=valid['Y'].values)
-                    test_dataset = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values, y=test['Y'].values)
-                    print(train_dataset.get_shape(), test_dataset.get_shape())
+                    train_dataset = SmilesDataset(smiles=train['Drug'].values, ids=train['Drug_ID'].values,
+                                                  y=train['Y'].values)
+                    valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values,
+                                                  y=valid['Y'].values)
+                    test_dataset = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values,
+                                                 y=test['Y'].values)
 
                     pipeline = Pipeline(steps=self.objective_steps(trial, **self.kwargs), path=path)
                     pipeline.fit(train_dataset)
-                    scores.append(pipeline.evaluate(test_dataset, [self.metric])[0][self.metric.name])
+                    scores.append(pipeline.evaluate(valid_dataset, [self.metric])[0][self.metric.name])
                     y_pred_test = pipeline.predict(test_dataset)
 
                     predictions[name] = y_pred_test
