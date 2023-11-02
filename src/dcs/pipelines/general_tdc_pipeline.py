@@ -16,7 +16,7 @@ def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name
                          data_sample: Dataset = None, seed: int = 1, optimizer: str = 'tpe', storage: str = None,
                          metric: callable = roc_auc_score, direction: str = 'maximize', n_trials: int = 100,
                          save_top_n: int = 1, trial_timeout: int = 60 * 3):
-    Logger().disable()
+    #Logger().disable()
     if optimizer == 'nsga2':
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
     elif optimizer == 'tpe':

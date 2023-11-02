@@ -1,9 +1,10 @@
 import time
 
 from deepmol.datasets import SmilesDataset
+from sklearn.metrics import roc_auc_score
 
-from dcs.pipelines.test_pipeline import test_pipeline
-from dcs.tdc.get_tdc_data import get_benchmark_group
+from dcs.pipelines.general_tdc_pipeline import general_tdc_pipeline
+from dcs.utils import get_benchmark_group
 
 
 def run():
@@ -12,8 +13,9 @@ def run():
     benchmark = group.get('HIA_Hou')
     train_val = benchmark['train_val']
     data = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
-    test_pipeline(pipeline_name='HIA_Hou_pipeline/', group=group, tdc_dataset_name='HIA_Hou',
-                  data_sample=data, trial_timeout=30)
+    general_tdc_pipeline(pipeline_name='HIA_Hou_pipeline/', group=group, tdc_dataset_name='HIA_Hou',
+                         data_sample=data, trial_timeout=60*5, metric=roc_auc_score, direction='maximize',
+                         n_trials=100, save_top_n=100, seed=123, storage='sqlite:///HIA_Hou_pipeline_1.db')
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 
