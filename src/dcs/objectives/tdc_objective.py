@@ -51,8 +51,10 @@ class TDCObjective(Objective):
                     for _, value in results.items():
                         f.write(f'{trial_id},{value[0]},{value[1]}\n')
                 score = sum(scores) / len(scores)
+                print(f'Trial {trial_id} finished:')
                 print(f'Average score: {score}')
                 print(f'Average results: {results}')
+                print(f'Parameters: {trial.params}')
                 best_scores = self.study.user_attrs['best_scores']
                 min_score = min(best_scores.values()) if len(best_scores) > 0 else float('inf')
                 max_score = max(best_scores.values()) if len(best_scores) > 0 else float('-inf')
