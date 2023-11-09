@@ -1,7 +1,7 @@
 import os
 import time
 
-from deepmol.datasets import Dataset
+from deepmol.datasets import Dataset, SmilesDataset
 from deepmol.loggers import Logger
 from deepmol.metrics import Metric
 from deepmol.pipeline_optimization import PipelineOptimization
@@ -16,7 +16,7 @@ def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name
                          data_sample: Dataset = None, seed: int = 1, optimizer: str = 'tpe', storage: str = None,
                          metric: callable = roc_auc_score, direction: str = 'maximize', n_trials: int = 100,
                          save_top_n: int = 1, trial_timeout: int = 60 * 3):
-    #Logger().disable()
+    # Logger().disable()
     if optimizer == 'nsga2':
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
     elif optimizer == 'tpe':
@@ -36,9 +36,23 @@ def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name
     def objective_steps(trial: optuna.Trial, data):
         return preset_all_models(trial, data)
 
+    # get splits
+    benchmark = group.get(tdc_dataset_name)
+    name = benchmark['name']
+    train_sets, valid_sets, test_sets = [], [], []
+    for seed in [1, 2, 3, 4, 5]:
+        train_val, test = benchmark['train_val'], benchmark['test']
+        train, valid = group.get_train_valid_split(benchmark=name, split_type='default', seed=seed)
+        train_sets.append(SmilesDataset(smiles=train['Drug'].values, ids=train['Drug_ID'].values,
+                                        y=train['Y'].values))
+        valid_sets.append(SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values,
+                                        y=valid['Y'].values))
+        test_sets.append(SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values,
+                                       y=test['Y'].values))
+
     pipeline.optimize(objective_steps=objective_steps, n_trials=n_trials, save_top_n=save_top_n,
                       objective=TDCObjective, trial_timeout=trial_timeout, metric=metric, group=group,
-                      tdc_dataset_name=tdc_dataset_name, data=data_sample)
+                      tdc_dataset_name=tdc_dataset_name, data=data_sample, splits=[train_sets, valid_sets, test_sets])
     print(pipeline.trials_dataframe())
     print(f"Best trial: {pipeline.best_trial}")
     print(f"Best score: {pipeline.best_value}")
