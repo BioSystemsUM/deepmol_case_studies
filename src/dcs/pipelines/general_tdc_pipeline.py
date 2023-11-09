@@ -6,7 +6,7 @@ from deepmol.loggers import Logger
 from deepmol.metrics import Metric
 from deepmol.pipeline_optimization import PipelineOptimization
 import optuna
-from deepmol.pipeline_optimization._utils import preset_all_models
+from deepmol.pipeline_optimization._utils import preset_all_models, preset_sklearn_models, preset_keras_models, preset_deepchem_models
 from sklearn.metrics import roc_auc_score
 
 from dcs.objectives import TDCObjective
@@ -15,7 +15,7 @@ from dcs.objectives import TDCObjective
 def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str = None,
                          data_sample: Dataset = None, seed: int = 1, optimizer: str = 'tpe', storage: str = None,
                          metric: callable = roc_auc_score, direction: str = 'maximize', n_trials: int = 100,
-                         save_top_n: int = 1, trial_timeout: int = 60 * 3):
+                         save_top_n: int = 1, trial_timeout: int = 60 * 3, objective_preset: str = 'all'):
     #Logger().disable()
     if optimizer == 'nsga2':
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
@@ -33,8 +33,26 @@ def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name
                                     study_name=pipeline_name,
                                     direction=direction)
 
-    def objective_steps(trial: optuna.Trial, data):
+    def objective_steps_general(trial: optuna.Trial, data):
         return preset_all_models(trial, data)
+    
+    def objective_steps_sklearn(trial: optuna.Trial, data):
+        return preset_sklearn_models(trial, data)
+    
+    def objective_steps_keras(trial: optuna.Trial, data):
+        return preset_keras_models(trial, data)
+    
+    def objective_steps_deepchem(trial: optuna.Trial, data):
+        return preset_deepchem_models(trial, data)
+    
+    if objective_preset == 'all':
+        objective_steps = objective_steps_general
+    elif objective_preset == 'sklearn':
+        objective_steps = objective_steps_sklearn
+    elif objective_preset == 'keras':
+        objective_steps = objective_steps_keras
+    elif objective_preset == 'deepchem':
+        objective_steps = objective_steps_deepchem
 
     pipeline.optimize(objective_steps=objective_steps, n_trials=n_trials, save_top_n=save_top_n,
                       objective=TDCObjective, trial_timeout=trial_timeout, metric=metric, group=group,
