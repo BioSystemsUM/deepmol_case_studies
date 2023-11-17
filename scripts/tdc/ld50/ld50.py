@@ -2,14 +2,15 @@ import time
 
 from deepmol.datasets import SmilesDataset
 from sklearn.metrics import mean_absolute_error
+from tdc.benchmark_group import admet_group
 
 from dcs.pipelines import general_tdc_pipeline
-from dcs.utils import get_benchmark_group
 
 
 def run():
     init_time = time.time()
-    group = get_benchmark_group['LD50_Zhu']
+    group = admet_group(path='data/')
+    #group = get_benchmark_group['LD50_Zhu']
     benchmark = group.get('LD50_Zhu')
     train_val = benchmark['train_val']
     data = SmilesDataset(smiles=train_val['Drug'].values, ids=train_val['Drug_ID'].values, y=train_val['Y'].values)
