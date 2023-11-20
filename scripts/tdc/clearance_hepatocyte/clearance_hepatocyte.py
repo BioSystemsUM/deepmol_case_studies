@@ -1,10 +1,14 @@
 import time
 
 from deepmol.datasets import SmilesDataset
+from scipy.stats import spearmanr
 
 from dcs.pipelines import general_tdc_pipeline
 from dcs.utils import get_benchmark_group
-from scripts.tdc._utils import spearman
+
+
+def spearman(x, y):
+    return spearmanr(x, y)[0]
 
 
 def run():
