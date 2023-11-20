@@ -6,6 +6,16 @@ from sklearn.metrics import mean_absolute_error
 from dcs.pipelines import general_tdc_pipeline
 from dcs.utils import get_benchmark_group
 
+import tensorflow as tf
+
+gpus = tf.config.experimental.list_physical_devices('GPU')
+if gpus:
+    try:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+    except RuntimeError as e:
+        print(e)
+
 
 def run():
     init_time = time.time()
