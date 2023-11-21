@@ -21,6 +21,8 @@ def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
     elif optimizer == 'tpe':
         sampler = optuna.samplers.TPESampler(seed=seed)
+    elif optimizer == 'cmaes':
+        sampler = optuna.samplers.CmaEsSampler(seed=seed)
     else:
         raise ValueError(f'Invalid optimizer: {optimizer}. It must be one of "nsga2" or "tpe"')
     pipeline_name = pipeline_name if pipeline_name is not None else f'pipeline_{time.strftime("%Y_%m_%d-%H_%M_%S")}'
