@@ -11,6 +11,16 @@ from sklearn.metrics import roc_auc_score
 
 from dcs.objectives import TDCObjective
 
+import tensorflow as tf
+
+gpus = tf.config.experimental.list_physical_devices('GPU')
+if gpus:
+    try:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+    except RuntimeError as e:
+        print(e)
+
 
 def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str = None,
                          data_sample: Dataset = None, seed: int = 1, optimizer: str = 'tpe', storage: str = None,
