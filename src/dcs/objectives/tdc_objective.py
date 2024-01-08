@@ -38,9 +38,17 @@ class TDCObjective(Objective):
                     #  Save test prediction in y_pred_test variable #
                     # --------------------------------------------- #
                     pipeline = Pipeline(steps=self.objective_steps(trial, **self.kwargs), path=path)
-                    pipeline.fit(train_dataset)
+                    if pipeline.steps[-1][1].__class__.__name__ == 'KerasModel':
+                        pipeline.fit(train_dataset, validation_dataset=valid_dataset)
+                    else:
+                        pipeline.fit(train_dataset)
                     scores.append(pipeline.evaluate(valid_dataset, [self.metric])[0][self.metric.name])
-                    y_pred_test = pipeline.predict(test_dataset)
+                    try:
+                        y_pred_test = pipeline.predict_proba(test_dataset)
+                        if len(y_pred_test.shape) > 1:
+                            y_pred_test = y_pred_test[:, 1]
+                    except:
+                        y_pred_test = pipeline.predict(test_dataset)
 
                     predictions[name] = y_pred_test
                     predictions_list.append(predictions)

@@ -15,4 +15,5 @@ PYTHON_SCRIPT="$3"
 podman build . -t deepmol_case_study
 
 # Run the container with the specified Python script as the command
-podman run --rm -v /home/jcorreia/deepmol_case_studies/scripts/tdc/"$FOLDER_NAME"/:/workspace/scripts/tdc/"$FOLDER_NAME"/:z -d --device nvidia.com/gpu="$GPU_NUMBER" --security-opt=label=disable --name="$FOLDER_NAME" deepmol_case_study /bin/bash -c "cd /workspace/scripts/tdc/$FOLDER_NAME/ && python $PYTHON_SCRIPT > output.txt"
+podman run -v /home/jcapela/deepmol_case_studies/scripts/tdc/"$FOLDER_NAME"/:/workspace/scripts/tdc/"$FOLDER_NAME"/:z -d --device nvidia.com/gpu="$GPU_NUMBER" --security-opt=label=disable --name="$FOLDER_NAME" deepmol_case_study /bin/bash -c "cd /workspace/scripts/tdc/$FOLDER_NAME/ && python $PYTHON_SCRIPT > output.txt"
+#podman run -v /home/jcapela/deepmol_case_studies/scripts/tdc/:/workspace/scripts/tdc/:z -d --device nvidia.com/gpu="$GPU_NUMBER" --security-opt=label=disable --name="run_for_test_set" deepmol_case_study /bin/bash -c "cd /workspace/scripts/tdc/ && python $PYTHON_SCRIPT > output.txt"
