@@ -18,7 +18,7 @@ def run():
     general_tdc_pipeline(pipeline_name=pipeline_name, group=group, tdc_dataset_name='CYP2C9_Veith',
                          data_sample=data, seed=4321, optimizer='tpe', storage=storage,
                          metric=average_precision_score, direction='maximize', n_trials=100, save_top_n=100,
-                         trial_timeout=60 * 5)
+                         trial_timeout=60 * 60 * 3)
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 

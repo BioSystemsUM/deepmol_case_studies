@@ -16,9 +16,9 @@ def run():
     pipeline_name = 'cyp2c9_substrate'
     storage = f'sqlite:///{pipeline_name}.db'
     general_tdc_pipeline(pipeline_name=pipeline_name, group=group, tdc_dataset_name='CYP2C9_Substrate_CarbonMangels',
-                         data_sample=data, seed=321, optimizer='tpe', storage=storage,
+                         data_sample=data, seed=54321, optimizer='tpe', storage=storage,
                          metric=average_precision_score, direction='maximize', n_trials=100, save_top_n=100,
-                         trial_timeout=60 * 5)
+                         trial_timeout=60 * 60)
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 

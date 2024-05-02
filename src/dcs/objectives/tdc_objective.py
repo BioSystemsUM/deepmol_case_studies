@@ -2,6 +2,7 @@ import os
 import shutil
 
 import optuna
+import sklearn
 import timeout_decorator
 from deepmol.pipeline import Pipeline
 from deepmol.pipeline_optimization.objective_wrapper import Objective

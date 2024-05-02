@@ -6,7 +6,7 @@ from deepmol.loggers import Logger
 from deepmol.metrics import Metric
 from deepmol.pipeline_optimization import PipelineOptimization
 import optuna
-from deepmol.pipeline_optimization._utils import preset_all_models
+from deepmol.pipeline_optimization._utils import preset_all_models, preset_sklearn_models
 from sklearn.metrics import roc_auc_score
 
 from dcs.objectives import TDCObjective
@@ -25,7 +25,7 @@ if gpus:
 def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name: str = None,
                          data_sample: Dataset = None, seed: int = 1, optimizer: str = 'tpe', storage: str = None,
                          metric: callable = roc_auc_score, direction: str = 'maximize', n_trials: int = 100,
-                         save_top_n: int = 1, trial_timeout: int = 60 * 3):
+                         save_top_n: int = 1, trial_timeout: int = 60 * 3, steps=None):
     # Logger().disable()
     if optimizer == 'nsga2':
         sampler = optuna.samplers.NSGAIISampler(seed=seed)
@@ -62,7 +62,10 @@ def general_tdc_pipeline(pipeline_name: str = None, group=None, tdc_dataset_name
         test_sets.append(SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values,
                                        y=test['Y'].values))
 
-    pipeline.optimize(objective_steps=objective_steps, n_trials=n_trials, save_top_n=save_top_n,
+    if steps is None:
+        steps = objective_steps
+
+    pipeline.optimize(objective_steps=steps, n_trials=n_trials, save_top_n=save_top_n,
                       objective=TDCObjective, trial_timeout=trial_timeout, metric=metric, group=group,
                       tdc_dataset_name=tdc_dataset_name, data=data_sample, splits=[train_sets, valid_sets, test_sets])
     print(pipeline.trials_dataframe())

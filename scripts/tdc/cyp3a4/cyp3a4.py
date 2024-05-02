@@ -16,9 +16,9 @@ def run():
     pipeline_name = 'cyp3a4'
     storage = f'sqlite:///{pipeline_name}.db'
     general_tdc_pipeline(pipeline_name=pipeline_name, group=group, tdc_dataset_name='CYP3A4_Veith',
-                         data_sample=data, seed=321, optimizer='tpe', storage=storage,
+                         data_sample=data, seed=665433, optimizer='tpe', storage=storage,
                          metric=average_precision_score, direction='maximize', n_trials=100, save_top_n=100,
-                         trial_timeout=60 * 5)
+                         trial_timeout=60 * 60 * 3)
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 

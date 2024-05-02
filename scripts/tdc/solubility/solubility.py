@@ -17,7 +17,7 @@ def run():
     storage = f'sqlite:///{pipeline_name}.db'
     general_tdc_pipeline(pipeline_name=pipeline_name, group=group, tdc_dataset_name='Solubility_AqSolDB',
                          data_sample=data, seed=1234, optimizer='tpe', storage=storage, metric=mean_absolute_error,
-                         direction='minimize', n_trials=100, save_top_n=100, trial_timeout=60 * 5)
+                         direction='minimize', n_trials=100, save_top_n=100, trial_timeout=60 * 60 * 3)
     final_time = time.time()
     print(f'Elapsed time: {final_time - init_time}')
 

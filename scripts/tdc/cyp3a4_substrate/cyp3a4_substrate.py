@@ -23,5 +23,5 @@ def run():
     print(f'Elapsed time: {final_time - init_time}')
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     run()
