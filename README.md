@@ -1,8 +1,40 @@
 # Case studies for the DeepMol publication
 
+## Installation
+
+1. Clone the repository and move into the directory:
+
+```bash
+git clone
+cd SMPrecursorPredictor
+```
+
+2. Create a conda environment and activate it:
+
+```bash
+conda create -n deepmol_case_studies python=3.10
+conda activate deepmol_case_studies
+```
+
+3. Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Install the package:
+
+```bash
+pip install .
+```
+
 ## AutoML experiments
 
 AutoML experiments can be found at **[here](scripts/tdc/)**.
+
+We used podman/docker for the experiments, the **[Dockerfile](Dockerfile)** can be found in this repository.
+
+The "run" file can be found in **[here](run.sh)**.
 
 ## Evaluate TDC commons benchmark datasets
 
