@@ -118,8 +118,14 @@ def get_results_for_test_set(dataset_path, dataset_name, tdc_dataset_name, objec
         results_dataframes.loc[len(results_dataframes)] = ['voting_pipeline', value[0], value[1]]
         print(f'Average: {value[0]}, Std: {value[1]}') 
         results_dataframes.to_csv(os.path.join(dataset_path, f'{dataset_name}_test_set.csv'), index=False)
+
+def test_download_files():
+    from dcs._utils import download_models
+
+    download_models()
             
 if __name__ == '__main__':
+    test_download_files()
     #get_results_for_test_set_for_specific_trial(74, "bioavailability", "bioavailability", tdc_dataset_name='Bioavailability_Ma')
     #get_results_for_test_set(dataset_path='cyp3a4_substrate/', dataset_name='cyp3a4_substrate', tdc_dataset_name='CYP3A4_Substrate_CarbonMangels', objective='maximize')
     #get_results_for_test_set(dataset_path='half_life/', dataset_name='half_life', tdc_dataset_name='Half_Life_Obach', objective='maximize')
@@ -135,7 +141,7 @@ if __name__ == '__main__':
     # get_results_for_test_set(dataset_path='vdss/', dataset_name='vdss', tdc_dataset_name='VDss_Lombardo', objective='maximize')
     # get_results_for_test_set(dataset_path='ames/', dataset_name='ames', tdc_dataset_name='AMES', objective='maximize')
     # get_results_for_test_set(dataset_path='bbb/', dataset_name='bbb', tdc_dataset_name='BBB_Martins', objective='maximize')
-    get_results_for_test_set(dataset_path='bioavailability/', dataset_name='bioavailability', tdc_dataset_name='Bioavailability_Ma', objective='maximize')
+    # get_results_for_test_set(dataset_path='bioavailability/', dataset_name='bioavailability', tdc_dataset_name='Bioavailability_Ma', objective='maximize')
     #get_results_for_test_set(dataset_path='caco/', dataset_name='caco', tdc_dataset_name='Caco2_Wang', objective='minimize')
     # get_results_for_test_set(dataset_path='clearance_hepatocyte/', dataset_name='clearance_hepatocyte', tdc_dataset_name='Clearance_Hepatocyte_AZ', objective='maximize')
     # get_results_for_test_set_for_specific_trial(78, "bbb", "bbb", tdc_dataset_name='BBB_Martins')

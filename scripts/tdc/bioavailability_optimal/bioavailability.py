@@ -41,7 +41,6 @@ def optimized_steps_2(trial, data: Dataset):
 
 
 def optimized_steps(trial, data: Dataset):
-
     mode = data.mode
     multitask = True if data.n_tasks > 1 else False
     featurizer = _get_featurizer(trial, '1D')
