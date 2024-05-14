@@ -1,0 +1,1320 @@
+Setting the default backend to "pytorch". You can change it in the ~/.dgl/config.json file or export the DGLBACKEND environment variable.  Valid options are: pytorch, mxnet, tensorflow (all lowercase)
+2024-02-15 17:01:47,640 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:48,501 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:48,520 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:48,560 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:49,045 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:49,065 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:49,104 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:49,593 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:49,614 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:49,653 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:50,135 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:50,157 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:50,196 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:50,685 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:50,707 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+2024-02-15 17:01:50,748 — INFO — Assuming regression since there are more than 10 unique y values. If otherwise, explicitly set the mode to 'classification'!
+Trial 0 finished:
+Average score: 0.27864610256786065
+Average results: {'clearance_microsome_az': [0.408, 0.014]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 8, 'epochs_deepchem': 786, 'model_steps': 'mat_model', 'n_encoders': 4, 'sa_dropout_p': 0.25, 'n_layers': 1, 'ff_dropout_p': 0.25, 'encoder_dropout_p': 0.5, 'embed_dropout_p': 0.25, 'gen_dropout_p': 0.5, 'gen_n_layers': 1}
+2024-02-15 19:07:27,464 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-15 19:47:04,941 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-15 20:28:33,879 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-15 21:19:12,167 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+
+name 'EarlyStopping' is not defined
+name 'EarlyStopping' is not defined
+name 'EarlyStopping' is not defined
+
+2024-02-16 01:07:39,367 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:08:37,729 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:09:39,905 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:10:39,170 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:11:38,003 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+Trial 6 finished:
+Average score: 0.3056995613512948
+Average results: {'clearance_microsome_az': [0.487, 0.024]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'layered', 'fpSize': 1024, 'minPath': 2, 'maxPath': 5, 'feature_selector': 'low_variance_fs', 'threshold': 0.07951688017124386, 'regression_model': 'random_forest_regressor_model', 'n_estimators_random_forest_regressor': 700, 'criterion_random_forest_regressor': 'absolute_error', 'max_features_random_forest_regressor': 'sqrt', 'bootstrap_random_forest_regressor': True, 'standardizer': 'custom_standardizer', 'standardization_type': 'heavy_standardisation'}
+2024-02-16 01:12:33,156 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:13:22,293 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:14:11,460 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:15:01,692 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:15:52,259 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+Trial 7 finished:
+Average score: 0.06202947175109321
+Average results: {'clearance_microsome_az': [-0.008, 0.03]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'mol2vec', 'feature_selector': 'pass_through_transformer', 'regression_model': 'kneighbors_regressor_model', 'n_neighbors_kneighbors_regressor': 5, 'weights_kneighbors_regressor': 'distance', 'algorithm_kneighbors_regressor': 'brute', 'leaf_size_kneighbors_regressor': 7, 'p': 10, 'standardizer': 'basic_standardizer'}
+2024-02-16 01:16:40,966 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 01:49:15,560 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 02:21:22,716 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 02:53:57,324 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 03:21:19,844 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 8 finished:
+Average score: 0.3010057533121736
+Average results: {'clearance_microsome_az': [0.482, 0.041]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 512, 'epochs_deepchem': 905, 'model_steps': 'mat_model', 'n_encoders': 4, 'sa_dropout_p': 0.25, 'n_layers': 1, 'ff_dropout_p': 0.25, 'encoder_dropout_p': 0.25, 'embed_dropout_p': 0.25, 'gen_dropout_p': 0.0, 'gen_n_layers': 1}
+Trial 9 finished:
+Average score: 0.46917354676666784
+Average results: {'clearance_microsome_az': [0.512, 0.022]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 510, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 75, 'dropout_text_cnn': 0.0}
+Trial 10 finished:
+Average score: 0.45315710075499904
+Average results: {'clearance_microsome_az': [0.514, 0.025]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 221, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 75, 'dropout_text_cnn': 0.0}
+Trial 11 finished:
+Average score: 0.4553482484161943
+Average results: {'clearance_microsome_az': [0.549, 0.02]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 205, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 75, 'dropout_text_cnn': 0.0}
+Trial 12 finished:
+Average score: 0.4658392835075264
+Average results: {'clearance_microsome_az': [0.528, 0.021]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 276, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 75, 'dropout_text_cnn': 0.0}
+Trial 13 finished:
+Average score: 0.4549157475451796
+Average results: {'clearance_microsome_az': [0.429, 0.027]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 531, 'model_steps': 'gcn_model', 'use_edges_gcn': True, 'use_chirality_gcn': False, 'use_partial_charge_gcn': False, 'graph_conv_layers_gcn': '[64, 128]', 'batchnorm': True, 'dropout_gcn': 0.0, 'predictor_dropout_gcn': 0.0}
+Trial 14 finished:
+Average score: 0.42452258518572233
+Average results: {'clearance_microsome_az': [0.501, 0.025]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 16, 'epochs_deepchem': 451, 'model_steps': 'dmpnn_model', 'fnn_layers': 2, 'fnn_dropout_p': 0.25, 'depth_dmpnn': 3}
+2024-02-16 06:16:18,801 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 06:33:06,309 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 06:49:34,890 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 07:06:15,358 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 07:23:02,515 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+Trial 15 finished:
+Average score: 0.1530568632038976
+Average results: {'clearance_microsome_az': [0.026, 0.055]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'custom_standardizer', 'standardization_type': 'simple_standardisation', 'batch_size_deepchem': 128, 'epochs_deepchem': 376, 'model_steps': 'chem_ception_model', 'base_filters': 64}
+2024-02-16 07:39:49,115 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 09:10:11,062 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+
+Arg specs do not match: original=FullArgSpec(args=['input', 'dtype', 'name', 'layout'], varargs=None, varkw=None, defaults=(None, None, None), kwonlyargs=[], kwonlydefaults=None, annotations={}), new=FullArgSpec(args=['input', 'dtype', 'name'], varargs=None, varkw=None, defaults=(None, None), kwonlyargs=[], kwonlydefaults=None, annotations={}), fn=<function ones_like_v2 at 0x7fa0e28b7f40>
+2024-02-16 10:40:05,189 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NCCO)ccc12. Appending empty array
+2024-02-16 10:40:05,189 — ERROR — Exception message: 
+2024-02-16 10:40:05,501 — ERROR — Failed to featurize CCO[C@@H]1OC(=O)C[C@@H]1NC(=O)[C@@H]1CCCN2C(=O)CC[C@H](NC(=O)c3nccc4ccccc34)C(=O)N12. Appending empty array
+2024-02-16 10:40:05,501 — ERROR — Exception message: 
+2024-02-16 10:40:05,875 — ERROR — Failed to featurize CCOc1ccccc1CNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 10:40:05,875 — ERROR — Exception message: 
+2024-02-16 10:40:06,187 — ERROR — Failed to featurize COc1ccccc1CN(C)Cc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 10:40:06,188 — ERROR — Exception message: 
+2024-02-16 10:40:07,238 — ERROR — Failed to featurize CNS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 10:40:07,239 — ERROR — Exception message: 
+2024-02-16 10:40:07,294 — ERROR — Failed to featurize CS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(C#N)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 10:40:07,295 — ERROR — Exception message: 
+2024-02-16 10:40:09,494 — ERROR — Failed to featurize COc1ccccc1CCNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 10:40:09,495 — ERROR — Exception message: 
+2024-02-16 10:40:09,937 — ERROR — Failed to featurize C#CC[C@@H](C(=O)N[C@H](/C=C/C(=O)OCC)C[C@@H]1CCNC1=O)n1cccc(NC(=O)c2cc(C)on2)c1=O. Appending empty array
+2024-02-16 10:40:09,938 — ERROR — Exception message: 
+2024-02-16 10:40:10,635 — ERROR — Failed to featurize COc1ccccc1CCNCc1ccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 10:40:10,636 — ERROR — Exception message: 
+2024-02-16 10:40:11,214 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NC3CC3)ccc12. Appending empty array
+2024-02-16 10:40:11,214 — ERROR — Exception message: 
+2024-02-16 10:40:13,301 — ERROR — Failed to featurize Cc1cccc2c(CCNCc3cccc(CCNC[C@H](O)c4ccc(O)c5[nH]c(=O)sc45)c3)c[nH]c12. Appending empty array
+2024-02-16 10:40:13,301 — ERROR — Exception message: 
+2024-02-16 10:40:18,968 — ERROR — Failed to featurize COCc1ccoc1C(=O)N(c1ccc(OC)cc1OC)C(C(=O)NC[C@@H](C)O)c1ccccc1F. Appending empty array
+2024-02-16 10:40:18,970 — ERROR — Exception message: 
+2024-02-16 10:40:21,949 — ERROR — Failed to featurize CCc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 10:40:21,950 — ERROR — Exception message: 
+2024-02-16 10:40:22,820 — ERROR — Failed to featurize COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1. Appending empty array
+2024-02-16 10:40:22,821 — ERROR — Exception message: 
+2024-02-16 10:40:23,958 — ERROR — Failed to featurize CCOc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 10:40:23,958 — ERROR — Exception message: 
+2024-02-16 10:40:34,019 — ERROR — Failed to featurize O=C(NCC1CCCCCC1)c1cc(-c2cccnc2N2CCC(C(=O)O)CC2)ccc1Cl. Appending empty array
+2024-02-16 10:40:34,020 — ERROR — Exception message: 
+2024-02-16 10:40:34,974 — ERROR — Failed to featurize OCc1cc(C(O)CNCCCCCCOCCCCc2ccccc2)ccc1O. Appending empty array
+2024-02-16 10:40:34,974 — ERROR — Exception message: 
+2024-02-16 10:40:39,533 — ERROR — Failed to featurize CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1. Appending empty array
+2024-02-16 10:40:39,533 — ERROR — Exception message: 
+2024-02-16 10:40:47,564 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4cc(S(C)(=O)=O)ccc34)CC2)c1Cl. Appending empty array
+2024-02-16 10:40:47,564 — ERROR — Exception message: 
+2024-02-16 10:40:50,040 — ERROR — Failed to featurize O=C(Nc1ccccn1)c1ccc2[nH]c(-c3ccc(NC(=O)C45CC6CC(CC(C6)C4)C5)cc3)nc2c1. Appending empty array
+2024-02-16 10:40:50,040 — ERROR — Exception message: 
+2024-02-16 10:40:51,531 — ERROR — Failed to featurize CCN(C(=O)c1cnn(-c2ccccc2)c1NS(=O)(=O)c1ccc(-c2cnco2)cc1)C1CCCCC1. Appending empty array
+2024-02-16 10:40:51,532 — ERROR — Exception message: 
+2024-02-16 10:40:56,200 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4ccc(S(C)(=O)=O)cc34)CC2)c1Cl. Appending empty array
+2024-02-16 10:40:56,200 — ERROR — Exception message: 
+2024-02-16 10:40:58,439 — ERROR — Failed to featurize Cc1cc(Cl)ccc1OC1CCN(C[C@H](O)CNC(=O)c2c[nH]c(=O)c3cc(S(C)(=O)=O)ccc23)CC1. Appending empty array
+2024-02-16 10:40:58,440 — ERROR — Exception message: 
+2024-02-16 10:41:26,418 — ERROR — Failed to featurize CCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:41:26,418 — ERROR — Exception message: 
+2024-02-16 10:41:29,282 — ERROR — Failed to featurize CCCCN(CCNC[C@H](O)c1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:41:29,282 — ERROR — Exception message: 
+2024-02-16 10:41:46,217 — ERROR — Failed to featurize O=c1[nH]c2c(O)ccc([C@@H](O)CNCCc3cccc(CN4CCC(c5ccccc5)CC4)c3)c2s1. Appending empty array
+2024-02-16 10:41:46,217 — ERROR — Exception message: 
+2024-02-16 10:42:29,001 — ERROR — Failed to featurize CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1. Appending empty array
+2024-02-16 10:42:29,001 — ERROR — Exception message: 
+2024-02-16 10:43:28,143 — ERROR — Failed to featurize CN(C)S(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 10:43:28,144 — ERROR — Exception message: 
+2024-02-16 10:46:56,494 — ERROR — Failed to featurize CN(C(=O)Cc1ccc(F)cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-16 10:46:56,495 — ERROR — Exception message: 
+2024-02-16 10:46:57,011 — ERROR — Failed to featurize CCCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:46:57,012 — ERROR — Exception message: 
+2024-02-16 10:50:05,315 — ERROR — Failed to featurize Cc1ccc(NC(=O)c2cccc(N3CCOCC3)c2)cc1NC(=O)c1ccc(OCc2ccccn2)cc1. Appending empty array
+2024-02-16 10:50:05,316 — ERROR — Exception message: 
+2024-02-16 10:57:22,142 — ERROR — Failed to featurize CC(C)N(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:57:22,143 — ERROR — Exception message: 
+2024-02-16 11:04:24,853 — ERROR — Failed to featurize CC(C)(C)NC(=O)c1ccc(Oc2cc(F)c(CC(=O)O)cc2Cl)c(NS(=O)(=O)c2ccc(C3CC3)cc2Cl)c1. Appending empty array
+2024-02-16 11:04:24,854 — ERROR — Exception message: 
+2024-02-16 11:21:41,889 — ERROR — Failed to featurize C[C@H](Cc1cccc(CC(=O)NC23CC4CC(CC(C4)C2)C3)c1)NC[C@H](O)c1ccc(O)c(CO)c1. Appending empty array
+2024-02-16 11:21:41,889 — ERROR — Exception message: 
+2024-02-16 11:21:52,029 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1cc(CN2CC3CNCC(C2)O3)ccc1Cl. Appending empty array
+2024-02-16 11:21:52,030 — ERROR — Exception message: 
+2024-02-16 11:24:43,461 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1c(Cl)ccc2nc(N3CCC[C@H](NCCc4nnn[nH]4)C3)ccc12. Appending empty array
+2024-02-16 11:24:43,462 — ERROR — Exception message: 
+
+Trial 19 finished:
+Average score: 0.35734886185906056
+Average results: {'clearance_microsome_az': [0.262, 0.033]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'atom_pair', 'nBits': 2048, 'minLength': 2, 'maxLength': 50, 'feature_selector': 'select_from_model_fs', 'n_estimators': 642, 'regression_model': 'ridge_model', 'alpha_ridge_model': 6.213320380183855, 'standardizer': 'pass_through_standardizer'}
+2024-02-16 13:48:39,323 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 13:51:37,823 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 13:54:36,722 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 13:57:39,864 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 14:00:38,914 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+Trial 20 finished:
+Average score: 0.36079611404523343
+Average results: {'clearance_microsome_az': [0.505, 0.041]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'basic_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 671, 'model_steps': 'graph_conv_model', 'master_atom': True, 'use_chirality_graph_conv': True, 'graph_conv_layers_conv_model': '[128, 64]', 'dense_layer_size': 128, 'dropout_graph_conv': 0.5}
+Trial 21 finished:
+Average score: 0.44669356007937466
+Average results: {'clearance_microsome_az': [0.531, 0.023]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 216, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 75, 'dropout_text_cnn': 0.0}
+Trial 22 finished:
+Average score: 0.456457390657398
+Average results: {'clearance_microsome_az': [0.527, 0.024]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'pass_through_standardizer', 'batch_size_deepchem': 256, 'epochs_deepchem': 260, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 75, 'dropout_text_cnn': 0.0}
+Graph execution error:
+
+Detected at node model_36/dag_layer/concat_32 defined at (most recent call last):
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 28, in <module>
+
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 20, in run
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/pipelines/general_tdc_pipeline.py", line 65, in general_tdc_pipeline
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline_optimization/pipeline_optimization.py", line 123, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/study.py", line 425, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 66, in _optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 200, in _run_trial
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 81, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 41, in run_with_timeout
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 114, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 145, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 161, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/base/predictor.py", line 74, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 234, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 351, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 441, in fit_generator
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 497, in apply_gradient_for_batch
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/training.py", line 589, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/base_layer.py", line 1149, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 96, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/functional.py", line 515, in call
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/functional.py", line 672, in _run_internal_graph
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/base_layer.py", line 1149, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 96, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/layers.py", line 3486, in call
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/layers.py", line 3507, in call
+
+OOM when allocating tensor with shape[7137,6357] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[{{node model_36/dag_layer/concat_32}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info. This isn't available when running in Eager mode.
+ [Op:__inference_apply_gradient_for_batch_971565]
+2024-02-16 14:21:27,916 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 14:35:22,189 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 14:49:14,303 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 15:03:00,306 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 15:16:52,072 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+Trial 24 finished:
+Average score: 0.22375079027542344
+Average results: {'clearance_microsome_az': [0.318, 0.044]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'custom_standardizer', 'standardization_type': 'simple_standardisation', 'batch_size_deepchem': 8, 'epochs_deepchem': 508, 'model_steps': 'smiles_to_vec_model', 'embedding_dim': 32, 'filters': 64, 'kernel_size_smiles_to_vec': 3, 'strides': 3}
+2024-02-16 15:30:51,092 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:34:30,111 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:38:10,882 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:42:14,547 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:45:57,964 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 25 finished:
+Average score: 0.49748116782492763
+Average results: {'clearance_microsome_az': [0.507, 0.05]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 16, 'epochs_deepchem': 309, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 75, 'dropout_text_cnn': 0.25}
+2024-02-16 15:50:08,648 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Cannot set different distribution kind to the same parameter name.
+2024-02-16 15:50:09,002 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 16:37:11,938 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:04:22,398 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:22:15,006 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:39:40,181 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 27 finished:
+Average score: 0.44601839394511444
+Average results: {'clearance_microsome_az': [0.491, 0.056]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 16, 'epochs_deepchem': 311, 'model_steps': 'pagtn_model', 'max_length_pagtn': 16, 'num_layers_pagtn': 3, 'num_heads': 2, 'dropout_pagtn': 0.5}
+name 'EarlyStopping' is not defined
+2024-02-16 17:57:24,222 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:59:08,702 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:00:57,342 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:02:50,037 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:04:43,396 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 29 finished:
+Average score: 0.368127589455542
+Average results: {'clearance_microsome_az': [0.407, 0.013]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'maccs', 'feature_selector': 'percentil_fs', 'percentile': 89, 'regression_model': 'kernel_ridge_regressor_model', 'alpha_kernel_ridge': 0.7624382381373555, 'kernel_ridge': 'linear', 'gamma_kernel_ridge': 0.11321929507515582, 'standardizer': 'chembl_standardizer'}
+2024-02-16 18:06:31,522 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:09:31,959 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:12:37,632 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:15:42,328 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:18:53,890 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 30 finished:
+Average score: 0.5127880048729699
+Average results: {'clearance_microsome_az': [0.5, 0.064]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 443, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 18:21:59,545 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:25:11,636 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:28:23,996 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:31:37,728 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:34:58,668 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 31 finished:
+Average score: 0.5372681394905342
+Average results: {'clearance_microsome_az': [0.532, 0.032]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 468, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 18:38:30,907 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:41:38,838 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:44:55,818 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:48:03,111 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:51:12,503 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 32 finished:
+Average score: 0.5217655936376641
+Average results: {'clearance_microsome_az': [0.526, 0.007]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 445, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 18:54:53,716 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:58:04,624 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:01:15,429 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:04:30,473 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:08:11,806 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 33 finished:
+Average score: 0.5118699256887765
+Average results: {'clearance_microsome_az': [0.532, 0.025]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 448, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 19:11:24,110 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:14:40,180 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:17:52,127 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:21:32,456 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:24:43,044 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 34 finished:
+Average score: 0.5084466456824978
+Average results: {'clearance_microsome_az': [0.536, 0.019]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 447, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 19:27:55,069 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:31:04,390 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:34:13,626 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:37:24,291 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:40:38,062 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 35 finished:
+Average score: 0.5247200375210885
+Average results: {'clearance_microsome_az': [0.517, 0.031]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 434, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+name 'EarlyStopping' is not defined
+2024-02-16 19:43:52,815 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:47:19,552 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:50:30,642 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:53:43,327 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:57:04,280 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 37 finished:
+Average score: 0.40856923393998706
+Average results: {'clearance_microsome_az': [0.413, 0.026]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'rdk', 'fpSize': 2048, 'min_path': 3, 'max_path': 6, 'feature_selector': 'boruta_algorithm', 'support_weak': True, 'regression_model': 'bayesian_ridge_model', 'alpha_bayesian_ridge': 6.708986973640421, 'lambda_1_bayesian_ridge': 6.759043123653755, 'lambda_2_bayesian_ridge': 7.774439974591395, 'standardizer': 'chembl_standardizer'}
+name 'EarlyStopping' is not defined
+2024-02-16 20:00:18,459 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:10:52,848 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:21:19,606 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:31:44,949 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:42:45,790 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 39 finished:
+Average score: 0.4855987219208112
+Average results: {'clearance_microsome_az': [0.472, 0.018]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 595, 'model_steps': 'dmpnn_model', 'fnn_layers': 1, 'fnn_dropout_p': 0.5, 'depth_dmpnn': 4}
+2024-02-16 20:53:02,835 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:55:11,048 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:57:18,282 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:59:26,877 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:01:49,939 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 40 finished:
+Average score: 0.1320270922177075
+Average results: {'clearance_microsome_az': [0.289, 0.023]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'maccs', 'feature_selector': 'k_best', 'k': 14, 'regression_model': 'elastic_net_model', 'alpha_elastic_net': 8.099135525898673, 'l1_ratio_elastic_net': 0.4315133453869351, 'standardizer': 'chembl_standardizer'}
+2024-02-16 21:03:58,556 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:07:26,066 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:10:35,827 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:13:47,259 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:16:57,253 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 41 finished:
+Average score: 0.5400154949155507
+Average results: {'clearance_microsome_az': [0.52, 0.021]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 431, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 21:20:19,684 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:23:29,848 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:26:38,631 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:29:47,105 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:33:28,718 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 42 finished:
+Average score: 0.5321123788625243
+Average results: {'clearance_microsome_az': [0.532, 0.017]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 424, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 21:36:47,454 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:40:01,878 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:43:38,552 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:46:51,551 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:50:03,760 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 43 finished:
+Average score: 0.5223792752904781
+Average results: {'clearance_microsome_az': [0.515, 0.021]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 403, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-16 21:53:13,565 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Cannot set different distribution kind to the same parameter name.
+2024-02-16 21:53:13,873 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 21:54:14,312 — ERROR — Failed to featurize CCOc1ccccc1CNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 21:54:14,312 — ERROR — Exception message: 
+2024-02-16 21:54:15,636 — ERROR — Failed to featurize CNS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 21:54:15,637 — ERROR — Exception message: 
+2024-02-16 21:54:18,071 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NCCO)ccc12. Appending empty array
+2024-02-16 21:54:18,071 — ERROR — Exception message: 
+2024-02-16 21:54:18,552 — ERROR — Failed to featurize COc1ccccc1CN(C)Cc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 21:54:18,553 — ERROR — Exception message: 
+2024-02-16 21:54:18,904 — ERROR — Failed to featurize CCO[C@@H]1OC(=O)C[C@@H]1NC(=O)[C@@H]1CCCN2C(=O)CC[C@H](NC(=O)c3nccc4ccccc34)C(=O)N12. Appending empty array
+2024-02-16 21:54:18,905 — ERROR — Exception message: 
+2024-02-16 21:54:21,254 — ERROR — Failed to featurize CS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(C#N)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 21:54:21,254 — ERROR — Exception message: 
+2024-02-16 21:54:21,899 — ERROR — Failed to featurize COc1ccccc1CCNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 21:54:21,899 — ERROR — Exception message: 
+2024-02-16 21:54:23,395 — ERROR — Failed to featurize COc1ccccc1CCNCc1ccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 21:54:23,395 — ERROR — Exception message: 
+2024-02-16 21:54:24,694 — ERROR — Failed to featurize C#CC[C@@H](C(=O)N[C@H](/C=C/C(=O)OCC)C[C@@H]1CCNC1=O)n1cccc(NC(=O)c2cc(C)on2)c1=O. Appending empty array
+2024-02-16 21:54:24,694 — ERROR — Exception message: 
+2024-02-16 21:54:25,340 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NC3CC3)ccc12. Appending empty array
+2024-02-16 21:54:25,341 — ERROR — Exception message: 
+2024-02-16 21:54:31,026 — ERROR — Failed to featurize Cc1cccc2c(CCNCc3cccc(CCNC[C@H](O)c4ccc(O)c5[nH]c(=O)sc45)c3)c[nH]c12. Appending empty array
+2024-02-16 21:54:31,026 — ERROR — Exception message: 
+2024-02-16 21:54:38,986 — ERROR — Failed to featurize COCc1ccoc1C(=O)N(c1ccc(OC)cc1OC)C(C(=O)NC[C@@H](C)O)c1ccccc1F. Appending empty array
+2024-02-16 21:54:38,987 — ERROR — Exception message: 
+2024-02-16 21:54:46,214 — ERROR — Failed to featurize CCc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 21:54:46,214 — ERROR — Exception message: 
+2024-02-16 21:54:50,602 — ERROR — Failed to featurize COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1. Appending empty array
+2024-02-16 21:54:50,602 — ERROR — Exception message: 
+2024-02-16 21:54:54,236 — ERROR — Failed to featurize CCOc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 21:54:54,236 — ERROR — Exception message: 
+2024-02-16 21:55:20,079 — ERROR — Failed to featurize OCc1cc(C(O)CNCCCCCCOCCCCc2ccccc2)ccc1O. Appending empty array
+2024-02-16 21:55:20,080 — ERROR — Exception message: 
+2024-02-16 21:55:23,337 — ERROR — Failed to featurize CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1. Appending empty array
+2024-02-16 21:55:23,337 — ERROR — Exception message: 
+2024-02-16 21:55:25,174 — ERROR — Failed to featurize O=C(NCC1CCCCCC1)c1cc(-c2cccnc2N2CCC(C(=O)O)CC2)ccc1Cl. Appending empty array
+2024-02-16 21:55:25,174 — ERROR — Exception message: 
+2024-02-16 21:55:27,181 — ERROR — Failed to featurize O=C(Nc1ccccn1)c1ccc2[nH]c(-c3ccc(NC(=O)C45CC6CC(CC(C6)C4)C5)cc3)nc2c1. Appending empty array
+2024-02-16 21:55:27,181 — ERROR — Exception message: 
+2024-02-16 21:55:38,858 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4cc(S(C)(=O)=O)ccc34)CC2)c1Cl. Appending empty array
+2024-02-16 21:55:38,858 — ERROR — Exception message: 
+2024-02-16 21:55:42,920 — ERROR — Failed to featurize Cc1cc(Cl)ccc1OC1CCN(C[C@H](O)CNC(=O)c2c[nH]c(=O)c3cc(S(C)(=O)=O)ccc23)CC1. Appending empty array
+2024-02-16 21:55:42,921 — ERROR — Exception message: 
+2024-02-16 21:55:44,011 — ERROR — Failed to featurize CCN(C(=O)c1cnn(-c2ccccc2)c1NS(=O)(=O)c1ccc(-c2cnco2)cc1)C1CCCCC1. Appending empty array
+2024-02-16 21:55:44,011 — ERROR — Exception message: 
+2024-02-16 21:55:51,814 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4ccc(S(C)(=O)=O)cc34)CC2)c1Cl. Appending empty array
+2024-02-16 21:55:51,814 — ERROR — Exception message: 
+2024-02-16 21:56:49,459 — ERROR — Failed to featurize CCCCN(CCNC[C@H](O)c1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 21:56:49,459 — ERROR — Exception message: 
+2024-02-16 21:57:01,820 — ERROR — Failed to featurize CCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 21:57:01,821 — ERROR — Exception message: 
+2024-02-16 21:57:30,348 — ERROR — Failed to featurize O=c1[nH]c2c(O)ccc([C@@H](O)CNCCc3cccc(CN4CCC(c5ccccc5)CC4)c3)c2s1. Appending empty array
+2024-02-16 21:57:30,348 — ERROR — Exception message: 
+2024-02-16 21:59:01,838 — ERROR — Failed to featurize CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1. Appending empty array
+2024-02-16 21:59:01,838 — ERROR — Exception message: 
+2024-02-16 22:00:31,447 — ERROR — Failed to featurize CN(C)S(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 22:00:31,448 — ERROR — Exception message: 
+2024-02-16 22:05:06,930 — ERROR — Failed to featurize CN(C(=O)Cc1ccc(F)cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-16 22:05:06,930 — ERROR — Exception message: 
+2024-02-16 22:07:24,235 — ERROR — Failed to featurize CCCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 22:07:24,235 — ERROR — Exception message: 
+2024-02-16 22:11:49,711 — ERROR — Failed to featurize Cc1ccc(NC(=O)c2cccc(N3CCOCC3)c2)cc1NC(=O)c1ccc(OCc2ccccn2)cc1. Appending empty array
+2024-02-16 22:11:49,711 — ERROR — Exception message: 
+2024-02-16 22:23:03,786 — ERROR — Failed to featurize CC(C)N(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 22:23:03,787 — ERROR — Exception message: 
+2024-02-16 22:32:45,698 — ERROR — Failed to featurize CC(C)(C)NC(=O)c1ccc(Oc2cc(F)c(CC(=O)O)cc2Cl)c(NS(=O)(=O)c2ccc(C3CC3)cc2Cl)c1. Appending empty array
+2024-02-16 22:32:45,698 — ERROR — Exception message: 
+2024-02-16 22:48:36,607 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1cc(CN2CC3CNCC(C2)O3)ccc1Cl. Appending empty array
+2024-02-16 22:48:36,607 — ERROR — Exception message: 
+2024-02-16 22:48:43,368 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1c(Cl)ccc2nc(N3CCC[C@H](NCCc4nnn[nH]4)C3)ccc12. Appending empty array
+2024-02-16 22:48:43,369 — ERROR — Exception message: 
+2024-02-16 22:52:04,034 — ERROR — Failed to featurize C[C@H](Cc1cccc(CC(=O)NC23CC4CC(CC(C4)C2)C3)c1)NC[C@H](O)c1ccc(O)c(CO)c1. Appending empty array
+2024-02-16 22:52:04,034 — ERROR — Exception message: 
+
+name 'EarlyStopping' is not defined
+2024-02-17 00:53:44,448 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 00:57:36,193 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 01:01:35,948 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 01:05:36,018 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 01:09:33,258 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 47 finished:
+Average score: 0.40944901146715607
+Average results: {'clearance_microsome_az': [0.503, 0.016]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 402, 'model_steps': 'graph_conv_model', 'master_atom': False, 'use_chirality_graph_conv': False, 'graph_conv_layers_conv_model': '[256, 128]', 'dense_layer_size': 256, 'dropout_graph_conv': 0.0}
+2024-02-17 01:13:38,122 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacty of 14.58 GiB of which 119.62 MiB is free. Process 377457 has 1.01 GiB memory in use. Process 377678 has 13.45 GiB memory in use. Of the allocated memory 7.80 GiB is allocated by PyTorch, and 273.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2024-02-17 01:14:39,221 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 01:31:48,223 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 01:48:54,819 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 02:08:22,565 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 02:27:35,331 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 49 finished:
+Average score: 0.28002262224321905
+Average results: {'clearance_microsome_az': [0.414, 0.032]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 580, 'model_steps': 'pagtn_model', 'max_length_pagtn': 5, 'num_layers_pagtn': 5, 'num_heads': 1, 'dropout_pagtn': 0.0}
+2024-02-17 03:05:11,436 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 03:12:02,342 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 03:20:05,074 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 03:26:20,542 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 03:32:52,197 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+Trial 50 finished:
+Average score: 0.40408708654982844
+Average results: {'clearance_microsome_az': [0.472, 0.022]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'custom_standardizer', 'standardization_type': 'heavy_standardisation', 'batch_size_deepchem': 128, 'epochs_deepchem': 906, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 03:39:40,581 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 03:44:33,433 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 03:50:03,029 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 03:54:42,625 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 03:59:42,353 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 51 finished:
+Average score: 0.514022798334062
+Average results: {'clearance_microsome_az': [0.528, 0.019]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 479, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 04:04:37,661 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:09:10,970 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:13:44,627 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:18:18,127 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:22:58,772 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 52 finished:
+Average score: 0.5324013165107764
+Average results: {'clearance_microsome_az': [0.533, 0.029]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 411, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 04:27:16,837 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:32:38,690 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:37:58,100 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:43:20,334 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 04:49:10,927 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 53 finished:
+Average score: 0.49012934244863615
+Average results: {'clearance_microsome_az': [0.507, 0.021]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 32, 'epochs_deepchem': 327, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 100, 'dropout_text_cnn': 0.5}
+2024-02-17 04:54:00,014 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 05:08:32,350 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 05:26:27,834 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 05:42:03,286 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 05:51:20,840 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 54 finished:
+Average score: 0.41109803777978404
+Average results: {'clearance_microsome_az': [0.583, 0.028]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 64, 'epochs_deepchem': 411, 'model_steps': 'gcn_model', 'use_edges_gcn': False, 'use_chirality_gcn': True, 'use_partial_charge_gcn': True, 'graph_conv_layers_gcn': '[64, 64]', 'batchnorm': False, 'dropout_gcn': 0.5, 'predictor_dropout_gcn': 0.5}
+2024-02-17 05:58:58,728 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 06:02:02,994 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 06:05:12,800 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 06:08:38,660 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 06:11:49,271 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+Trial 55 finished:
+Average score: 0.49942968658984005
+Average results: {'clearance_microsome_az': [0.53, 0.021]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'basic_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 343, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 06:15:15,847 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 06:37:43,202 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 06:58:25,523 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 07:19:58,776 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 07:41:43,750 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 56 finished:
+Average score: 0.17782064995380598
+Average results: {'clearance_microsome_az': [0.018, 0.061]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 8, 'epochs_deepchem': 489, 'model_steps': 'chem_ception_model', 'base_filters': 8}
+2024-02-17 08:03:14,315 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:06:49,535 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:10:09,289 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:13:39,165 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:17:07,593 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 57 finished:
+Average score: 0.10909319494503615
+Average results: {'clearance_microsome_az': [-0.022, 0.033]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'mol2vec', 'feature_selector': 'pass_through_transformer', 'regression_model': 'ransac_regressor_model', 'base_estimator_ransac_regressor': 'linear', 'min_samples': 0.05646505239778421, 'standardizer': 'chembl_standardizer'}
+2024-02-17 08:20:29,864 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:29:41,257 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:38:57,928 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:48:06,158 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 08:57:08,705 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 58 finished:
+Average score: 0.38328903165697514
+Average results: {'clearance_microsome_az': [0.542, 0.023]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 512, 'epochs_deepchem': 414, 'model_steps': 'attentive_fp_model', 'use_chirality_attentive_fp': False, 'use_partial_charge_attentive_fp': False, 'num_layers_attentive_fp': 1, 'graph_feat_size_attentive_fp': 100, 'dropout_attentive_fp': 0.0}
+2024-02-17 09:06:17,747 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+Arg specs do not match: original=FullArgSpec(args=['input', 'dtype', 'name', 'layout'], varargs=None, varkw=None, defaults=(None, None, None), kwonlyargs=[], kwonlydefaults=None, annotations={}), new=FullArgSpec(args=['input', 'dtype', 'name'], varargs=None, varkw=None, defaults=(None, None), kwonlyargs=[], kwonlydefaults=None, annotations={}), fn=<function ones_like_v2 at 0x7fa0e28b7f40>
+name 'EarlyStopping' is not defined
+2024-02-17 09:06:51,602 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:10:37,238 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:14:21,140 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:18:11,739 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:21:57,392 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 61 finished:
+Average score: 0.5324878013186538
+Average results: {'clearance_microsome_az': [0.528, 0.02]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 455, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 09:25:57,864 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:30:10,960 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:34:25,627 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:38:36,978 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:42:52,239 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 62 finished:
+Average score: 0.5032346596551436
+Average results: {'clearance_microsome_az': [0.522, 0.039]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 548, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 09:47:07,013 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:51:11,620 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:54:51,286 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 09:58:30,215 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 10:02:06,769 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 63 finished:
+Average score: 0.5045663297582365
+Average results: {'clearance_microsome_az': [0.514, 0.019]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 405, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.25}
+2024-02-17 10:05:47,059 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 10:24:48,304 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 10:43:36,082 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 11:02:28,093 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 11:19:33,527 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 64 finished:
+Average score: nan
+Average results: {'clearance_microsome_az': [nan, nan]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 799, 'model_steps': 'smiles_to_vec_model', 'embedding_dim': 64, 'filters': 32, 'kernel_size_smiles_to_vec': 5, 'strides': 1}
+2024-02-17 11:38:32,547 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Graph execution error:
+
+Detected at node model_143/dag_layer_1/concat_48 defined at (most recent call last):
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 28, in <module>
+
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 20, in run
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/pipelines/general_tdc_pipeline.py", line 65, in general_tdc_pipeline
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline_optimization/pipeline_optimization.py", line 123, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/study.py", line 425, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 66, in _optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 200, in _run_trial
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 81, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 41, in run_with_timeout
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 114, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 145, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 161, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/base/predictor.py", line 74, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 234, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 351, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 441, in fit_generator
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 497, in apply_gradient_for_batch
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/training.py", line 589, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/base_layer.py", line 1149, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 96, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/functional.py", line 515, in call
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/functional.py", line 672, in _run_internal_graph
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/base_layer.py", line 1149, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 96, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/layers.py", line 3486, in call
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/layers.py", line 3507, in call
+
+OOM when allocating tensor with shape[6016,3221] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[{{node model_143/dag_layer_1/concat_48}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info. This isn't available when running in Eager mode.
+ [Op:__inference_apply_gradient_for_batch_8850085]
+2024-02-17 11:49:32,118 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 11:53:33,642 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 11:58:17,386 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 12:02:27,305 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 12:07:13,598 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 66 finished:
+Average score: 0.5272773460323144
+Average results: {'clearance_microsome_az': [0.526, 0.026]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 480, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 12:11:21,263 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 12:20:12,502 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 12:29:04,001 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 12:38:04,838 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-17 12:47:02,692 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+Trial 67 finished:
+Average score: 0.2782400904275158
+Average results: {'clearance_microsome_az': [0.324, 0.054]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'basic_standardizer', 'batch_size_deepchem': 32, 'epochs_deepchem': 484, 'model_steps': 'smiles_to_vec_model', 'embedding_dim': 64, 'filters': 32, 'kernel_size_smiles_to_vec': 7, 'strides': 2}
+2024-02-17 12:56:12,912 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+mat1 and mat2 shapes cannot be multiplied (64x128 and 1024x128)
+2024-02-17 12:57:34,887 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:02:22,398 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:07:47,238 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:12:44,754 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:17:48,254 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 69 finished:
+Average score: 0.5124315812086312
+Average results: {'clearance_microsome_az': [0.516, 0.024]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 644, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 13:22:43,370 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:26:25,747 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:30:34,594 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:34:13,832 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 13:37:58,357 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 70 finished:
+Average score: 0.5244233276898977
+Average results: {'clearance_microsome_az': [0.507, 0.011]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 361, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.25}
+2024-02-17 13:41:37,901 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 13:51:26,351 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 14:01:45,941 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 14:12:50,640 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-17 14:23:30,699 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+Trial 71 finished:
+Average score: 0.40456574940299833
+Average results: {'clearance_microsome_az': [0.584, 0.016]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'custom_standardizer', 'standardization_type': 'simple_standardisation', 'batch_size_deepchem': 128, 'epochs_deepchem': 474, 'model_steps': 'gcn_model', 'use_edges_gcn': False, 'use_chirality_gcn': False, 'use_partial_charge_gcn': False, 'graph_conv_layers_gcn': '[32, 64]', 'batchnorm': False, 'dropout_gcn': 0.5, 'predictor_dropout_gcn': 0.5}
+2024-02-17 14:34:41,123 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 14:39:37,611 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 14:43:44,313 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 14:47:32,030 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 14:52:09,150 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 72 finished:
+Average score: 0.4918823961961561
+Average results: {'clearance_microsome_az': [0.513, 0.024]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 361, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.25}
+2024-02-17 14:57:13,558 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:01:49,467 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:06:05,747 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:10:42,223 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:15:12,523 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 73 finished:
+Average score: 0.5058093464410838
+Average results: {'clearance_microsome_az': [0.521, 0.018]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 429, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.25}
+2024-02-17 15:20:54,331 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:25:16,825 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:29:10,075 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:33:39,472 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:37:30,147 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 74 finished:
+Average score: 0.5013295541172992
+Average results: {'clearance_microsome_az': [0.515, 0.023]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 372, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 15:42:36,965 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 15:51:44,836 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:00:08,969 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:08:38,878 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:17:31,731 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 75 finished:
+Average score: 0.5185529393559631
+Average results: {'clearance_microsome_az': [0.498, 0.015]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 8, 'epochs_deepchem': 467, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 16:26:18,387 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:30:42,510 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:34:55,665 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:39:05,949 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:43:11,962 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 76 finished:
+Average score: 0.08039888657864683
+Average results: {'clearance_microsome_az': [0.366, 0.133]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': 'morgan', 'radius': 6, 'n_bits': 1024, 'feature_selector': 'k_best', 'k': 1, 'regression_model': 'gaussian_process_regressor_model', 'alpha_gaussian_process_regressor': 0.58247105768734, 'standardizer': 'chembl_standardizer'}
+2024-02-17 16:47:14,794 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 16:58:41,038 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 17:10:41,344 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 17:22:56,991 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 17:34:20,107 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 77 finished:
+Average score: 0.3731194913490449
+Average results: {'clearance_microsome_az': [0.53, 0.022]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 520, 'model_steps': 'dmpnn_model', 'fnn_layers': 3, 'fnn_dropout_p': 0.0, 'depth_dmpnn': 2}
+2024-02-17 17:45:44,327 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 18:03:20,701 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 18:20:05,136 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 18:38:52,898 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 18:56:28,499 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 78 finished:
+Average score: 0.3670521763514384
+Average results: {'clearance_microsome_az': [0.493, 0.045]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 336, 'model_steps': 'attentive_fp_model', 'use_chirality_attentive_fp': False, 'use_partial_charge_attentive_fp': False, 'num_layers_attentive_fp': 3, 'graph_feat_size_attentive_fp': 300, 'dropout_attentive_fp': 0.0}
+name 'EarlyStopping' is not defined
+2024-02-17 19:12:21,555 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 19:19:19,812 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 19:26:21,514 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 19:33:21,104 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 19:40:10,627 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 80 finished:
+Average score: 0.1397125243089092
+Average results: {'clearance_microsome_az': [0.105, 0.121]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 512, 'epochs_deepchem': 259, 'model_steps': 'chem_ception_model', 'base_filters': 16}
+2024-02-17 19:47:03,065 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 19:50:19,657 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 19:53:46,643 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 19:57:03,897 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:00:21,438 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 81 finished:
+Average score: 0.4997650570944773
+Average results: {'clearance_microsome_az': [0.548, 0.019]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 149, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 100, 'dropout_text_cnn': 0.5}
+2024-02-17 20:03:51,469 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:07:56,743 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:12:01,854 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:16:11,565 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:20:17,957 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 82 finished:
+Average score: 0.5295994547629106
+Average results: {'clearance_microsome_az': [0.518, 0.026]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 388, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 20:24:22,700 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:29:09,316 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:33:46,318 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:38:08,972 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:42:55,072 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 83 finished:
+Average score: 0.5026211802462747
+Average results: {'clearance_microsome_az': [0.525, 0.02]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 439, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 20:47:33,609 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:52:10,651 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 20:56:37,827 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 21:01:07,469 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 21:05:47,053 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 84 finished:
+Average score: 0.5215778726334663
+Average results: {'clearance_microsome_az': [0.525, 0.019]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 386, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.5}
+2024-02-17 21:10:16,515 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-17 21:12:10,515 — ERROR — Failed to featurize CCOc1ccccc1CNCc1cccc(CCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)c1. Appending empty array
+2024-02-17 21:12:10,515 — ERROR — Exception message: 
+2024-02-17 21:12:13,302 — ERROR — Failed to featurize CNS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-17 21:12:13,303 — ERROR — Exception message: 
+2024-02-17 21:12:14,060 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NCCO)ccc12. Appending empty array
+2024-02-17 21:12:14,061 — ERROR — Exception message: 
+2024-02-17 21:12:14,304 — ERROR — Failed to featurize COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1. Appending empty array
+2024-02-17 21:12:14,304 — ERROR — Exception message: 
+2024-02-17 21:12:14,553 — ERROR — Failed to featurize CS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(C#N)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-17 21:12:14,553 — ERROR — Exception message: 
+2024-02-17 21:12:15,745 — ERROR — Failed to featurize CCO[C@@H]1OC(=O)C[C@@H]1NC(=O)[C@@H]1CCCN2C(=O)CC[C@H](NC(=O)c3nccc4ccccc34)C(=O)N12. Appending empty array
+2024-02-17 21:12:15,746 — ERROR — Exception message: 
+2024-02-17 21:12:16,589 — ERROR — Failed to featurize COc1ccccc1CCNCc1cccc(CCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)c1. Appending empty array
+2024-02-17 21:12:16,589 — ERROR — Exception message: 
+2024-02-17 21:12:16,869 — ERROR — Failed to featurize COc1ccccc1CN(C)Cc1cccc(CCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)c1. Appending empty array
+2024-02-17 21:12:16,869 — ERROR — Exception message: 
+2024-02-17 21:12:16,929 — ERROR — Failed to featurize COc1ccccc1CCNCc1ccc(CCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)cc1. Appending empty array
+2024-02-17 21:12:16,930 — ERROR — Exception message: 
+2024-02-17 21:12:16,934 — ERROR — Failed to featurize CCc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)cc1. Appending empty array
+2024-02-17 21:12:16,935 — ERROR — Exception message: 
+2024-02-17 21:12:17,203 — ERROR — Failed to featurize C#CC[C@@H](C(=O)N[C@H](/C=C/C(=O)OCC)C[C@@H]1CCNC1=O)n1cccc(NC(=O)c2noc(C)c2)c1=O. Appending empty array
+2024-02-17 21:12:17,203 — ERROR — Exception message: 
+2024-02-17 21:12:19,147 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NC3CC3)ccc12. Appending empty array
+2024-02-17 21:12:19,147 — ERROR — Exception message: 
+2024-02-17 21:12:20,227 — ERROR — Failed to featurize CCOc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)cc1. Appending empty array
+2024-02-17 21:12:20,228 — ERROR — Exception message: 
+2024-02-17 21:12:23,416 — ERROR — Failed to featurize OCc1cc(C(O)CNCCCCCCOCCCCc2ccccc2)ccc1O. Appending empty array
+2024-02-17 21:12:23,417 — ERROR — Exception message: 
+2024-02-17 21:12:24,358 — ERROR — Failed to featurize Cc1cccc2c1[nH]cc2CCNCc1cccc(CCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)c1. Appending empty array
+2024-02-17 21:12:24,358 — ERROR — Exception message: 
+2024-02-17 21:12:33,069 — ERROR — Failed to featurize COCc1c(C(=O)N(c2ccc(OC)cc2OC)C(C(=O)NC[C@@H](C)O)c2ccccc2F)occ1. Appending empty array
+2024-02-17 21:12:33,070 — ERROR — Exception message: 
+2024-02-17 21:12:33,896 — ERROR — Failed to featurize CN(C(=O)Cc1ccc(F)cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-17 21:12:33,896 — ERROR — Exception message: 
+2024-02-17 21:12:46,406 — ERROR — Failed to featurize CCN(C(=O)c1c(NS(=O)(=O)c2ccc(-c3cnco3)cc2)n(-c2ccccc2)nc1)C1CCCCC1. Appending empty array
+2024-02-17 21:12:46,406 — ERROR — Exception message: 
+2024-02-17 21:12:47,603 — ERROR — Failed to featurize CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1. Appending empty array
+2024-02-17 21:12:47,603 — ERROR — Exception message: 
+2024-02-17 21:12:48,748 — ERROR — Failed to featurize CCCCN(CCNC[C@H](O)c1ccc(O)c2c1sc(=O)[nH]2)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-17 21:12:48,748 — ERROR — Exception message: 
+2024-02-17 21:12:51,154 — ERROR — Failed to featurize CCCN(CCNCCc1ccc(O)c2c1sc(=O)[nH]2)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-17 21:12:51,155 — ERROR — Exception message: 
+2024-02-17 21:12:53,236 — ERROR — Failed to featurize O=C(Nc1ccccn1)c1ccc2[nH]c(-c3ccc(NC(=O)C45CC6CC(CC(C6)C4)C5)cc3)nc2c1. Appending empty array
+2024-02-17 21:12:53,237 — ERROR — Exception message: 
+2024-02-17 21:13:07,162 — ERROR — Failed to featurize O=C(NCC1CCCCCC1)c1cc(-c2cccnc2N2CCC(C(=O)O)CC2)ccc1Cl. Appending empty array
+2024-02-17 21:13:07,162 — ERROR — Exception message: 
+2024-02-17 21:13:17,217 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4cc(S(C)(=O)=O)ccc34)CC2)c1Cl. Appending empty array
+2024-02-17 21:13:17,217 — ERROR — Exception message: 
+2024-02-17 21:13:19,728 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4ccc(S(C)(=O)=O)cc34)CC2)c1Cl. Appending empty array
+2024-02-17 21:13:19,729 — ERROR — Exception message: 
+2024-02-17 21:13:26,909 — ERROR — Failed to featurize Cc1cc(Cl)ccc1OC1CCN(C[C@H](O)CNC(=O)c2c[nH]c(=O)c3cc(S(C)(=O)=O)ccc23)CC1. Appending empty array
+2024-02-17 21:13:26,909 — ERROR — Exception message: 
+2024-02-17 21:13:36,496 — ERROR — Failed to featurize O=c1[nH]c2c(O)ccc([C@@H](O)CNCCc3cccc(CN4CCC(c5ccccc5)CC4)c3)c2s1. Appending empty array
+2024-02-17 21:13:36,496 — ERROR — Exception message: 
+2024-02-17 21:14:23,508 — ERROR — Failed to featurize CCN(C(=O)Cc1ccc([N+](=O)[O-])cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-17 21:14:23,509 — ERROR — Exception message: 
+2024-02-17 21:14:29,450 — ERROR — Failed to featurize CCCCN(CCNCCc1ccc(O)c2c1sc(=O)[nH]2)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-17 21:14:29,451 — ERROR — Exception message: 
+2024-02-17 21:14:34,680 — ERROR — Failed to featurize CN(C(=O)Cc1ccc(S(N)(=O)=O)cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-17 21:14:34,681 — ERROR — Exception message: 
+2024-02-17 21:14:45,503 — ERROR — Failed to featurize CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1. Appending empty array
+2024-02-17 21:14:45,503 — ERROR — Exception message: 
+2024-02-17 21:17:34,153 — ERROR — Failed to featurize CC(C)N(CCNCCc1ccc(O)c2c1sc(=O)[nH]2)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-17 21:17:34,153 — ERROR — Exception message: 
+2024-02-17 21:17:47,224 — ERROR — Failed to featurize CN(C)C(=O)C(CCN1CCC(O)(c2ccc(Cl)cc2)CC1)(c1ccccc1)c1ccccc1. Appending empty array
+2024-02-17 21:17:47,224 — ERROR — Exception message: 
+2024-02-17 21:17:52,099 — ERROR — Failed to featurize CN(C)S(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-17 21:17:52,100 — ERROR — Exception message: 
+2024-02-17 21:18:16,092 — ERROR — Failed to featurize CC(=O)Nc1ccc(CC(=O)N(C)C2CCN(CCC(c3ccccc3)c3ccccc3)CC2)cc1. Appending empty array
+2024-02-17 21:18:16,092 — ERROR — Exception message: 
+2024-02-17 21:19:02,596 — ERROR — Failed to featurize Cc1ccc(NC(=O)c2cccc(N3CCOCC3)c2)cc1NC(=O)c1ccc(OCc2ccccn2)cc1. Appending empty array
+2024-02-17 21:19:02,596 — ERROR — Exception message: 
+2024-02-17 21:22:41,636 — ERROR — Failed to featurize C=CCN(C(=O)Cc1ccc(S(C)(=O)=O)cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-17 21:22:41,636 — ERROR — Exception message: 
+2024-02-17 21:41:51,724 — ERROR — Failed to featurize CCN(C(=O)Cc1ccc(S(C)(=O)=O)cc1)C1CCN(CCC(c2ccccc2)c2ccc(C#N)cc2)CC1. Appending empty array
+2024-02-17 21:41:51,724 — ERROR — Exception message: 
+2024-02-17 21:47:54,459 — ERROR — Failed to featurize CC(C)(C)NC(=O)c1ccc(Oc2cc(F)c(CC(=O)O)cc2Cl)c(NS(=O)(=O)c2ccc(C3CC3)cc2Cl)c1. Appending empty array
+2024-02-17 21:47:54,459 — ERROR — Exception message: 
+2024-02-17 21:52:33,113 — ERROR — Failed to featurize C[C@H](Cc1cccc(CC(=O)NC23CC4CC(CC(C4)C2)C3)c1)NC[C@H](O)c1ccc(O)c(CO)c1. Appending empty array
+2024-02-17 21:52:33,114 — ERROR — Exception message: 
+2024-02-17 22:05:17,696 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1cc(CN2CC3CNCC(C2)O3)ccc1Cl. Appending empty array
+2024-02-17 22:05:17,696 — ERROR — Exception message: 
+2024-02-17 22:06:01,080 — ERROR — Failed to featurize COc1ccccc1CNCCc1cccc(CCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)c1. Appending empty array
+2024-02-17 22:06:01,080 — ERROR — Exception message: 
+2024-02-17 22:08:29,654 — ERROR — Failed to featurize Cc1ccc(NC(=O)c2cccc(N3CCOCC3)c2)cc1-n1cnc2ccc(N3CCN(C)CC3)cc2c1=O. Appending empty array
+2024-02-17 22:08:29,654 — ERROR — Exception message: 
+2024-02-17 22:08:47,773 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)N3CCC3)ccc12. Appending empty array
+2024-02-17 22:08:47,773 — ERROR — Exception message: 
+2024-02-17 22:09:01,192 — ERROR — Failed to featurize CC1(O)CN(S(=O)(=O)c2ccc3c(C(=O)NC[C@@H](O)CN4CCC(Oc5ccc(Cl)c(Cl)c5)CC4)c[nH]c(=O)c3c2)C1. Appending empty array
+2024-02-17 22:09:01,193 — ERROR — Exception message: 
+2024-02-17 22:11:49,012 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1c(Cl)ccc2nc(N3CCC[C@H](NCCc4nnn[nH]4)C3)ccc12. Appending empty array
+2024-02-17 22:11:49,013 — ERROR — Exception message: 
+2024-02-17 22:12:01,191 — ERROR — Failed to featurize CNC(=O)c1cccc(NC(=O)Nc2cccc(C#N)c2)c1CN1CCC(Cc2ccc(F)cc2)CC1. Appending empty array
+2024-02-17 22:12:01,191 — ERROR — Exception message: 
+2024-02-17 22:53:10,775 — ERROR — Failed to featurize C[C@@H](NCc1ccccc1-c1ccc(CCNC[C@H](O)c2ccc(O)c3c2sc(=O)[nH]3)cc1)c1ccccc1. Appending empty array
+2024-02-17 22:53:10,776 — ERROR — Exception message: 
+2024-02-17 22:56:07,237 — ERROR — Failed to featurize Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12. Appending empty array
+2024-02-17 22:56:07,238 — ERROR — Exception message: 
+2024-02-17 23:04:18,494 — ERROR — Failed to featurize COc1ccccc1Oc1c(OCCO)nc(-c2ncccn2)nc1NS(=O)(=O)c1ccc(C(C)(C)C)cc1. Appending empty array
+2024-02-17 23:04:18,495 — ERROR — Exception message: 
+2024-02-17 23:57:25,736 — ERROR — Failed to featurize CCOc1ccc(-n2c([C@@H](C)N(Cc3cccnc3)C(=O)Cc3ccc(C(F)(F)F)cc3)nc3ccccc3c2=O)cc1. Appending empty array
+2024-02-17 23:57:25,736 — ERROR — Exception message: 
+2024-02-18 00:05:07,329 — ERROR — Failed to featurize O=c1[nH]c2c(O)ccc([C@@H](O)CNCCc3cccc(CNCCCc4ccccc4)c3)c2s1. Appending empty array
+2024-02-18 00:05:07,346 — ERROR — Exception message: 
+
+2024-02-18 00:10:19,803 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-18 00:16:40,407 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-18 00:22:52,801 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-18 00:29:09,068 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-18 00:35:32,997 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+Trial 86 finished:
+Average score: 0.39557778844696306
+Average results: {'clearance_microsome_az': [0.48, 0.059]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'basic_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 352, 'model_steps': 'graph_conv_model', 'master_atom': True, 'use_chirality_graph_conv': False, 'graph_conv_layers_conv_model': '[256, 128, 64]', 'dense_layer_size': 512, 'dropout_graph_conv': 0.0}
+2024-02-18 00:42:25,807 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Arg specs do not match: original=FullArgSpec(args=['input', 'dtype', 'name', 'layout'], varargs=None, varkw=None, defaults=(None, None, None), kwonlyargs=[], kwonlydefaults=None, annotations={}), new=FullArgSpec(args=['input', 'dtype', 'name'], varargs=None, varkw=None, defaults=(None, None), kwonlyargs=[], kwonlydefaults=None, annotations={}), fn=<function ones_like_v2 at 0x7fa0e28b7f40>
+2024-02-18 00:42:26,282 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 00:47:29,709 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 00:52:36,064 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 00:58:44,226 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 01:04:10,194 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 88 finished:
+Average score: 0.527026611244777
+Average results: {'clearance_microsome_az': [0.522, 0.018]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 569, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.25}
+Trial 89 finished:
+Average score: 0.4664355837756268
+Average results: {'clearance_microsome_az': [0.596, 0.014]}
+Parameters: {'model_type': 'sklearn', '1D_featurizer': '2d_descriptors', 'scaler': 'quantile_transformer', 'n_quantiles': 550, 'output_distribution': 'normal', 'feature_selector': 'select_from_model_fs', 'n_estimators': 15, 'regression_model': 'stacking_regressor_model', 'standardizer': 'pass_through_standardizer'}
+2024-02-18 01:25:16,177 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 01:32:19,639 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 01:39:47,027 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 01:47:29,050 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Graph execution error:
+
+Detected at node Adam/StatefulPartitionedCall_10 defined at (most recent call last):
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 28, in <module>
+
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 20, in run
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/pipelines/general_tdc_pipeline.py", line 65, in general_tdc_pipeline
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline_optimization/pipeline_optimization.py", line 123, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/study.py", line 425, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 66, in _optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 200, in _run_trial
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 81, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 41, in run_with_timeout
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 114, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 145, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 161, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/base/predictor.py", line 74, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 234, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 351, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 441, in fit_generator
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 508, in apply_gradient_for_batch
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1223, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 652, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1253, in _internal_apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1345, in _distributed_apply_gradients_fn
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1340, in apply_grad_to_update_var
+
+Failed to execute XLA Runtime executable: run time error: custom call 'xla.gpu.func.launch' failed: Failed to get module function: CUDA_ERROR_OUT_OF_MEMORY: out of memory; current tracing scope: copy_fusion; current profiling annotation: XlaModule:#hlo_module=a_inference__update_step_xla_13176177__.48,program_id=60725#.
+	 [[{{node Adam/StatefulPartitionedCall_10}}]] [Op:__inference_apply_gradient_for_batch_13178081]
+2024-02-18 01:48:33,447 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 02:13:33,471 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 02:40:55,293 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 03:01:15,080 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 03:21:13,136 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 91 finished:
+Average score: 0.38650234936395783
+Average results: {'clearance_microsome_az': [0.454, 0.059]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 32, 'epochs_deepchem': 506, 'model_steps': 'pagtn_model', 'max_length_pagtn': 20, 'num_layers_pagtn': 2, 'num_heads': 1, 'dropout_pagtn': 0.0}
+2024-02-18 03:41:35,347 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 03:46:53,848 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 03:53:47,156 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:00:50,531 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:06:25,194 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 92 finished:
+Average score: 0.5084714659197731
+Average results: {'clearance_microsome_az': [0.518, 0.017]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 568, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.25}
+2024-02-18 04:11:59,884 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:17:59,652 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:23:09,751 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:28:35,568 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:33:27,137 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Trial 93 finished:
+Average score: 0.5069702577240982
+Average results: {'clearance_microsome_az': [0.523, 0.016]}
+Parameters: {'model_type': 'deepchem', 'standardizer': 'chembl_standardizer', 'batch_size_deepchem': 128, 'epochs_deepchem': 428, 'model_steps': 'text_cnn_model', 'n_embedding_text_cnn': 50, 'dropout_text_cnn': 0.25}
+2024-02-18 04:38:34,559 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:44:06,560 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Graph execution error:
+
+Detected at node Adam/StatefulPartitionedCall_26 defined at (most recent call last):
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 28, in <module>
+
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 20, in run
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/pipelines/general_tdc_pipeline.py", line 65, in general_tdc_pipeline
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline_optimization/pipeline_optimization.py", line 123, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/study.py", line 425, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 66, in _optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 200, in _run_trial
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 81, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 41, in run_with_timeout
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 114, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 145, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 161, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/base/predictor.py", line 74, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 234, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 351, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 441, in fit_generator
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 508, in apply_gradient_for_batch
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1223, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 652, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1253, in _internal_apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1345, in _distributed_apply_gradients_fn
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1340, in apply_grad_to_update_var
+
+Failed to execute XLA Runtime executable: run time error: custom call 'xla.gpu.func.launch' failed: Failed to get module function: CUDA_ERROR_OUT_OF_MEMORY: out of memory; current tracing scope: fusion; current profiling annotation: XlaModule:#hlo_module=a_inference__update_step_xla_13520698__.48,program_id=63617#.
+	 [[{{node Adam/StatefulPartitionedCall_26}}]] [Op:__inference_apply_gradient_for_batch_13521850]
+2024-02-18 04:45:04,257 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 04:56:17,089 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 05:07:44,258 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-18 05:19:10,477 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Graph execution error:
+
+Detected at node Adam/StatefulPartitionedCall defined at (most recent call last):
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 28, in <module>
+
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 20, in run
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/pipelines/general_tdc_pipeline.py", line 65, in general_tdc_pipeline
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline_optimization/pipeline_optimization.py", line 123, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/study.py", line 425, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 66, in _optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 200, in _run_trial
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 81, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 41, in run_with_timeout
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 114, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 145, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 161, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/base/predictor.py", line 74, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 234, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 351, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 441, in fit_generator
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 508, in apply_gradient_for_batch
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1223, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 652, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1253, in _internal_apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1345, in _distributed_apply_gradients_fn
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1340, in apply_grad_to_update_var
+
+Failed to instantiate GPU graphs: CaptureGpuGraph failed (Failed to get module function: CUDA_ERROR_OUT_OF_MEMORY: out of memory; current tracing scope: fusion.3): INTERNAL: failed to capture gpu graph: run time error: custom call 'xla.gpu.func.launch' failed
+	 [[{{node Adam/StatefulPartitionedCall}}]] [Op:__inference_apply_gradient_for_batch_13624496]
+2024-02-18 05:20:12,925 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+Cannot set different distribution kind to the same parameter name.
+name 'EarlyStopping' is not defined
+2024-02-18 05:21:02,946 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Graph execution error:
+
+Detected at node Adam/StatefulPartitionedCall_32 defined at (most recent call last):
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 28, in <module>
+
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 20, in run
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/pipelines/general_tdc_pipeline.py", line 65, in general_tdc_pipeline
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline_optimization/pipeline_optimization.py", line 123, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/study.py", line 425, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 66, in _optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 200, in _run_trial
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 81, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 41, in run_with_timeout
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 114, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 145, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 161, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/base/predictor.py", line 74, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 234, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 351, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 441, in fit_generator
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 508, in apply_gradient_for_batch
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1223, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 652, in apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1253, in _internal_apply_gradients
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1345, in _distributed_apply_gradients_fn
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/optimizers/optimizer.py", line 1340, in apply_grad_to_update_var
+
+Failed to execute XLA Runtime executable: run time error: custom call 'xla.gpu.func.launch' failed: Failed to get module function: CUDA_ERROR_OUT_OF_MEMORY: out of memory; current tracing scope: fusion; current profiling annotation: XlaModule:#hlo_module=a_inference__update_step_xla_13627785__.48,program_id=64428#.
+	 [[{{node Adam/StatefulPartitionedCall_32}}]] [Op:__inference_apply_gradient_for_batch_13628655]
+2024-02-18 05:22:22,886 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+Graph execution error:
+
+Detected at node model_236/dag_layer_2/GatherNd_32 defined at (most recent call last):
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 28, in <module>
+
+  File "/workspace/scripts/tdc/clearance_microsome/clearance_microsome.py", line 20, in run
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/pipelines/general_tdc_pipeline.py", line 65, in general_tdc_pipeline
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline_optimization/pipeline_optimization.py", line 123, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/study.py", line 425, in optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 66, in _optimize
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+
+  File "/usr/local/lib/python3.10/dist-packages/optuna/study/_optimize.py", line 200, in _run_trial
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 81, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+
+  File "/usr/local/lib/python3.10/dist-packages/dcs/objectives/tdc_objective.py", line 41, in run_with_timeout
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 114, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/pipeline/pipeline.py", line 145, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 161, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/base/predictor.py", line 74, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepmol/models/deepchem_models.py", line 234, in _fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 351, in fit
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 441, in fit_generator
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/keras_model.py", line 497, in apply_gradient_for_batch
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/training.py", line 589, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/base_layer.py", line 1149, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 96, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/functional.py", line 515, in call
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/functional.py", line 672, in _run_internal_graph
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/engine/base_layer.py", line 1149, in __call__
+
+  File "/usr/local/lib/python3.10/dist-packages/keras/src/utils/traceback_utils.py", line 96, in error_handler
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/layers.py", line 3486, in call
+
+  File "/usr/local/lib/python3.10/dist-packages/deepchem/models/layers.py", line 3502, in call
+
+OOM when allocating tensor with shape[174146,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[{{node model_236/dag_layer_2/GatherNd_32}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info. This isn't available when running in Eager mode.
+ [Op:__inference_apply_gradient_for_batch_13661008]
+    number     value  ... params_weights_kneighbors_regressor     state
+0        0  0.278646  ...                                 NaN  COMPLETE
+1        1      -inf  ...                                 NaN  COMPLETE
+2        2      -inf  ...                                 NaN  COMPLETE
+3        3      -inf  ...                                 NaN  COMPLETE
+4        4      -inf  ...                                 NaN  COMPLETE
+..     ...       ...  ...                                 ...       ...
+95      95      -inf  ...                                 NaN  COMPLETE
+96      96      -inf  ...                                 NaN  COMPLETE
+97      97      -inf  ...                                 NaN  COMPLETE
+98      98      -inf  ...                                 NaN  COMPLETE
+99      99      -inf  ...                                 NaN  COMPLETE
+
+[100 rows x 185 columns]
+Best trial: FrozenTrial(number=41, state=TrialState.COMPLETE, values=[0.5400154949155507], datetime_start=datetime.datetime(2024, 2, 16, 21, 3, 58, 492586), datetime_complete=datetime.datetime(2024, 2, 16, 21, 20, 19, 573757), params={'batch_size_deepchem': 128, 'dropout_text_cnn': 0.5, 'epochs_deepchem': 431, 'model_steps': 'text_cnn_model', 'model_type': 'deepchem', 'n_embedding_text_cnn': 50, 'standardizer': 'chembl_standardizer'}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'batch_size_deepchem': CategoricalDistribution(choices=(8, 16, 32, 64, 128, 256, 512)), 'dropout_text_cnn': FloatDistribution(high=0.5, log=False, low=0.0, step=0.25), 'epochs_deepchem': IntDistribution(high=1000, log=False, low=100, step=1), 'model_steps': CategoricalDistribution(choices=('gat_model', 'gcn_model', 'attentive_fp_model', 'pagtn_model', 'chem_ception_model', 'dag_model', 'graph_conv_model', 'smiles_to_vec_model', 'text_cnn_model', 'weave_model', 'dmpnn_model', 'dtnn_model', 'mat_model')), 'model_type': CategoricalDistribution(choices=('keras', 'sklearn', 'deepchem')), 'n_embedding_text_cnn': CategoricalDistribution(choices=(50, 75, 100)), 'standardizer': CategoricalDistribution(choices=('basic_standardizer', 'custom_standardizer', 'chembl_standardizer', 'pass_through_standardizer'))}, trial_id=42, value=None)
+Best score: 0.5400154949155507
+Best params: {'batch_size_deepchem': 128, 'dropout_text_cnn': 0.5, 'epochs_deepchem': 431, 'model_steps': 'text_cnn_model', 'model_type': 'deepchem', 'n_embedding_text_cnn': 50, 'standardizer': 'chembl_standardizer'}
+Elapsed time: 217381.5303516388

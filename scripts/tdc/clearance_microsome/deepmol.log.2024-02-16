@@ -1,0 +1,254 @@
+2024-02-16 01:07:39,367 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:08:37,729 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:09:39,905 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:10:39,170 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:11:38,003 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 01:12:33,156 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:13:22,293 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:14:11,460 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:15:01,692 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:15:52,259 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 01:16:40,966 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 01:49:15,560 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 02:21:22,716 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 02:53:57,324 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 03:21:19,844 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 06:16:18,801 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 06:33:06,309 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 06:49:34,890 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 07:06:15,358 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 07:23:02,515 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 07:39:49,115 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 09:10:11,062 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 10:40:05,189 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NCCO)ccc12. Appending empty array
+2024-02-16 10:40:05,189 — ERROR — Exception message: 
+2024-02-16 10:40:05,501 — ERROR — Failed to featurize CCO[C@@H]1OC(=O)C[C@@H]1NC(=O)[C@@H]1CCCN2C(=O)CC[C@H](NC(=O)c3nccc4ccccc34)C(=O)N12. Appending empty array
+2024-02-16 10:40:05,501 — ERROR — Exception message: 
+2024-02-16 10:40:05,875 — ERROR — Failed to featurize CCOc1ccccc1CNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 10:40:05,875 — ERROR — Exception message: 
+2024-02-16 10:40:06,187 — ERROR — Failed to featurize COc1ccccc1CN(C)Cc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 10:40:06,188 — ERROR — Exception message: 
+2024-02-16 10:40:07,238 — ERROR — Failed to featurize CNS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 10:40:07,239 — ERROR — Exception message: 
+2024-02-16 10:40:07,294 — ERROR — Failed to featurize CS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(C#N)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 10:40:07,295 — ERROR — Exception message: 
+2024-02-16 10:40:09,494 — ERROR — Failed to featurize COc1ccccc1CCNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 10:40:09,495 — ERROR — Exception message: 
+2024-02-16 10:40:09,937 — ERROR — Failed to featurize C#CC[C@@H](C(=O)N[C@H](/C=C/C(=O)OCC)C[C@@H]1CCNC1=O)n1cccc(NC(=O)c2cc(C)on2)c1=O. Appending empty array
+2024-02-16 10:40:09,938 — ERROR — Exception message: 
+2024-02-16 10:40:10,635 — ERROR — Failed to featurize COc1ccccc1CCNCc1ccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 10:40:10,636 — ERROR — Exception message: 
+2024-02-16 10:40:11,214 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NC3CC3)ccc12. Appending empty array
+2024-02-16 10:40:11,214 — ERROR — Exception message: 
+2024-02-16 10:40:13,301 — ERROR — Failed to featurize Cc1cccc2c(CCNCc3cccc(CCNC[C@H](O)c4ccc(O)c5[nH]c(=O)sc45)c3)c[nH]c12. Appending empty array
+2024-02-16 10:40:13,301 — ERROR — Exception message: 
+2024-02-16 10:40:18,968 — ERROR — Failed to featurize COCc1ccoc1C(=O)N(c1ccc(OC)cc1OC)C(C(=O)NC[C@@H](C)O)c1ccccc1F. Appending empty array
+2024-02-16 10:40:18,970 — ERROR — Exception message: 
+2024-02-16 10:40:21,949 — ERROR — Failed to featurize CCc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 10:40:21,950 — ERROR — Exception message: 
+2024-02-16 10:40:22,820 — ERROR — Failed to featurize COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1. Appending empty array
+2024-02-16 10:40:22,821 — ERROR — Exception message: 
+2024-02-16 10:40:23,958 — ERROR — Failed to featurize CCOc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 10:40:23,958 — ERROR — Exception message: 
+2024-02-16 10:40:34,019 — ERROR — Failed to featurize O=C(NCC1CCCCCC1)c1cc(-c2cccnc2N2CCC(C(=O)O)CC2)ccc1Cl. Appending empty array
+2024-02-16 10:40:34,020 — ERROR — Exception message: 
+2024-02-16 10:40:34,974 — ERROR — Failed to featurize OCc1cc(C(O)CNCCCCCCOCCCCc2ccccc2)ccc1O. Appending empty array
+2024-02-16 10:40:34,974 — ERROR — Exception message: 
+2024-02-16 10:40:39,533 — ERROR — Failed to featurize CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1. Appending empty array
+2024-02-16 10:40:39,533 — ERROR — Exception message: 
+2024-02-16 10:40:47,564 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4cc(S(C)(=O)=O)ccc34)CC2)c1Cl. Appending empty array
+2024-02-16 10:40:47,564 — ERROR — Exception message: 
+2024-02-16 10:40:50,040 — ERROR — Failed to featurize O=C(Nc1ccccn1)c1ccc2[nH]c(-c3ccc(NC(=O)C45CC6CC(CC(C6)C4)C5)cc3)nc2c1. Appending empty array
+2024-02-16 10:40:50,040 — ERROR — Exception message: 
+2024-02-16 10:40:51,531 — ERROR — Failed to featurize CCN(C(=O)c1cnn(-c2ccccc2)c1NS(=O)(=O)c1ccc(-c2cnco2)cc1)C1CCCCC1. Appending empty array
+2024-02-16 10:40:51,532 — ERROR — Exception message: 
+2024-02-16 10:40:56,200 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4ccc(S(C)(=O)=O)cc34)CC2)c1Cl. Appending empty array
+2024-02-16 10:40:56,200 — ERROR — Exception message: 
+2024-02-16 10:40:58,439 — ERROR — Failed to featurize Cc1cc(Cl)ccc1OC1CCN(C[C@H](O)CNC(=O)c2c[nH]c(=O)c3cc(S(C)(=O)=O)ccc23)CC1. Appending empty array
+2024-02-16 10:40:58,440 — ERROR — Exception message: 
+2024-02-16 10:41:26,418 — ERROR — Failed to featurize CCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:41:26,418 — ERROR — Exception message: 
+2024-02-16 10:41:29,282 — ERROR — Failed to featurize CCCCN(CCNC[C@H](O)c1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:41:29,282 — ERROR — Exception message: 
+2024-02-16 10:41:46,217 — ERROR — Failed to featurize O=c1[nH]c2c(O)ccc([C@@H](O)CNCCc3cccc(CN4CCC(c5ccccc5)CC4)c3)c2s1. Appending empty array
+2024-02-16 10:41:46,217 — ERROR — Exception message: 
+2024-02-16 10:42:29,001 — ERROR — Failed to featurize CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1. Appending empty array
+2024-02-16 10:42:29,001 — ERROR — Exception message: 
+2024-02-16 10:43:28,143 — ERROR — Failed to featurize CN(C)S(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 10:43:28,144 — ERROR — Exception message: 
+2024-02-16 10:46:56,494 — ERROR — Failed to featurize CN(C(=O)Cc1ccc(F)cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-16 10:46:56,495 — ERROR — Exception message: 
+2024-02-16 10:46:57,011 — ERROR — Failed to featurize CCCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:46:57,012 — ERROR — Exception message: 
+2024-02-16 10:50:05,315 — ERROR — Failed to featurize Cc1ccc(NC(=O)c2cccc(N3CCOCC3)c2)cc1NC(=O)c1ccc(OCc2ccccn2)cc1. Appending empty array
+2024-02-16 10:50:05,316 — ERROR — Exception message: 
+2024-02-16 10:57:22,142 — ERROR — Failed to featurize CC(C)N(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 10:57:22,143 — ERROR — Exception message: 
+2024-02-16 11:04:24,853 — ERROR — Failed to featurize CC(C)(C)NC(=O)c1ccc(Oc2cc(F)c(CC(=O)O)cc2Cl)c(NS(=O)(=O)c2ccc(C3CC3)cc2Cl)c1. Appending empty array
+2024-02-16 11:04:24,854 — ERROR — Exception message: 
+2024-02-16 11:21:41,889 — ERROR — Failed to featurize C[C@H](Cc1cccc(CC(=O)NC23CC4CC(CC(C4)C2)C3)c1)NC[C@H](O)c1ccc(O)c(CO)c1. Appending empty array
+2024-02-16 11:21:41,889 — ERROR — Exception message: 
+2024-02-16 11:21:52,029 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1cc(CN2CC3CNCC(C2)O3)ccc1Cl. Appending empty array
+2024-02-16 11:21:52,030 — ERROR — Exception message: 
+2024-02-16 11:24:43,461 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1c(Cl)ccc2nc(N3CCC[C@H](NCCc4nnn[nH]4)C3)ccc12. Appending empty array
+2024-02-16 11:24:43,462 — ERROR — Exception message: 
+2024-02-16 13:48:39,323 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 13:51:37,823 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 13:54:36,722 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 13:57:39,864 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 14:00:38,914 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 14:21:27,916 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 14:35:22,189 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 14:49:14,303 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 15:03:00,306 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 15:16:52,072 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-16 15:30:51,092 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:34:30,111 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:38:10,882 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:42:14,547 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:45:57,964 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:50:08,648 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 15:50:09,002 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 16:37:11,938 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:04:22,398 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:22:15,006 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:39:40,181 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:57:24,222 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 17:59:08,702 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:00:57,342 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:02:50,037 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:04:43,396 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:06:31,522 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:09:31,959 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:12:37,632 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:15:42,328 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:18:53,890 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:21:59,545 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:25:11,636 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:28:23,996 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:31:37,728 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:34:58,668 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:38:30,907 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:41:38,838 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:44:55,818 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:48:03,111 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:51:12,503 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:54:53,716 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 18:58:04,624 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:01:15,429 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:04:30,473 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:08:11,806 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:11:24,110 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:14:40,180 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:17:52,127 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:21:32,456 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:24:43,044 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:27:55,069 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:31:04,390 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:34:13,626 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:37:24,291 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:40:38,062 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:43:52,815 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:47:19,552 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:50:30,642 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:53:43,327 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 19:57:04,280 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:00:18,459 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:10:52,848 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:21:19,606 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:31:44,949 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:42:45,790 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:53:02,835 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:55:11,048 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:57:18,282 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 20:59:26,877 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:01:49,939 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:03:58,556 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:07:26,066 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:10:35,827 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:13:47,259 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:16:57,253 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:20:19,684 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:23:29,848 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:26:38,631 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:29:47,105 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:33:28,718 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:36:47,454 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:40:01,878 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:43:38,552 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:46:51,551 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:50:03,760 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:53:13,565 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-16 21:53:13,873 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-16 21:54:14,312 — ERROR — Failed to featurize CCOc1ccccc1CNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 21:54:14,312 — ERROR — Exception message: 
+2024-02-16 21:54:15,636 — ERROR — Failed to featurize CNS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 21:54:15,637 — ERROR — Exception message: 
+2024-02-16 21:54:18,071 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NCCO)ccc12. Appending empty array
+2024-02-16 21:54:18,071 — ERROR — Exception message: 
+2024-02-16 21:54:18,552 — ERROR — Failed to featurize COc1ccccc1CN(C)Cc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 21:54:18,553 — ERROR — Exception message: 
+2024-02-16 21:54:18,904 — ERROR — Failed to featurize CCO[C@@H]1OC(=O)C[C@@H]1NC(=O)[C@@H]1CCCN2C(=O)CC[C@H](NC(=O)c3nccc4ccccc34)C(=O)N12. Appending empty array
+2024-02-16 21:54:18,905 — ERROR — Exception message: 
+2024-02-16 21:54:21,254 — ERROR — Failed to featurize CS(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(C#N)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 21:54:21,254 — ERROR — Exception message: 
+2024-02-16 21:54:21,899 — ERROR — Failed to featurize COc1ccccc1CCNCc1cccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)c1. Appending empty array
+2024-02-16 21:54:21,899 — ERROR — Exception message: 
+2024-02-16 21:54:23,395 — ERROR — Failed to featurize COc1ccccc1CCNCc1ccc(CCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 21:54:23,395 — ERROR — Exception message: 
+2024-02-16 21:54:24,694 — ERROR — Failed to featurize C#CC[C@@H](C(=O)N[C@H](/C=C/C(=O)OCC)C[C@@H]1CCNC1=O)n1cccc(NC(=O)c2cc(C)on2)c1=O. Appending empty array
+2024-02-16 21:54:24,694 — ERROR — Exception message: 
+2024-02-16 21:54:25,340 — ERROR — Failed to featurize O=C(NC[C@@H](O)CN1CCC(Oc2ccc(Cl)c(Cl)c2)CC1)c1c[nH]c(=O)c2cc(S(=O)(=O)NC3CC3)ccc12. Appending empty array
+2024-02-16 21:54:25,341 — ERROR — Exception message: 
+2024-02-16 21:54:31,026 — ERROR — Failed to featurize Cc1cccc2c(CCNCc3cccc(CCNC[C@H](O)c4ccc(O)c5[nH]c(=O)sc45)c3)c[nH]c12. Appending empty array
+2024-02-16 21:54:31,026 — ERROR — Exception message: 
+2024-02-16 21:54:38,986 — ERROR — Failed to featurize COCc1ccoc1C(=O)N(c1ccc(OC)cc1OC)C(C(=O)NC[C@@H](C)O)c1ccccc1F. Appending empty array
+2024-02-16 21:54:38,987 — ERROR — Exception message: 
+2024-02-16 21:54:46,214 — ERROR — Failed to featurize CCc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 21:54:46,214 — ERROR — Exception message: 
+2024-02-16 21:54:50,602 — ERROR — Failed to featurize COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1. Appending empty array
+2024-02-16 21:54:50,602 — ERROR — Exception message: 
+2024-02-16 21:54:54,236 — ERROR — Failed to featurize CCOc1ccc(CCNCCCSCCNC[C@H](O)c2ccc(O)c3[nH]c(=O)sc23)cc1. Appending empty array
+2024-02-16 21:54:54,236 — ERROR — Exception message: 
+2024-02-16 21:55:20,079 — ERROR — Failed to featurize OCc1cc(C(O)CNCCCCCCOCCCCc2ccccc2)ccc1O. Appending empty array
+2024-02-16 21:55:20,080 — ERROR — Exception message: 
+2024-02-16 21:55:23,337 — ERROR — Failed to featurize CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1. Appending empty array
+2024-02-16 21:55:23,337 — ERROR — Exception message: 
+2024-02-16 21:55:25,174 — ERROR — Failed to featurize O=C(NCC1CCCCCC1)c1cc(-c2cccnc2N2CCC(C(=O)O)CC2)ccc1Cl. Appending empty array
+2024-02-16 21:55:25,174 — ERROR — Exception message: 
+2024-02-16 21:55:27,181 — ERROR — Failed to featurize O=C(Nc1ccccn1)c1ccc2[nH]c(-c3ccc(NC(=O)C45CC6CC(CC(C6)C4)C5)cc3)nc2c1. Appending empty array
+2024-02-16 21:55:27,181 — ERROR — Exception message: 
+2024-02-16 21:55:38,858 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4cc(S(C)(=O)=O)ccc34)CC2)c1Cl. Appending empty array
+2024-02-16 21:55:38,858 — ERROR — Exception message: 
+2024-02-16 21:55:42,920 — ERROR — Failed to featurize Cc1cc(Cl)ccc1OC1CCN(C[C@H](O)CNC(=O)c2c[nH]c(=O)c3cc(S(C)(=O)=O)ccc23)CC1. Appending empty array
+2024-02-16 21:55:42,921 — ERROR — Exception message: 
+2024-02-16 21:55:44,011 — ERROR — Failed to featurize CCN(C(=O)c1cnn(-c2ccccc2)c1NS(=O)(=O)c1ccc(-c2cnco2)cc1)C1CCCCC1. Appending empty array
+2024-02-16 21:55:44,011 — ERROR — Exception message: 
+2024-02-16 21:55:51,814 — ERROR — Failed to featurize Cc1c(Cl)ccc(OC2CCN(C[C@H](O)CNC(=O)c3c[nH]c(=O)c4ccc(S(C)(=O)=O)cc34)CC2)c1Cl. Appending empty array
+2024-02-16 21:55:51,814 — ERROR — Exception message: 
+2024-02-16 21:56:49,459 — ERROR — Failed to featurize CCCCN(CCNC[C@H](O)c1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 21:56:49,459 — ERROR — Exception message: 
+2024-02-16 21:57:01,820 — ERROR — Failed to featurize CCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 21:57:01,821 — ERROR — Exception message: 
+2024-02-16 21:57:30,348 — ERROR — Failed to featurize O=c1[nH]c2c(O)ccc([C@@H](O)CNCCc3cccc(CN4CCC(c5ccccc5)CC4)c3)c2s1. Appending empty array
+2024-02-16 21:57:30,348 — ERROR — Exception message: 
+2024-02-16 21:59:01,838 — ERROR — Failed to featurize CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1. Appending empty array
+2024-02-16 21:59:01,838 — ERROR — Exception message: 
+2024-02-16 22:00:31,447 — ERROR — Failed to featurize CN(C)S(=O)(=O)c1ccc2c(C(=O)NC[C@@H](O)CN3CCC(Oc4ccc(Cl)c(Cl)c4)CC3)c[nH]c(=O)c2c1. Appending empty array
+2024-02-16 22:00:31,448 — ERROR — Exception message: 
+2024-02-16 22:05:06,930 — ERROR — Failed to featurize CN(C(=O)Cc1ccc(F)cc1)C1CCN(CCC(c2ccccc2)c2ccccc2)CC1. Appending empty array
+2024-02-16 22:05:06,930 — ERROR — Exception message: 
+2024-02-16 22:07:24,235 — ERROR — Failed to featurize CCCCN(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 22:07:24,235 — ERROR — Exception message: 
+2024-02-16 22:11:49,711 — ERROR — Failed to featurize Cc1ccc(NC(=O)c2cccc(N3CCOCC3)c2)cc1NC(=O)c1ccc(OCc2ccccn2)cc1. Appending empty array
+2024-02-16 22:11:49,711 — ERROR — Exception message: 
+2024-02-16 22:23:03,786 — ERROR — Failed to featurize CC(C)N(CCNCCc1ccc(O)c2[nH]c(=O)sc12)C(=O)CCOCCc1ccccc1. Appending empty array
+2024-02-16 22:23:03,787 — ERROR — Exception message: 
+2024-02-16 22:32:45,698 — ERROR — Failed to featurize CC(C)(C)NC(=O)c1ccc(Oc2cc(F)c(CC(=O)O)cc2Cl)c(NS(=O)(=O)c2ccc(C3CC3)cc2Cl)c1. Appending empty array
+2024-02-16 22:32:45,698 — ERROR — Exception message: 
+2024-02-16 22:48:36,607 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1cc(CN2CC3CNCC(C2)O3)ccc1Cl. Appending empty array
+2024-02-16 22:48:36,607 — ERROR — Exception message: 
+2024-02-16 22:48:43,368 — ERROR — Failed to featurize O=C(NCC12CC3CC(CC(C3)C1)C2)c1c(Cl)ccc2nc(N3CCC[C@H](NCCc4nnn[nH]4)C3)ccc12. Appending empty array
+2024-02-16 22:48:43,369 — ERROR — Exception message: 
+2024-02-16 22:52:04,034 — ERROR — Failed to featurize C[C@H](Cc1cccc(CC(=O)NC23CC4CC(CC(C4)C2)C3)c1)NC[C@H](O)c1ccc(O)c(CO)c1. Appending empty array
+2024-02-16 22:52:04,034 — ERROR — Exception message: 

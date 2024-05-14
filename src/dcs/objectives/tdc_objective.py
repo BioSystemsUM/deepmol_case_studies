@@ -2,8 +2,8 @@ import os
 import shutil
 
 import optuna
+import sklearn
 import timeout_decorator
-from deepmol.datasets import SmilesDataset
 from deepmol.pipeline import Pipeline
 from deepmol.pipeline_optimization.objective_wrapper import Objective
 from optuna import Trial
@@ -17,6 +17,7 @@ class TDCObjective(Objective):
         self.tdc_dataset_name = kwargs.pop('tdc_dataset_name')
         self.trial_timeout = trial_timeout
         self.metric = kwargs.pop('metric')
+        self.splits = kwargs.pop('splits')
         self.kwargs = kwargs
 
     def __call__(self, trial: Trial):
@@ -27,29 +28,28 @@ class TDCObjective(Objective):
                 path = os.path.join(self.save_dir, f'trial_{trial_id}')
                 scores = []
                 predictions_list = []
-                for seed in [1, 2, 3, 4, 5]:
-                    benchmark = self.group.get(self.tdc_dataset_name)
+                benchmark = self.group.get(self.tdc_dataset_name)
+                name = benchmark['name']
+                for train_dataset, valid_dataset, test_dataset in zip(*self.splits):
                     # all benchmark names in a benchmark group are stored in group.dataset_names
                     predictions = {}
-                    name = benchmark['name']
-                    train_val, test = benchmark['train_val'], benchmark['test']
-                    train, valid = self.group.get_train_valid_split(benchmark=name, split_type='default', seed=seed)
 
                     # --------------------------------------------- #
                     #  Train your model using train, valid, test    #
                     #  Save test prediction in y_pred_test variable #
                     # --------------------------------------------- #
-                    train_dataset = SmilesDataset(smiles=train['Drug'].values, ids=train['Drug_ID'].values,
-                                                  y=train['Y'].values)
-                    valid_dataset = SmilesDataset(smiles=valid['Drug'].values, ids=valid['Drug_ID'].values,
-                                                  y=valid['Y'].values)
-                    test_dataset = SmilesDataset(smiles=test['Drug'].values, ids=test['Drug_ID'].values,
-                                                 y=test['Y'].values)
-
                     pipeline = Pipeline(steps=self.objective_steps(trial, **self.kwargs), path=path)
-                    pipeline.fit(train_dataset)
+                    if pipeline.steps[-1][1].__class__.__name__ == 'KerasModel':
+                        pipeline.fit(train_dataset, validation_dataset=valid_dataset)
+                    else:
+                        pipeline.fit(train_dataset)
                     scores.append(pipeline.evaluate(valid_dataset, [self.metric])[0][self.metric.name])
-                    y_pred_test = pipeline.predict(test_dataset)
+                    try:
+                        y_pred_test = pipeline.predict_proba(test_dataset)
+                        if len(y_pred_test.shape) > 1:
+                            y_pred_test = y_pred_test[:, 1]
+                    except:
+                        y_pred_test = pipeline.predict(test_dataset)
 
                     predictions[name] = y_pred_test
                     predictions_list.append(predictions)
@@ -60,8 +60,10 @@ class TDCObjective(Objective):
                     for _, value in results.items():
                         f.write(f'{trial_id},{value[0]},{value[1]}\n')
                 score = sum(scores) / len(scores)
+                print(f'Trial {trial_id} finished:')
                 print(f'Average score: {score}')
                 print(f'Average results: {results}')
+                print(f'Parameters: {trial.params}')
                 best_scores = self.study.user_attrs['best_scores']
                 min_score = min(best_scores.values()) if len(best_scores) > 0 else float('inf')
                 max_score = max(best_scores.values()) if len(best_scores) > 0 else float('-inf')
