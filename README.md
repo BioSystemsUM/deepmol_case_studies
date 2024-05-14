@@ -103,6 +103,6 @@ If intended, the default pipelines (all but the optimal) for each dataset can be
 ```python
 from dcs.evaluation import get_results
 
-results = get_results(tdc_dataset_name="Bioavailability_Ma", pipeline="bioavailability")
+results = get_results(tdc_dataset_name="Bioavailability_Ma")
 ```
 
