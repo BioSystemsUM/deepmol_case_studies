@@ -5,8 +5,8 @@
 1. Clone the repository and move into the directory:
 
 ```bash
-git clone
-cd SMPrecursorPredictor
+git clone https://github.com/BioSystemsUM/deepmol_case_studies.git
+cd deepmol_case_studies
 ```
 
 2. Create a conda environment and activate it:
