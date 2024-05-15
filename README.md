@@ -30,7 +30,7 @@ pip install .
 
 ## AutoML experiments
 
-AutoML experiments can be found at **[here](scripts/tdc/)**.
+AutoML experiments can be found in **[here](scripts/tdc/)**.
 
 We used podman/docker for the experiments, the **[Dockerfile](Dockerfile)** can be found in this repository.
 
