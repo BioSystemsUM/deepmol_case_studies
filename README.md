@@ -20,6 +20,7 @@ conda activate deepmol_case_studies
 
 ```bash
 pip install -r requirements.txt
+pip install --no-deps deepmol[all]==1.1.1
 ```
 
 4. Install the package:
