@@ -1,0 +1,25 @@
+number of molecules,method,dataset,time,memory
+1218,StandardScaler,pgp,0:00:00.036870,3M
+1218,RobustScaler,pgp,0:00:00.146046,2M
+1218,PowerTransformer,pgp,0:00:03.748617,4M
+1218,MinMaxScaler,pgp,0:00:00.005394,1M
+1218,MaxAbsScaler,pgp,0:00:00.003697,1M
+1218,Normalizer,pgp,0:00:00.004271,1M
+1218,Binarizer,pgp,0:00:00.007342,2M
+1218,QuantileTransformer,pgp,0:00:00.746957,4M
+12973,StandardScaler,cyp2d6,0:00:00.106650,33M
+12973,RobustScaler,cyp2d6,0:00:00.350655,20M
+12973,PowerTransformer,cyp2d6,0:00:10.528764,44M
+12973,MinMaxScaler,cyp2d6,0:00:00.044477,20M
+12973,MaxAbsScaler,cyp2d6,0:00:00.045481,20M
+12973,Normalizer,cyp2d6,0:00:00.045101,20M
+12973,Binarizer,cyp2d6,0:00:00.090301,25M
+12973,QuantileTransformer,cyp2d6,0:00:00.606652,22M
+108528,StandardScaler,del,0:00:01.068343,282M
+108528,RobustScaler,del,0:00:01.396247,174M
+108528,PowerTransformer,del,0:00:40.310190,369M
+108528,MinMaxScaler,del,0:00:00.583485,173M
+108528,MaxAbsScaler,del,0:00:00.560173,173M
+108528,Normalizer,del,0:00:00.567026,174M
+108528,Binarizer,del,0:00:00.877012,217M
+108528,QuantileTransformer,del,0:00:04.092373,179M

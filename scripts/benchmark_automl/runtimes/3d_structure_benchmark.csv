@@ -1,0 +1,4 @@
+number of molecules,method,dataset,time,memory
+1218,3D structure generation,pgp,0:25:07.253617,231K
+13130,3D structure generation,cyp2d6,2:40:45.793511,1M
+108528,3D structure generation,del,10:19:46.888994,11M

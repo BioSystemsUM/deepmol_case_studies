@@ -1,0 +1,15 @@
+number of molecules,method,dataset,time,memory
+1218,RandomSplitter,pgp,0:00:00.011707,405K
+1218,SingletaskStratifiedSplitter,pgp,0:00:00.011521,405K
+1218,SimilaritySplitter,pgp,0:00:00.924632,417K
+1218,ScaffoldSplitter,pgp,0:00:00.537643,443K
+1218,ButinaSplitter,pgp,0:00:01.519106,7M
+13130,RandomSplitter,cyp2d6,0:00:00.135958,4M
+13130,SingletaskStratifiedSplitter,cyp2d6,0:00:00.218650,4M
+13130,SimilaritySplitter,cyp2d6,0:02:42.282286,4M
+13130,ScaffoldSplitter,cyp2d6,0:00:05.549867,4M
+13130,ButinaSplitter,cyp2d6,0:04:40.557334,1G
+108528,RandomSplitter,del,0:00:01.480551,34M
+108528,SingletaskStratifiedSplitter,del,0:00:01.016478,34M
+108528,SimilaritySplitter,del,3:44:00.376829,35M
+108528,ScaffoldSplitter,del,0:00:56.906516,34M

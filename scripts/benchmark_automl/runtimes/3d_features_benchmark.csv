@@ -1,0 +1,10 @@
+number of molecules,method,dataset,time,memory
+1204,All3DDescriptors,pgp,0:00:06.743904,7M
+1204,CoulombFeat,pgp,0:00:03.171663,50M
+1204,CoulombEigFeat,pgp,0:00:03.226004,5M
+13034,CoulombFeat,cyp2d6,0:00:50.355438,2G
+13034,CoulombEigFeat,cyp2d6,0:00:37.204928,61M
+108528,CoulombFeat,del,0:05:34.098309,2G
+108528,CoulombEigFeat,del,0:05:43.302780,166M
+13034,All3DDescriptors,cyp2d6,0:01:02.044594,91M
+108528,All3DDescriptors,del,0:12:45.368323,624M

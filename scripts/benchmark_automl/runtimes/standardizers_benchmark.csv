@@ -1,0 +1,10 @@
+number of molecules,method,dataset,time,memory
+1218,BasicStandardizer,pgp,0:00:00.865883,2M
+1218,CustomStandardizer,pgp,0:00:01.752829,1M
+1218,ChEMBLStandardizer,pgp,0:00:12.611707,3M
+13130,BasicStandardizer,cyp2d6,0:00:08.404389,28M
+13130,CustomStandardizer,cyp2d6,0:00:17.505259,19M
+13130,ChEMBLStandardizer,cyp2d6,0:02:46.110219,28M
+108528,BasicStandardizer,del,0:01:28.957517,110M
+108528,CustomStandardizer,del,0:02:54.926991,94M
+108528,ChEMBLStandardizer,del,0:29:24.538166,104M

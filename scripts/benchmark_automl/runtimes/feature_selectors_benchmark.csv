@@ -1,0 +1,16 @@
+number of molecules,method,dataset,time,memory
+1218,KbestFS,pgp,0:00:00.383661,43M
+1218,LowVarianceFS,pgp,0:00:00.402128,62M
+1218,PercentilFS,pgp,0:00:00.401243,43M
+1218,SelectFromModelFS,pgp,0:00:02.794239,27M
+1218,BorutaAlgorithm,pgp,0:22:23.306766,122M
+13130,KbestFS,cyp2d6,0:00:02.872155,497M
+13130,LowVarianceFS,cyp2d6,0:00:03.721210,671M
+13130,PercentilFS,cyp2d6,0:00:03.890338,497M
+13130,SelectFromModelFS,cyp2d6,0:00:08.395501,257M
+13130,BorutaAlgorithm,cyp2d6,0:28:37.547132,684M
+108528,KbestFS,del,0:00:29.619292,4G
+108528,LowVarianceFS,del,0:00:37.264135,5G
+108528,PercentilFS,del,0:00:37.205797,4G
+108528,SelectFromModelFS,del,0:00:51.520389,2G
+108528,BorutaAlgorithm,del,0:54:34.578795,5G

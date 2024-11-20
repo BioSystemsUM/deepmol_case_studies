@@ -1,0 +1,13 @@
+number of molecules start,number of molecules end,method,dataset,time,memory
+"positive class: 650, negative class: 568","positive class: 650, negative class: 650",RandomOverSampler,pgp,0:00:00.009026,2M
+"positive class: 650, negative class: 568","positive class: 650, negative class: 650",SMOTE,pgp,0:00:00.457654,2M
+"positive class: 650, negative class: 568","positive class: 568, negative class: 568",ClusterCentroids,pgp,0:00:11.942811,4M
+"positive class: 650, negative class: 568","positive class: 568, negative class: 568",RandomUnderSampler,pgp,0:00:00.001930,1M
+"positive class: 650, negative class: 568","positive class: 511, negative class: 433",SMOTEENN,pgp,0:00:01.189998,2M
+"positive class: 650, negative class: 568","positive class: 623, negative class: 623",SMOTETomek,pgp,0:00:01.034480,2M
+"positive class: 2508, negative class: 10465","positive class: 10465, negative class: 10465",RandomOverSampler,cyp2d6,0:00:01.986503,34M
+"positive class: 2508, negative class: 10465","positive class: 10465, negative class: 10465",SMOTE,cyp2d6,0:00:01.060421,38M
+"positive class: 2508, negative class: 10465","positive class: 2508, negative class: 2508",ClusterCentroids,cyp2d6,0:05:24.005090,29M
+"positive class: 2508, negative class: 10465","positive class: 2508, negative class: 2508",RandomUnderSampler,cyp2d6,0:00:00.011052,4M
+"positive class: 5296, negative class: 103232","positive class: 103232, negative class: 103232",RandomOverSampler,del,0:03:37.087319,336M
+"positive class: 5296, negative class: 103232","positive class: 103232, negative class: 103232",SMOTE,del,0:00:05.439133,409M

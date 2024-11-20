@@ -20,7 +20,7 @@ conda activate deepmol_case_studies
 
 ```bash
 pip install -r requirements.txt
-pip install --no-deps deepmol[all]==1.1.1
+pip install --no-deps deepmol[all]==1.1.7
 ```
 
 4. Install the package:
@@ -29,13 +29,27 @@ pip install --no-deps deepmol[all]==1.1.1
 pip install .
 ```
 
-## AutoML experiments
+## AutoML experiments - TDC Commons
 
 AutoML experiments can be found in **[here](scripts/tdc/)**.
 
 We used podman/docker for the experiments, the **[Dockerfile](Dockerfile)** can be found in this repository.
 
 The "run" file can be found in **[here](run.sh)**.
+
+## Comparison of DeepMol and QSARTuna
+
+AutoML experiments for comparison between DeepMol and QSARTuna can be found in **[here](scripts/benchmark_automl/data_for_benchmark)**.
+
+We used podman/docker for the experiments, the **[Dockerfile](Dockerfile)** can be found in this repository.
+
+The "run_automl_benchmark" file can be found in **[here](run_automl_benchmark.sh)**.
+
+## Benchmark computational resources and runtimes of DeepMol
+
+The scripts to evaluate computational resources and runtimes of each method in DeepMol are **[here](scripts/benchmark_automl/benchmark_resources.py)**.
+
+All the dataframes with this information are available **[here](scripts/benchmark_automl/runtimes/)**.
 
 ## Evaluate TDC commons benchmark datasets
 
