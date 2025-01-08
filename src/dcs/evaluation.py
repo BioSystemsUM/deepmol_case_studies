@@ -98,6 +98,7 @@ def get_results(tdc_dataset_name, pipeline=None):
         pipeline_folder_path = os.path.join(model_path, files[0])
     else:
         pipeline_folder_path = os.path.join(model_path, files[1])
+        
     voting_pipeline = False
     if "voting_pipeline" in files[0]:
         voting_pipeline = True

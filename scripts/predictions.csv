@@ -1,0 +1,73 @@
+ID,SMILES,Bioavailability
+cannabielsoic acid a,CCCCCC1=CC2=C(C3C(CCC(C3O2)(C)O)C(=C)C)C(=C1C(=O)O)O,1.0
+cannabielsoic acid b,CCCCCC1=CC(=C2C3C(CCC(C3OC2=C1C(=O)O)(C)O)C(=C)C)O,1.0
+cannabicyclol,CCCCCC1=CC(=C2C3C4C(C3(C)C)CCC4(OC2=C1)C)O,0.0
+cannabicyclovarin,CCCC1=CC(=C2C3C4C(C3(C)C)CCC4(OC2=C1)C)O,1.0
+cannabinolic acid a,CCCCCC1=CC2=C(C3=C(C=CC(=C3)C)C(O2)(C)C)C(=C1C(=O)O)O,0.0
+cannabielsoin,CCCCCC1=CC(=C2C3C(CCC(C3OC2=C1)(C)O)C(=C)C)O,1.0
+cannabidiolic acid,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C2C=C(CCC2C(=C)C)C)O,0.0
+cannabichromevarin,CCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,1.0
+cannabidiol monomethylether,CCCCCC1=CC(=C(C(=C1)OC)C2C=C(CCC2C(=C)C)C)O,1.0
+cannabidiol,CCCCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O,0.0
+detla-9 tetrahvdrocannabinolic acid c,CCCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,0.0
+delta-9 tetrahgdrocannabinolic acid a,CCCCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,0.0
+delta-9 tetrahydrocannabinol,CCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,0.0
+delta-9 tetrahgdrocannabinolic acid b,CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1C(=O)O)(C)C)C)O,0.0
+delta-9 tetrahydrocannabiorcolic acid,CC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,1.0
+delta-9 tetrahydrocannabivarin,CCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,1.0
+delta-9 tetrahydrocannabivarinic acid,CCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,1.0
+cannabifuran,CCCCCC1=CC(=C2C(=C1)OC3=C(C=CC(=C23)C(C)C)C)O,0.0
+cannabichromanon,CCCCCC1=CC(=C2C(=C1)OC(C(C2=O)CCC(=O)C)(C)C)O,1.0
+cannabicitran,CCCCCC1=CC2=C3C4CC(CCC4C(O2)(C)C)(OC3=C1)C,1.0
+choline,C[N+](C)(C)CCO,0.0
+10-oxo-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(=O)C(C)CC3)=C1,0.0
+6a91010a-910-dihydroxyhexahydrocannabinol,CCCCCC1=CC(=C2C3C(CCC(C3O)(C)O)C(OC2=C1)(C)C)O,1.0
+3456-tetrahydro-7-hydroxy-alphaalpha-2-trimethyl-9-n-propyl-26-methano-2H-1-benzoxocin-5-methanol,CCCC1=CC(=C2C3CC(CCC3C(C)(C)O)(OC2=C1)C)O,1.0
+delta-9 6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2CC(C)(O)C(O)C3)=C1,0.0
+trigonelline,C[N+]1=CC=CC(=C1)C(=O)[O-],1.0
+6a710a-trihydroxy-delta-9 tetrahydrocannabinol,CCCCCC1=CC(=C2C3(O)C=C(CC(O)C3(O)C(OC2=C1)(C)C)C)O,1.0
+cannabidiolic acid tetrahydrocannabitriol ester ,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C(C(C(C3)OC(=O)C4=C(C(=C(C=C4CCCCC)O)C5C=C(CCC5C(=C)C)C)O)C)O)(C)C)O,0.0
+cannabidivarin,CCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O,0.0
+cannabidivarinic acid,CCCC1=CC(=C(C(=C1C(=O)O)O)C2C=C(CCC2C(=C)C)C)O,0.0
+cannabidiorcol,CC1=CC(C(CC1)C(=C)C)C2=C(C=C(C=C2O)C)O,1.0
+detla-9 tetrahydrocannabiorcol,CC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,1.0
+detla-8 tetrahydrocannabinolic acid,CCCCCC1=CC2=C(C3CC(=CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,1.0
+delta-8 tetrahydrocannabinol,CCCCCC1=CC(=C2C3CC(=CCC3C(OC2=C1)(C)C)C)O,1.0
+cannabinodiol,CCCCCC1=CC(=C(C(=C1)O)C2=C(C=CC(=C2)C)C(=C)C)O,0.0
+cannabinol c4,CCCCC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C)C,0.0
+cannabiorcol,CC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C),1.0
+cannabivarin,CCCC1=CC(=C2C(=C1)OC(C3=C2C=C(C=C3)C)(C)C)O,1.0
+910-dihydroxy-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(O)C(C)(O)CC3)=C1,0.0
+cannabinodivarin,CCCC1=CC(=C(C(=C1)O)C2=C(C=CC(=C2)C)C(=C)C)O,1.0
+cannabinol,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C=C(C=C3)C)(C)C)O,0.0
+cannabinol methylether,CCCCCC1=CC2=C(C(=C1)OC)C3=C(C=CC(=C3)C)C(O2)(C)C,1.0
+cannabitriol,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C(C(CC3)(C)O)O)(C)C)O,0.0
+cannabichromenic acid,CCCCCC1=CC2=C(C=CC(O2)(C)CCC=C(C)C)C(=C1C(=O)O)O,0.0
+cannabigerolic acid,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)O,0.0
+cannabigerovarin,CCCC1=CC(=C(C(=C1)O)C/C=C(\C)/CCC=C(C)C)O,0.0
+delta-9 tetrahydrocannabinol c4,CCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,0.0
+89-dihydroxy-delta-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2CC(C)(O)C(O)C3)=C1,0.0
+cannabicyclolic acid,CCCCCC1=CC2=C(C3C4C(C3(C)C)CCC4(O2)C)C(=C1C(=O)O)O,0.0
+cannabichromevarinic acid,CCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,1.0
+cannabidiol c4,CCCCC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C)C,0.0
+cannabigerolic acid monomethylether,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)OC,0.0
+dehydrocannabifuran,CCCCCC1=CC(=C2C(=C1)OC3=C(C=CC(=C23)C(=C)C)C)O,1.0
+cannabigerol,CCCCCC1=CC(=C(C(=C1)O)C/C=C(\C)/CCC=C(C)C)O,0.0
+cannabigerovarinic acid,CCCC1=CC(=C(C(=C1C(=O)O)O)CC=C(C)CCC=C(C)C)O,0.0
+cannabigerol monomethylether,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)OC,0.0
+10-ethoxy-9-hydroxy-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(OCC)C(C)(O)CC3)=C1,0.0
+pyrrolidine,C1CCNC1,0.0
+methylamine,CN,1.0
+hordenine,CN(C)CCC1=CC=C(C=C1)O,1.0
+n-butylamine,CCCCN,1.0
+iso-butylamine,CC(C)CN,0.0
+neurine,C[N+](C)(C)C=C.[OH-],0.0
+cannabichromene,CCCCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,0.0
+ammonia,N,1.0
+l-plus isoleucine betaine,C[N+](C)(C)CC(=O)[O-],1.0
+n-propylamine,CCCN,1.0
+ethylamine,CCN,1.0
+piperidine,C1CCNCC1,0.0
+dimethylamine,CNC,1.0
+muscarine,CC1C(CC(O1)C[N+](C)(C)C)O,0.0
+secbutylamine,CCC(C)N,1.0
