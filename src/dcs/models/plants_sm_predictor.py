@@ -72,6 +72,7 @@ class PlantsSMPrecursorPredictor(PredictionModel):
     """
     model = "PlantsSMPredictor"
     mode = ["classification"]*29
+    results_label = "Precursors"
 
 
     def process_predictions(self, final_ids, final_smiles_dataset, final_predictions):

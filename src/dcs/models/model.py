@@ -1,5 +1,4 @@
 from abc import ABCMeta, abstractmethod
-from copy import deepcopy
 import os
 
 import numpy as np
@@ -87,11 +86,17 @@ class PredictionModel(metaclass=ABCMeta):
 
         aligned_predictions = np.vstack((predictions, null_predictions))
         # Sort by the original order of ids_normal_dataset
-        order_ = np.argsort(np.argsort(ids_normal_dataset))
-        final_ids = aligned_ids[order_]
-        final_predictions = aligned_predictions[order_]
-        final_smiles_dataset = smiles_normal_dataset[order_]
+        # Create a mapping for the original order of ids_normal_dataset
+        order_mapping = {id_: i for i, id_ in enumerate(ids_normal_dataset)}
 
+        # Sort aligned_ids and aligned_predictions based on the original order
+        sorted_indices = np.argsort([order_mapping[id_] for id_ in aligned_ids])
+        final_ids = aligned_ids[sorted_indices]
+        final_predictions = aligned_predictions[sorted_indices]
+
+        # Sort smiles_normal_dataset if provided
+        smiles_normal_dataset = np.array(smiles_normal_dataset)
+        final_smiles_dataset = smiles_normal_dataset[np.argsort([order_mapping[id_] for id_ in aligned_ids])]
 
         return final_ids, final_smiles_dataset, final_predictions
 
@@ -134,7 +139,7 @@ class PredictionModel(metaclass=ABCMeta):
             results_df.to_csv(output_file, index=False)
         
         return results_df
-
+    
     def predict_from_csv(self, csv_path, smiles_field, id_field, output_file=None):
 
         loader = CSVLoader(dataset_path=csv_path, smiles_field=smiles_field, id_field=id_field, mode=self.mode)

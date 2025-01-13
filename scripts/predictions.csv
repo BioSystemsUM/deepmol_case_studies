@@ -1,73 +1,73 @@
-ID,SMILES,Bioavailability
-cannabielsoic acid a,CCCCCC1=CC2=C(C3C(CCC(C3O2)(C)O)C(=C)C)C(=C1C(=O)O)O,1.0
-cannabielsoic acid b,CCCCCC1=CC(=C2C3C(CCC(C3OC2=C1C(=O)O)(C)O)C(=C)C)O,1.0
-cannabicyclol,CCCCCC1=CC(=C2C3C4C(C3(C)C)CCC4(OC2=C1)C)O,0.0
-cannabicyclovarin,CCCC1=CC(=C2C3C4C(C3(C)C)CCC4(OC2=C1)C)O,1.0
-cannabinolic acid a,CCCCCC1=CC2=C(C3=C(C=CC(=C3)C)C(O2)(C)C)C(=C1C(=O)O)O,0.0
-cannabielsoin,CCCCCC1=CC(=C2C3C(CCC(C3OC2=C1)(C)O)C(=C)C)O,1.0
-cannabidiolic acid,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C2C=C(CCC2C(=C)C)C)O,0.0
-cannabichromevarin,CCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,1.0
-cannabidiol monomethylether,CCCCCC1=CC(=C(C(=C1)OC)C2C=C(CCC2C(=C)C)C)O,1.0
-cannabidiol,CCCCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O,0.0
-detla-9 tetrahvdrocannabinolic acid c,CCCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,0.0
-delta-9 tetrahgdrocannabinolic acid a,CCCCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,0.0
-delta-9 tetrahydrocannabinol,CCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,0.0
-delta-9 tetrahgdrocannabinolic acid b,CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1C(=O)O)(C)C)C)O,0.0
-delta-9 tetrahydrocannabiorcolic acid,CC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,1.0
-delta-9 tetrahydrocannabivarin,CCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,1.0
-delta-9 tetrahydrocannabivarinic acid,CCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,1.0
-cannabifuran,CCCCCC1=CC(=C2C(=C1)OC3=C(C=CC(=C23)C(C)C)C)O,0.0
-cannabichromanon,CCCCCC1=CC(=C2C(=C1)OC(C(C2=O)CCC(=O)C)(C)C)O,1.0
-cannabicitran,CCCCCC1=CC2=C3C4CC(CCC4C(O2)(C)C)(OC3=C1)C,1.0
-choline,C[N+](C)(C)CCO,0.0
-10-oxo-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(=O)C(C)CC3)=C1,0.0
-6a91010a-910-dihydroxyhexahydrocannabinol,CCCCCC1=CC(=C2C3C(CCC(C3O)(C)O)C(OC2=C1)(C)C)O,1.0
-3456-tetrahydro-7-hydroxy-alphaalpha-2-trimethyl-9-n-propyl-26-methano-2H-1-benzoxocin-5-methanol,CCCC1=CC(=C2C3CC(CCC3C(C)(C)O)(OC2=C1)C)O,1.0
-delta-9 6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2CC(C)(O)C(O)C3)=C1,0.0
-trigonelline,C[N+]1=CC=CC(=C1)C(=O)[O-],1.0
-6a710a-trihydroxy-delta-9 tetrahydrocannabinol,CCCCCC1=CC(=C2C3(O)C=C(CC(O)C3(O)C(OC2=C1)(C)C)C)O,1.0
-cannabidiolic acid tetrahydrocannabitriol ester ,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C(C(C(C3)OC(=O)C4=C(C(=C(C=C4CCCCC)O)C5C=C(CCC5C(=C)C)C)O)C)O)(C)C)O,0.0
-cannabidivarin,CCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O,0.0
-cannabidivarinic acid,CCCC1=CC(=C(C(=C1C(=O)O)O)C2C=C(CCC2C(=C)C)C)O,0.0
-cannabidiorcol,CC1=CC(C(CC1)C(=C)C)C2=C(C=C(C=C2O)C)O,1.0
-detla-9 tetrahydrocannabiorcol,CC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,1.0
-detla-8 tetrahydrocannabinolic acid,CCCCCC1=CC2=C(C3CC(=CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,1.0
-delta-8 tetrahydrocannabinol,CCCCCC1=CC(=C2C3CC(=CCC3C(OC2=C1)(C)C)C)O,1.0
-cannabinodiol,CCCCCC1=CC(=C(C(=C1)O)C2=C(C=CC(=C2)C)C(=C)C)O,0.0
-cannabinol c4,CCCCC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C)C,0.0
-cannabiorcol,CC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C),1.0
-cannabivarin,CCCC1=CC(=C2C(=C1)OC(C3=C2C=C(C=C3)C)(C)C)O,1.0
-910-dihydroxy-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(O)C(C)(O)CC3)=C1,0.0
-cannabinodivarin,CCCC1=CC(=C(C(=C1)O)C2=C(C=CC(=C2)C)C(=C)C)O,1.0
-cannabinol,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C=C(C=C3)C)(C)C)O,0.0
-cannabinol methylether,CCCCCC1=CC2=C(C(=C1)OC)C3=C(C=CC(=C3)C)C(O2)(C)C,1.0
-cannabitriol,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C(C(CC3)(C)O)O)(C)C)O,0.0
-cannabichromenic acid,CCCCCC1=CC2=C(C=CC(O2)(C)CCC=C(C)C)C(=C1C(=O)O)O,0.0
-cannabigerolic acid,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)O,0.0
-cannabigerovarin,CCCC1=CC(=C(C(=C1)O)C/C=C(\C)/CCC=C(C)C)O,0.0
-delta-9 tetrahydrocannabinol c4,CCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,0.0
-89-dihydroxy-delta-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2CC(C)(O)C(O)C3)=C1,0.0
-cannabicyclolic acid,CCCCCC1=CC2=C(C3C4C(C3(C)C)CCC4(O2)C)C(=C1C(=O)O)O,0.0
-cannabichromevarinic acid,CCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,1.0
-cannabidiol c4,CCCCC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C)C,0.0
-cannabigerolic acid monomethylether,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)OC,0.0
-dehydrocannabifuran,CCCCCC1=CC(=C2C(=C1)OC3=C(C=CC(=C23)C(=C)C)C)O,1.0
-cannabigerol,CCCCCC1=CC(=C(C(=C1)O)C/C=C(\C)/CCC=C(C)C)O,0.0
-cannabigerovarinic acid,CCCC1=CC(=C(C(=C1C(=O)O)O)CC=C(C)CCC=C(C)C)O,0.0
-cannabigerol monomethylether,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)OC,0.0
-10-ethoxy-9-hydroxy-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(OCC)C(C)(O)CC3)=C1,0.0
-pyrrolidine,C1CCNC1,0.0
-methylamine,CN,1.0
-hordenine,CN(C)CCC1=CC=C(C=C1)O,1.0
-n-butylamine,CCCCN,1.0
-iso-butylamine,CC(C)CN,0.0
-neurine,C[N+](C)(C)C=C.[OH-],0.0
-cannabichromene,CCCCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,0.0
-ammonia,N,1.0
-l-plus isoleucine betaine,C[N+](C)(C)CC(=O)[O-],1.0
-n-propylamine,CCCN,1.0
-ethylamine,CCN,1.0
-piperidine,C1CCNCC1,0.0
-dimethylamine,CNC,1.0
-muscarine,CC1C(CC(O1)C[N+](C)(C)C)O,0.0
-secbutylamine,CCC(C)N,1.0
+ID,SMILES,Human PPBR,Precursors,Pathways,Superclass,Class
+cannabigerolic acid,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)O,89.80761956636759,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabigerolic acid monomethylether,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)OC,91.25667680147413,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabigerol,CCCCCC1=CC(=C(C(=C1)O)C/C=C(\C)/CCC=C(C)C)O,84.73345632373739,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabigerol monomethylether,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)OC,91.25667680147413,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabigerovarinic acid,CCCC1=CC(=C(C(=C1C(=O)O)O)CC=C(C)CCC=C(C)C)O,87.56886590525463,,"Polyketides, Terpenoids",Meroterpenoids,
+cannabigerovarin,CCCC1=CC(=C(C(=C1)O)C/C=C(\C)/CCC=C(C)C)O,83.94284754718424,,Polyketides,Meroterpenoids,
+cannabichromenic acid,CCCCCC1=CC2=C(C=CC(O2)(C)CCC=C(C)C)C(=C1C(=O)O)O,91.36275858320184,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabichromene,CCCCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,84.24738309933859,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabichromevarinic acid,CCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,82.46956158815311,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabichromevarin,CCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O,82.46920924990646,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidiolic acid,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C2C=C(CCC2C(=C)C)C)O,84.44198844779942,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidiol,CCCCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O,74.56893866899813,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidiol monomethylether,CCCCCC1=CC(=C(C(=C1)OC)C2C=C(CCC2C(=C)C)C)O,78.23942760713648,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidiol c4,CCCCC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C)C,90.58379315315699,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidivarinic acid,CCCC1=CC(=C(C(=C1C(=O)O)O)C2C=C(CCC2C(=C)C)C)O,82.70576858933595,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidivarin,CCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O,74.74967409682861,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidiorcol,CC1=CC(C(CC1)C(=C)C)C2=C(C=C(C=C2O)C)O,76.21659643875614,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 tetrahgdrocannabinolic acid a,CCCCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,87.12358917207332,L-Phenylalanine; Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 tetrahgdrocannabinolic acid b,CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1C(=O)O)(C)C)C)O,87.07662596259985,L-Phenylalanine; Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 tetrahydrocannabinol,CCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,76.35447882628262,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+detla-9 tetrahvdrocannabinolic acid c,CCCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,87.92380199714206,L-Phenylalanine; Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 tetrahydrocannabinol c4,CCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,76.35448643070518,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 tetrahydrocannabivarinic acid,CCCC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,85.86490326629266,L-Phenylalanine; Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 tetrahydrocannabivarin,CCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,75.41648032957735,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 tetrahydrocannabiorcolic acid,CC1=CC2=C(C3C=C(CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,80.91010569271563,L-Phenylalanine; Geranylgeranyl diphosphate,"Polyketides, Terpenoids",,Cannabinoids
+detla-9 tetrahydrocannabiorcol,CC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,73.12603904062999,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+detla-8 tetrahydrocannabinolic acid,CCCCCC1=CC2=C(C3CC(=CCC3C(O2)(C)C)C)C(=C1C(=O)O)O,87.02890971708558,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-8 tetrahydrocannabinol,CCCCCC1=CC(=C2C3CC(=CCC3C(OC2=C1)(C)C)C)O,80.60237914890772,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabicyclolic acid,CCCCCC1=CC2=C(C3C4C(C3(C)C)CCC4(O2)C)C(=C1C(=O)O)O,86.95698565020808,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabicyclol,CCCCCC1=CC(=C2C3C4C(C3(C)C)CCC4(OC2=C1)C)O,82.51895704944342,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabicyclovarin,CCCC1=CC(=C2C3C4C(C3(C)C)CCC4(OC2=C1)C)O,75.34787324075003,,"Polyketides, Terpenoids",,Aromadendrane sesquiterpenoids
+cannabielsoic acid a,CCCCCC1=CC2=C(C3C(CCC(C3O2)(C)O)C(=C)C)C(=C1C(=O)O)O,79.21541411418784,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabielsoic acid b,CCCCCC1=CC(=C2C3C(CCC(C3OC2=C1C(=O)O)(C)O)C(=C)C)O,78.71110509358482,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabielsoin,CCCCCC1=CC(=C2C3C(CCC(C3OC2=C1)(C)O)C(=C)C)O,75.03629456231437,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabinolic acid a,CCCCCC1=CC2=C(C3=C(C=CC(=C3)C)C(O2)(C)C)C(=C1C(=O)O)O,93.71137735831476,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabinol,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C=C(C=C3)C)(C)C)O,91.91779440721072,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabinol methylether,CCCCCC1=CC2=C(C(=C1)OC)C3=C(C=CC(=C3)C)C(O2)(C)C,91.33165268474582,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabinol c4,CCCCC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C)C,90.58379315315699,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabivarin,CCCC1=CC(=C2C(=C1)OC(C3=C2C=C(C=C3)C)(C)C)O,89.31563588545649,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabiorcol,CC1=CC2=C(C=C1)C(OC3=CC(=CC(=C32)O)C)(C),83.57820290417922,L-Phenylalanine,Terpenoids,Sesquiterpenoids,Cadinane sesquiterpenoids
+cannabinodiol,CCCCCC1=CC(=C(C(=C1)O)C2=C(C=CC(=C2)C)C(=C)C)O,92.12591658572572,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabinodivarin,CCCC1=CC(=C(C(=C1)O)C2=C(C=CC(=C2)C)C(=C)C)O,90.11948869154264,Farnesyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabitriol,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C(C(CC3)(C)O)O)(C)C)O,78.37332253287786,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+910-dihydroxy-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(O)C(C)(O)CC3)=C1,78.37332253287786,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+10-ethoxy-9-hydroxy-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(OCC)C(C)(O)CC3)=C1,83.4380110667064,,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+89-dihydroxy-delta-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2CC(C)(O)C(O)C3)=C1,78.55276277005524,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabidiolic acid tetrahydrocannabitriol ester ,CCCCCC1=CC(=C2C(=C1)OC(C3=C2C(C(C(C3)OC(=O)C4=C(C(=C(C=C4CCCCC)O)C5C=C(CCC5C(=C)C)C)O)C)O)(C)C)O,104.84248249440697,L-Phenylalanine; Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+dehydrocannabifuran,CCCCCC1=CC(=C2C(=C1)OC3=C(C=CC(=C23)C(=C)C)C)O,97.67541904699253,L-Phenylalanine; Liquiritigenin,Polyketides,,
+cannabifuran,CCCCCC1=CC(=C2C(=C1)OC3=C(C=CC(=C23)C(C)C)C)O,97.05689969105646,L-Phenylalanine,"Polyketides, Shikimates and Phenylpropanoids",,
+cannabichromanon,CCCCCC1=CC(=C2C(=C1)OC(C(C2=O)CCC(=O)C)(C)C)O,82.58380461418464,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+cannabicitran,CCCCCC1=CC2=C3C4CC(CCC4C(O2)(C)C)(OC3=C1)C,79.68784690109638,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+10-oxo-delta-6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2C(=O)C(C)CC3)=C1,90.9681145837459,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+delta-9 6a10a-tetrahydrocannabinol,CCCCCC1=CC(O)=C2C(OC(C)(C)C3=C2CC(C)(O)C(O)C3)=C1,78.55276277005524,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+3456-tetrahydro-7-hydroxy-alphaalpha-2-trimethyl-9-n-propyl-26-methano-2H-1-benzoxocin-5-methanol,CCCC1=CC(=C2C3CC(CCC3C(C)(C)O)(OC2=C1)C)O,67.22466883900502,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+6a91010a-910-dihydroxyhexahydrocannabinol,CCCCCC1=CC(=C2C3C(CCC(C3O)(C)O)C(OC2=C1)(C)C)O,72.42013727717412,L-Phenylalanine,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+6a710a-trihydroxy-delta-9 tetrahydrocannabinol,CCCCCC1=CC(=C2C3(O)C=C(CC(O)C3(O)C(OC2=C1)(C)C)C)O,63.76075746443934,Geranylgeranyl diphosphate,"Polyketides, Terpenoids",Meroterpenoids,Cannabinoids
+choline,C[N+](C)(C)CCO,1.39641938142799,L-Phenylalanine,Alkaloids,,
+trigonelline,C[N+]1=CC=CC(=C1)C(=O)[O-],31.706501522284753,L-Aspartate,Alkaloids,Nicotinic acid alkaloids,Pyridine alkaloids
+muscarine,CC1C(CC(O1)C[N+](C)(C)C)O,3.917935177945433,,,,
+l-plus isoleucine betaine,C[N+](C)(C)CC(=O)[O-],11.03578854384226,L-Phenylalanine,Fatty acids,Fatty esters,Fatty acyl carnitines
+neurine,C[N+](C)(C)C=C.[OH-],-6.546042869035647,,Fatty acids,Fatty esters,Wax monoesters
+piperidine,C1CCNCC1,28.18509905425703,L-Lysine,Alkaloids,,
+hordenine,CN(C)CCC1=CC=C(C=C1)O,43.86820186542333,L-Tyrosine,Alkaloids,Tyrosine alkaloids,"Amarylidaceae alkaloids, Phenylethylamines"
+ammonia,N,-51.73948516824534,,Fatty acids,Pseudoalkaloids (transamidation),
+methylamine,CN,19.072132671194368,,Amino acids and Peptides,Small peptides,Aminoacids
+ethylamine,CCN,22.246709977208635,,Fatty acids,,
+n-propylamine,CCCN,27.03606660568814,,Alkaloids,Small peptides,Aminoacids
+n-butylamine,CCCCN,33.836851149737164,,Alkaloids,,
+iso-butylamine,CC(C)CN,28.176145769778437,,"Amino acids and Peptides, Fatty acids","Fatty Acids and Conjugates, Small peptides","Amino fatty acids, Aminoacids"
+secbutylamine,CCC(C)N,25.455792052898886,,Fatty acids,Fatty acyls,Oxygenated hydrocarbons
+dimethylamine,CNC,18.91743149635315,,Amino acids and Peptides,Small peptides,Aminoacids
+pyrrolidine,C1CCNC1,19.639937103117468,L-Proline; L-Arginine,Alkaloids,Pseudoalkaloids (transamidation),
