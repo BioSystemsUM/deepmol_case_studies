@@ -19,6 +19,7 @@ class NPClassifier(PredictionModel):
     """
     model = "np_classifier_trained"
     mode = ["classification"]*730
+    results_label = ["Pathways", "Superclass", "Class"]
 
     def process_predictions(self, final_ids, final_smiles_dataset, final_predictions):
         
