@@ -10,14 +10,14 @@ import pandas as pd
 import pickle 
 
 
-def _get_pipeline_path(model):
-    folder_exists = os.path.exists(os.path.join(os.path.expanduser("~"), ".deepmol_models"))
+def _get_pipeline_path(model, download_url):
+    folder_exists = os.path.exists(os.path.join(os.path.expanduser("~"), ".deepmol_models", model))
     if not folder_exists:
-        download_deployed_models()
+        download_deployed_models(model, download_url)
     else:
         print("Models already in cache.")
 
-    model_path = os.path.join(os.path.expanduser("~"), ".deepmol_models", "deployed_models", model)
+    model_path = os.path.join(os.path.expanduser("~"), ".deepmol_models", model)
     return model_path
 
 

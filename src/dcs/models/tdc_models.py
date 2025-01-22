@@ -33,6 +33,7 @@ class BBB(TDCModel):
     model = "BBB_Martins"
     mode = "classification"
     results_label = "BBB penetration"
+    download_url = "https://zenodo.org/records/14653345/files/BBB_Martins.zip?download=1"
 
 class AMES(TDCModel):
 
@@ -51,6 +52,7 @@ class AMES(TDCModel):
     model = "AMES"
     mode = "classification"
     results_label = "AMES Mutagenicity"
+    download_url = "https://zenodo.org/records/14653345/files/AMES.zip?download=1"
 
 class PPBR(TDCModel):
 
@@ -67,6 +69,7 @@ class PPBR(TDCModel):
     model = "PPBR_AZ"
     mode = "regression"
     results_label = "Human PPBR"
+    download_url = "https://zenodo.org/records/14653345/files/PPBR_AZ.zip?download=1"
 
 
 class VDss(TDCModel):
@@ -75,7 +78,7 @@ class VDss(TDCModel):
     prediction_type = "Volume of Distribution expressed in liters per kilogram (L/kg)"
     description = """
     The volume of distribution at steady state (VDss) measures the degree of a drug's concentration in body tissue compared to concentration in blood. \n
-    Higher VD indicates a higher distribution in the tissue and usually indicates the drug with high lipid solubility, low plasma protein binidng rate.
+    Higher VD indicates a higher distribution in the tissue and usually indicates the drug with high lipid solubility, low plasma protein binding rate.
     """
     features = """
     - Fast regressor that predicts the Volume of Distribution (VD) at steady state
@@ -83,6 +86,7 @@ class VDss(TDCModel):
     model = "VDss_Lombardo"
     mode = "regression"
     results_label = "VDss (L/kg)"
+    download_url = "https://zenodo.org/records/14653345/files/VDss_Lombardo.zip?download=1"
 
 class Caco2(TDCModel):
 
@@ -97,6 +101,7 @@ class Caco2(TDCModel):
     model = "Caco2_Wang"
     mode = "regression"
     results_label = "Cell Effective Permeability (cm/s)"
+    download_url = "https://zenodo.org/records/14653345/files/Caco2_Wang.zip?download=1"
 
     def process_predictions(self, final_ids, final_smiles_dataset, final_predictions):
         
@@ -104,7 +109,7 @@ class Caco2(TDCModel):
         results_df = pd.DataFrame(columns=["ID", "SMILES", self.results_label])
         results_df["ID"] = final_ids
         results_df["SMILES"] = final_smiles_dataset
-        results_df[self.results_label] = final_predictions * -1
+        results_df[self.results_label] = final_predictions
 
         return results_df
     
@@ -121,6 +126,7 @@ class HIA(TDCModel):
     model = "HIA_Hou"
     mode = "classification"
     results_label = "Human Intestinal Absorption"
+    download_url = "https://zenodo.org/records/14653345/files/HIA_Hou.zip?download=1"
 
 class Bioavailability(TDCModel):
 
@@ -135,6 +141,7 @@ class Bioavailability(TDCModel):
     model = "Bioavailability_Ma"
     mode = "classification"
     results_label = "Bioavailability"
+    download_url = "https://zenodo.org/records/14653345/files/Bioavailability_Ma.zip?download=1"
 
 class Lipophilicity(TDCModel):
 
@@ -150,6 +157,7 @@ class Lipophilicity(TDCModel):
     model = "Lipophilicity_AstraZeneca"
     mode = "regression"
     results_label = "Lipophilicity log-ratio"
+    download_url = "https://zenodo.org/records/14653345/files/Lipophilicity_AstraZeneca.zip?download=1"
 
 class Solubility(TDCModel):
 
@@ -163,6 +171,7 @@ class Solubility(TDCModel):
     model = "Solubility_AqSolDB"
     mode = "regression"
     results_label = "Solubility (log mol/L)"
+    download_url = "https://zenodo.org/records/14653345/files/Solubility_AqSolDB.zip?download=1"
 
     def process_predictions(self, final_ids, final_smiles_dataset, final_predictions):
         
@@ -170,24 +179,25 @@ class Solubility(TDCModel):
         results_df = pd.DataFrame(columns=["ID", "SMILES", self.results_label])
         results_df["ID"] = final_ids
         results_df["SMILES"] = final_smiles_dataset
-        results_df[self.results_label] = final_predictions * -1
+        results_df[self.results_label] = final_predictions
 
         return results_df
     
-class CYP2D6Inhibition(TDCModel):
+# class CYP2D6Inhibition(TDCModel):
 
-    model_name = "CYP P450 2D6 Inhibition"
-    prediction_type = "Inhibit (1) or does not inhibit (0)"
-    description = """
-    The CYP P450 genes are involved in the formation and breakdown (metabolism) of various molecules and chemicals within cells. \n 
-    Specifically, CYP2D6 is primarily expressed in the liver. \n 
-    It is also highly expressed in areas of the central nervous system, including the substantia nigra."""
-    features = """
-    - Classifier that predicts the CYP P450 2D6 inhibition of a compound.
-    """
-    model = "CYP2D6_Veith"
-    mode = "classification"
-    results_label = "CYP P450 2D6 Inhibition"
+#     model_name = "CYP P450 2D6 Inhibition"
+#     prediction_type = "Inhibit (1) or does not inhibit (0)"
+#     description = """
+#     The CYP P450 genes are involved in the formation and breakdown (metabolism) of various molecules and chemicals within cells. \n 
+#     Specifically, CYP2D6 is primarily expressed in the liver. \n 
+#     It is also highly expressed in areas of the central nervous system, including the substantia nigra."""
+#     features = """
+#     - Classifier that predicts the CYP P450 2D6 inhibition of a compound.
+#     """
+#     model = "CYP2D6_Veith"
+#     mode = "classification"
+#     results_label = "CYP P450 2D6 Inhibition"
+#     download_url = "https://zenodo.org/records/14653345/files/CYP2D6_Veith.zip?download=1"
 
 class CYP2C9Inhibition(TDCModel):
 
@@ -202,6 +212,8 @@ class CYP2C9Inhibition(TDCModel):
     model = "CYP2C9_Veith"
     mode = "classification"
     results_label = "CYP P450 2C9 Inhibition"
+    download_url = "https://zenodo.org/records/14653345/files/CYP2C9_Veith.zip?download=1"
+
 
 class CYP3A4Inhibition(TDCModel):
 
@@ -216,6 +228,7 @@ class CYP3A4Inhibition(TDCModel):
     model = "CYP3A4_Veith"
     mode = "classification"
     results_label = "CYP P450 3A4 Inhibition"
+    download_url = "https://zenodo.org/records/14653345/files/CYP3A4_Veith.zip?download=1"
 
 class CYP2C9Substrate(TDCModel):
 
@@ -230,6 +243,7 @@ class CYP2C9Substrate(TDCModel):
     model = "CYP2C9_Substrate_CarbonMangels"
     mode = "classification"
     results_label = "CYP2C9 Substrate"
+    download_url = "https://zenodo.org/records/14653345/files/CYP2C9_Substrate_CarbonMangels.zip?download=1"
 
 class CYP2D6Substrate(TDCModel):
 
@@ -244,6 +258,7 @@ class CYP2D6Substrate(TDCModel):
     model = "CYP2D6_Substrate_CarbonMangels"
     mode = "classification"
     results_label = "CYP2D6 Substrate"
+    download_url = "https://zenodo.org/records/14653345/files/CYP2D6_Substrate_CarbonMangels.zip?download=1"
 
 class CYP3A4Substrate(TDCModel):
 
@@ -258,6 +273,7 @@ class CYP3A4Substrate(TDCModel):
     model = "CYP3A4_Substrate_CarbonMangels"
     mode = "classification"
     results_label = "CYP3A4 Substrate"
+    download_url = "https://zenodo.org/records/14653345/files/CYP3A4_Substrate_CarbonMangels.zip?download=1"
 
 class HepatocyteClearance(TDCModel):
 
@@ -274,6 +290,7 @@ class HepatocyteClearance(TDCModel):
     model = "Clearance_Hepatocyte_AZ"
     mode = "regression"
     results_label = "hepatocyte clearance (uL.min-1.(10^6 cells)-1)"
+    download_url = "https://zenodo.org/records/14653345/files/Clearance_Hepatocyte_AZ.zip?download=1"
 
 class MicrosomeClearance(TDCModel):
 
@@ -290,6 +307,7 @@ class MicrosomeClearance(TDCModel):
     model = "Clearance_Microsome_AZ"
     mode = "regression"
     results_label = "drug microsome clearance (mL.min-1.g-1)"
+    download_url = "https://zenodo.org/records/14653345/files/Clearance_Microsome_AZ.zip?download=1"
 
 class hERGBlockers(TDCModel):
 
@@ -304,6 +322,7 @@ class hERGBlockers(TDCModel):
     model = "hERG"
     mode = "classification"
     results_label = "hERG blocker"
+    download_url = "https://zenodo.org/records/14653345/files/hERG.zip?download=1"
 
 
 class LD50(TDCModel):
@@ -318,5 +337,6 @@ class LD50(TDCModel):
     model = "LD50_Zhu"
     mode = "regression"
     results_label = "LD50 (log(1/(mol/kg)))"
+    download_url = "https://zenodo.org/records/14653345/files/LD50_Zhu.zip?download=1"
 
     

@@ -29,6 +29,7 @@ class PredictionModel(metaclass=ABCMeta):
     """
     model = ""
     mode = ""
+    download_url = ""
 
     def __init__(self):
         import tensorflow as tf
@@ -73,7 +74,7 @@ class PredictionModel(metaclass=ABCMeta):
     
     def _predict(self, dataset):
 
-        pipeline_path = _get_pipeline_path(self.model)
+        pipeline_path = _get_pipeline_path(self.model, self.download_url)
 
         files = os.listdir(pipeline_path)
 

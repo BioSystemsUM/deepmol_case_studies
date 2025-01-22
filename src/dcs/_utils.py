@@ -34,6 +34,6 @@ def download_models():
     url = "https://zenodo.org/records/14573331/files/models.zip?download=1"
     _download_and_save(url, "models.zip", ".deepmol_case_studies")
 
-def download_deployed_models():
-    url = "https://zenodo.org/records/14573331/files/deployed_models.zip?download=1"
-    _download_and_save(url, "deployed_models.zip", ".deepmol_models")
+def download_deployed_models(model, download_url):
+    url = download_url
+    _download_and_save(url, f"{model}.zip", ".deepmol_models")

@@ -20,6 +20,7 @@ class NPClassifier(PredictionModel):
     model = "np_classifier_trained"
     mode = ["classification"]*730
     results_label = ["Pathways", "Superclass", "Class"]
+    download_url = "https://zenodo.org/records/14653345/files/np_classifier_trained.zip?download=1"
 
     def process_predictions(self, final_ids, final_smiles_dataset, final_predictions):
         
