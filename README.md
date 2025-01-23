@@ -39,6 +39,32 @@ Models available so far:
 
 ## How to use:
 
+You can get information about each model just by instatiating the class.
+
+```python
+from deepmol_models import NPClassifier
+
+NPClassifier()
+```
+
+**NPClassifier Overview**
+
+This model is a reimplementation of NPClassifier as described in the [ACS journal publication](https://pubs.acs.org/doi/10.1021/acs.jnatprod.1c00399).
+
+All credits should be given to the authors. NPClassifier performs automated structural classification of natural products.
+
+**NPClassifier Details**
+
+| **Attribute**         | **Value**                  |
+|------------------------|----------------------------|
+| **Model Name**         | NPClassifier               |
+| **Prediction Type**    | Pathway, Superclass, Class |
+
+**Key Features**
+
+- Prediction of natural product Pathway, Superclass, and Class.  
+- Efficient performance on large datasets.
+
 You can use them either individually or mixed together. 
 
 You can call one model individually, pass a CSV file and get the results in one dataframe:
