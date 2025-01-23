@@ -9,7 +9,7 @@ import optuna
 from deepmol.pipeline_optimization._utils import preset_all_models, preset_sklearn_models
 from sklearn.metrics import roc_auc_score
 
-from dcs.objectives import TDCObjective
+from deepmol_models.objectives import TDCObjective
 
 import tensorflow as tf
 

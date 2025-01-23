@@ -2,7 +2,7 @@
 from deepmol.loaders import CSVLoader
 from deepmol.datasets import SmilesDataset
 
-from dcs.models.model import PredictionModel
+from deepmol_models.models.model import PredictionModel
 import numpy as np
 import pandas as pd
 

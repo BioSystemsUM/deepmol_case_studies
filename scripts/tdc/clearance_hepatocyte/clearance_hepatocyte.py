@@ -2,9 +2,9 @@ import time
 
 from deepmol.datasets import SmilesDataset
 
-from dcs._utils import spearman
-from dcs.pipelines import general_tdc_pipeline
-from dcs.utils import get_benchmark_group
+from deepmol_models._utils import spearman
+from deepmol_models.pipelines import general_tdc_pipeline
+from deepmol_models.utils import get_benchmark_group
 
 
 def run():

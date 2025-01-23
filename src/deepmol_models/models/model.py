@@ -4,7 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 
-from dcs.models.prediction import _get_pipeline_path
+from deepmol_models.models.prediction import _get_pipeline_path
 
 from deepmol.loaders import CSVLoader
 from deepmol.pipeline import Pipeline, VotingPipeline
@@ -96,7 +96,7 @@ class PredictionModel(metaclass=ABCMeta):
         """
 
     def predict_from_smi(self, smiles, output_file=None):
-        ids_normal_dataset = [str(i) for i in range(1, len(smiles))]
+        ids_normal_dataset = [str(i) for i in range(1, len(smiles)+1)]
         smiles_normal_dataset = smiles
 
         dataset = SmilesDataset(smiles=smiles, ids=ids_normal_dataset, mode=self.mode)

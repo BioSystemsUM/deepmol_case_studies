@@ -2,7 +2,7 @@ import os
 from deepmol.loaders import CSVLoader
 from deepmol.pipeline import Pipeline
 
-from dcs._utils import download_deployed_models, download_models
+from deepmol_models._utils import download_deployed_models, download_models
 
 import numpy as np
 import pandas as pd

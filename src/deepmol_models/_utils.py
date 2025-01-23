@@ -1,4 +1,5 @@
 import os
+import sys
 import zipfile
 import requests
 from scipy.stats import spearmanr
@@ -28,6 +29,8 @@ def _download_and_save(url, zip_file_name, cache_folder_name):
     print(f"Unzipping models...")
     with zipfile.ZipFile(file_path, "r") as zip_ref:
         zip_ref.extractall(cache_folder)
+
+    os.remove(file_path)
 
 
 def download_models():

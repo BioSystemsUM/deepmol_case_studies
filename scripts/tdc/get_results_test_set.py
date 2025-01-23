@@ -5,7 +5,7 @@ import pandas as pd
 from deepmol.pipeline import Pipeline, VotingPipeline
 from deepmol.datasets import SmilesDataset
 
-from dcs.utils.tdc_benchmark_groups import get_benchmark_group
+from deepmol_models.utils.tdc_benchmark_groups import get_benchmark_group
 from tdc.benchmark_group import admet_group
 
 def get_results_for_test_set_for_specific_trial(trial, dataset_path, dataset_name, tdc_dataset_name):
@@ -120,7 +120,7 @@ def get_results_for_test_set(dataset_path, dataset_name, tdc_dataset_name, objec
         results_dataframes.to_csv(os.path.join(dataset_path, f'{dataset_name}_test_set.csv'), index=False)
 
 def test_download_files():
-    from dcs._utils import download_models
+    from deepmol_models._utils import download_models
 
     download_models()
             

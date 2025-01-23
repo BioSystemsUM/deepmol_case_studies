@@ -4,7 +4,7 @@ from deepmol.datasets import SmilesDataset
 from tdc.benchmark_group import admet_group
 import os
 
-from dcs._utils import download_models
+from deepmol_models._utils import download_models
 
 def _get_results(model_path, tdc_dataset_name, voting_pipeline=False):
     if not voting_pipeline:

@@ -1,7 +1,7 @@
 
 
 import pandas as pd
-from dcs.models.model import PredictionModel
+from deepmol_models.models.model import PredictionModel
 
 
 class TDCModel(PredictionModel):
@@ -85,7 +85,7 @@ class VDss(TDCModel):
     """
     model = "VDss_Lombardo"
     mode = "regression"
-    results_label = "VDss (L/kg)"
+    results_label = "VDss"
     download_url = "https://zenodo.org/records/14653345/files/VDss_Lombardo.zip?download=1"
 
 class Caco2(TDCModel):
@@ -100,7 +100,7 @@ class Caco2(TDCModel):
     """
     model = "Caco2_Wang"
     mode = "regression"
-    results_label = "Cell Effective Permeability (cm/s)"
+    results_label = "Cell Effective Permeability"
     download_url = "https://zenodo.org/records/14653345/files/Caco2_Wang.zip?download=1"
 
     def process_predictions(self, final_ids, final_smiles_dataset, final_predictions):
@@ -156,7 +156,7 @@ class Lipophilicity(TDCModel):
     """
     model = "Lipophilicity_AstraZeneca"
     mode = "regression"
-    results_label = "Lipophilicity log-ratio"
+    results_label = "Lipophilicity"
     download_url = "https://zenodo.org/records/14653345/files/Lipophilicity_AstraZeneca.zip?download=1"
 
 class Solubility(TDCModel):
@@ -170,7 +170,7 @@ class Solubility(TDCModel):
     """
     model = "Solubility_AqSolDB"
     mode = "regression"
-    results_label = "Solubility (log mol/L)"
+    results_label = "Solubility"
     download_url = "https://zenodo.org/records/14653345/files/Solubility_AqSolDB.zip?download=1"
 
     def process_predictions(self, final_ids, final_smiles_dataset, final_predictions):
@@ -289,7 +289,7 @@ class HepatocyteClearance(TDCModel):
     """
     model = "Clearance_Hepatocyte_AZ"
     mode = "regression"
-    results_label = "hepatocyte clearance (uL.min-1.(10^6 cells)-1)"
+    results_label = "hepatocyte clearance"
     download_url = "https://zenodo.org/records/14653345/files/Clearance_Hepatocyte_AZ.zip?download=1"
 
 class MicrosomeClearance(TDCModel):
@@ -306,7 +306,7 @@ class MicrosomeClearance(TDCModel):
     """
     model = "Clearance_Microsome_AZ"
     mode = "regression"
-    results_label = "drug microsome clearance (mL.min-1.g-1)"
+    results_label = "drug microsome clearance"
     download_url = "https://zenodo.org/records/14653345/files/Clearance_Microsome_AZ.zip?download=1"
 
 class hERGBlockers(TDCModel):
@@ -336,7 +336,7 @@ class LD50(TDCModel):
     """
     model = "LD50_Zhu"
     mode = "regression"
-    results_label = "LD50 (log(1/(mol/kg)))"
+    results_label = "LD50"
     download_url = "https://zenodo.org/records/14653345/files/LD50_Zhu.zip?download=1"
 
     

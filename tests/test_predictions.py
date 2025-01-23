@@ -1,7 +1,7 @@
 import os
 from unittest import TestCase
 
-from dcs.models.tdc_models import BBB
+from deepmol_models.models.tdc_models import BBB
 from tests import TEST_DIR
 
 

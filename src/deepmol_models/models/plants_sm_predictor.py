@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from dcs.models.model import PredictionModel
+from deepmol_models.models.model import PredictionModel
 
 
 

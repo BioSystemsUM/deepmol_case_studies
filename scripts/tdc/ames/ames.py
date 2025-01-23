@@ -4,8 +4,8 @@ from deepmol.datasets import SmilesDataset
 from sklearn.metrics import roc_auc_score
 from tdc.benchmark_group import admet_group
 
-from dcs.pipelines import general_tdc_pipeline
-from dcs.utils import get_benchmark_group
+from deepmol_models.pipelines import general_tdc_pipeline
+from deepmol_models.utils import get_benchmark_group
 
 
 def run():

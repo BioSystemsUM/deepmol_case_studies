@@ -4,7 +4,7 @@ from deepmol.datasets import SmilesDataset
 from sklearn.metrics import mean_absolute_error
 from tdc.benchmark_group import admet_group
 
-from dcs.pipelines import general_tdc_pipeline
+from deepmol_models.pipelines import general_tdc_pipeline
 
 
 def run():
