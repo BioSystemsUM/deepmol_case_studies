@@ -3,6 +3,7 @@
 - [Using DeepMol models](#using-deepmol-models)
     - [How to use](#how-to-use)
     - [Visualization](#visualization)
+    - [Example](#example)
 - [Case studies for the DeepMol publication](#case-studies-for-the-deepmol-publication)
     - [AutoML experiments - TDC Commons](#automl-experiments---tdc-commons)
     - [Comparison of DeepMol and QSARTuna](#comparison-of-deepmol-and-qsartuna)
@@ -101,6 +102,10 @@ bokeh_plot(results, "Solubility", additional_labels=["Pathways", "Superclass", "
 ```
 
 ![bokeh](https://github.com/BioSystemsUM/deepmol_case_studies/blob/main/example_bokeh.gif)
+
+## Example
+
+You can find an example in [example](https://colab.research.google.com/drive/1_I-f7jQPx2AR76h431x4AdV5Peybs5LO?usp=sharing).
 
 # Case studies for the DeepMol publication
 
